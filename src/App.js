@@ -5,60 +5,39 @@ function NavButtons() {
   return (
     <ul className="list-none md:flex flex-row h-max mt-8 hidden">
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           Courses
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           Rules
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           Extra Curricular Activites
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
           Administration
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
           Infrastructure
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
           About Us
-        </a>
+        </button>
       </li>
       <li>
-        <a
-          href="#"
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary lg:hidden text-lg"
-        >
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary lg:hidden text-lg">
           Others
-        </a>
+        </button>
       </li>
     </ul>
   );
@@ -98,7 +77,7 @@ function NavBar() {
         <span>Phone Number</span>
         <span>Address</span>
       </div>
-      <img src="/img1.jpg" className="bg-image" />
+      <img src="/img1.jpg" className="bg-image" alt="Collage image" />
       <div className="image-overlay">
         <div className="flex flex-row justify-between px-5 py-2">
           <span className="inline mx-auto md:m-1">
