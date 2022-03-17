@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Hind", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  @apply bg-secondary;
+  overflow-x: hidden;
+}
+
+.image-slider {
+  height: 400px;
+  width: 720px;
+  @apply bg-white;
+  @apply mx-2;
+}
+
+.link-box {
+  @apply w-52;
+  display: inline-block;
+  height: 200px;
+  border-width: 2px;
+  @apply border-secondary2;
+  box-shadow: 0 0 1px #e0ddaa;
+}
+
+.nav-btn:hover {
+  box-shadow: 0 0 2px #e0ddaa;
+}
+
+.image-overlay {
+  background-image: linear-gradient(#227c9dbd, #ffffff00, #ffffff00, #227c9dbd);
+  background-size: cover;
+  height: 66vw;
+  position: relative;
+}
+
+.notifications {
+  @apply absolute;
+  @apply bottom-8;
+  @apply text-center;
+  @apply w-screen;
+}
+
+.bg-image {
+  width: 100vw;
+  height: 66vw;
+  @apply absolute;
+  @apply -z-50;
+}
+
+.transparent-btn {
+  background-color: #eeedde2f;
 }
