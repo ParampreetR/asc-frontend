@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import SimpleImageSlider from "react-simple-image-slider";
 
 function NavButtons() {
   return (
@@ -69,6 +70,30 @@ function Notifications() {
   );
 }
 
+function ImageSlider() {
+  const images = [
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+    { url: "/img1.jpg" },
+  ];
+
+  return (
+    <div className="bg-image">
+      <SimpleImageSlider
+        width={"100vw"}
+        height={"66vw"}
+        images={images}
+        showNavs={true}
+        autoPlay={true}
+      />
+    </div>
+  );
+}
+
 function NavBar() {
   return (
     <nav className=" text-secondary pb-5 h-64">
@@ -77,7 +102,11 @@ function NavBar() {
         <span>Phone Number</span>
         <span>Address</span>
       </div>
-      <img src="/img1.jpg" className="bg-image" alt="Collage image" />
+
+      <ImageSlider />
+      {
+        //<img src="/img1.jpg" className="bg-image" alt="Collage image" />
+      }
       <div className="image-overlay">
         <div className="flex flex-row justify-between px-5 py-2">
           <span className="inline mx-auto md:m-1">
