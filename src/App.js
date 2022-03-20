@@ -1,13 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import SimpleImageSlider from "react-simple-image-slider";
+import { Link, Route, Routes } from "react-router-dom";
 
 function NavButtons() {
   return (
     <ul className="list-none md:flex flex-row h-max mt-8 hidden">
       <li>
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
-          Courses
+          <Link to="/courses">Courses</Link>
         </button>
       </li>
       <li>
@@ -87,7 +88,7 @@ function ImageSlider() {
         width={"100vw"}
         height={"66vw"}
         images={images}
-        showNavs={true}
+        showNavs={false}
         autoPlay={true}
       />
     </div>
@@ -110,10 +111,12 @@ function NavBar() {
       <div className="image-overlay">
         <div className="flex flex-row justify-between px-5 py-2">
           <span className="inline mx-auto md:m-1">
-            <div className="text-3xl border-b-2 text-center px-5">
-              AS College
-            </div>
-            <div className="text-center ">Tag Line</div>
+            <Link to="/">
+              <div className="text-3xl border-b-2 text-center px-5">
+                AS College
+              </div>
+              <div className="text-center ">Tag Line</div>
+            </Link>
           </span>
           <NavButtons />
         </div>
@@ -123,12 +126,37 @@ function NavBar() {
   );
 }
 
+function Homepage() {
+  return <h1 className="text-4xl">Homepage</h1>;
+}
+
+function Courses() {
+  return <h1 className="text-4xl">Courses</h1>;
+}
+
+function ProgressBar() {
+  return (
+    <div className="bg-blur absolute w-screen h-screen z-40 top-0 right-0">
+      <div class="progress fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50">
+        <div class="bar shadow-2xl zigZag"></div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <header>
         <NavBar />
       </header>
+      <main>
+        <Routes>
+          <Route path="courses" element={<Courses />} />
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </main>
+      <ProgressBar />
     </div>
   );
 }
