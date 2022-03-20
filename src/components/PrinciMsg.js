@@ -1,14 +1,5 @@
 export function MsgFromPrinci() {
-  return <div><!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Principal page</title>
-      <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
+  return (<div>
       <!-- container -->
       <div class="bg-slate-100 ">
           <div class="py-5 text-center text-[2.4rem] text-blue-400">
@@ -32,7 +23,5 @@ export function MsgFromPrinci() {
               </div>
           </div>
       
-      </div>
-  </body>
-  </html></div>;
+      </div>);
 }
