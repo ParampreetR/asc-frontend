@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import { Link, Route, Routes } from "react-router-dom";
+import { MsgFromPrinci } from "./components/PrinciMsg";
+import { AscInfo } from "./components/Asc";
 
 function NavButtons() {
   return (
@@ -105,9 +107,7 @@ function NavBar() {
       </div>
 
       <ImageSlider />
-      {
-        //<img src="/img1.jpg" className="bg-image" alt="Collage image" />
-      }
+
       <div className="image-overlay">
         <div className="flex flex-row justify-between px-5 py-2">
           <span className="inline mx-auto md:m-1">
@@ -127,7 +127,12 @@ function NavBar() {
 }
 
 function Homepage() {
-  return <h1 className="text-4xl">Homepage</h1>;
+  return (
+    <div>
+      <MsgFromPrinci />
+      <AscInfo />
+    </div>
+  );
 }
 
 function Courses() {
@@ -156,7 +161,6 @@ function App() {
           <Route path="/" element={<Homepage />} />
         </Routes>
       </main>
-      <ProgressBar />
     </div>
   );
 }
