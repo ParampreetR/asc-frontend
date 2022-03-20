@@ -108,7 +108,7 @@ function NavBar() {
 
       <ImageSlider />
 
-      <div className="image-overlay">
+      <div className="image-overlay border-b-2 border-[#FE6D73]">
         <div className="flex flex-row justify-between px-5 py-2">
           <span className="inline mx-auto md:m-1">
             <Link to="/">
@@ -129,8 +129,8 @@ function NavBar() {
 function Homepage() {
   return (
     <div>
-      <MsgFromPrinci />
       <AscInfo />
+      <MsgFromPrinci />
     </div>
   );
 }

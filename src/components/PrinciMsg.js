@@ -1,27 +1,35 @@
 export function MsgFromPrinci() {
-  return (<div>
-      <!-- container -->
-      <div class="bg-slate-100 ">
-          <div class="py-5 text-center text-[2.4rem] text-blue-400">
-              Message from Principal
-          </div>
-  
-          <div  class="flex justify-evenly items-center ">
-          <!-- parent for flexbox -->
-  
-              <div class="mt-[4rem] mx-[5rem] w-[180rem]">
-                  <!-- image div -->
-                  <img src="./principal_img.jpeg" alt="">
-                  Our college Principal
-              </div>
-  
-              <div class=" text-center mr-10 -mt-[5rem]" >
-                  <!-- text div -->
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem praesentium accusamus molestiae omnis officia perferendis libero! Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas tenetur tempora minus veniam inventore earum quo.
-                  At,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem praesentium accusamus molestiae omnis officia perferendis libero! Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas tenetur tempora minus veniam inventore earum quo.
-                  At quae. Tenetur blanditiis explicabo officia nostrum qui exercitationem doloribus. Laborum provident et assumenda unde quis debitis voluptatum, nisi eveniet officia placeat eos fuga rem distinctio itaque doloribus quaerat quidem?
-              </div>
-          </div>
-      
-      </div>);
+  return (
+    <section className="bg-primary2 text-white lg:px-24 lg:py-5 border-t-[#FE6D73] border-y-2">
+      <h1 className="pt-5 text-center font-bold text-4xl">
+        Message from Principal
+      </h1>
+
+      <div className="text-center md:flex mt-5 md:mt-0">
+        <img
+          src="./principal_img.jpeg"
+          alt=""
+          className="w-4/5 mx-auto md:w-4/12 md:m-10"
+        />
+        <div className="md:my-auto">
+          <p className="text-justify px-8 mt-5 text-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+            praesentium accusamus molestiae omnis officia perferendis libero!
+            Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas
+            tenetur tempora minus veniam inventore earum quo. At,Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Dolorem praesentium
+            accusamus molestiae omnis officia perferendis libero! Nulla, eius,
+            voluptatibus nesciunt doloribus pariatur voluptas tenetur tempora
+            minus veniam inventore earum quo. At quae. Tenetur blanditiis
+            explicabo officia nostrum qui exercitationem doloribus.
+          </p>
+        </div>
+      </div>
+      <div className="text-center">
+        <button className="tranform duration-200 my-2 mb-7 transparent-btn text-xl px-5 py-2 font-medium hover:text-secondary2">
+          Read More
+        </button>
+      </div>
+    </section>
+  );
 }
