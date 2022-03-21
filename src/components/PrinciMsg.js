@@ -12,7 +12,7 @@ export function MsgFromPrinci() {
           className="w-4/5 mx-auto md:w-4/12 md:m-10"
         />
         <div className="md:my-auto">
-          <p className="text-justify px-8 mt-5 text-lg">
+          <p className="text-justify px-8 mt-5 text-lg font-mono tracking-wider">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
             praesentium accusamus molestiae omnis officia perferendis libero!
             Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas
