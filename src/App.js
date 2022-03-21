@@ -4,6 +4,8 @@ import SimpleImageSlider from "react-simple-image-slider";
 import { Link, Route, Routes } from "react-router-dom";
 import { MsgFromPrinci } from "./components/PrinciMsg";
 import { AscInfo } from "./components/Asc";
+import { ExploreCourse } from "./components/ExploreCourse";
+import { StudentReview } from "./components/StudentsReview";
 
 function NavButtons() {
   return (
@@ -129,8 +131,10 @@ function NavBar() {
 function Homepage() {
   return (
     <div>
+      <ExploreCourse />
       <AscInfo />
       <MsgFromPrinci />
+      <StudentReview />
     </div>
   );
 }
