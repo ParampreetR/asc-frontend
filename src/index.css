@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -89,4 +91,9 @@ body {
 .bg-blur {
   backdrop-filter: blur(15px);
   background-color: #227c9d63;
+}
+
+.writing {
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 1.2em;
 }
