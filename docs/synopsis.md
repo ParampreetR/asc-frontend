@@ -28,7 +28,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Is not responsive to small screen sizes, example Mobile Phones and tablets.
 - Data Inefficient, each page had many similar parts example navigation bar and footer that are separately retrieved for each page.
 - Slow as each page of Web Application is loaded from scratch.
-- Inconsistence font size, image alignment and navigation buttons placement.
+- Inconsistence font size, image alignment and navigation buttons placement.(many overflows...)
 
 ### Advantages of Proposed System
 
@@ -38,6 +38,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Fast because only parts of the existing page are changed dynamically. Entire page is not loaded from scratch.
 - Better font sizes, image alignments and navigation buttons placements.
 - Better modularity and arrangement of front-end code and back-end code.
+- Will try to cache items which are time consuming, so that next time user loads site fast...
 
 ### Drawbacks of Purposed System
 
@@ -81,7 +82,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 
 ## Development Tools
 
-- Integrated Development Environment - Visual Studio Code
+- Integrated Development Environment - Visual Studio Codeb(Depends upon personal prefrences...)
 - CSS Framework - Tailwind
 - Browser - Chrome / Chrome-based 
 - Framework - Node (Fastify for back-end, React for front-end)
