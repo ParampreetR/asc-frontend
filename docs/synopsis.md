@@ -2,7 +2,7 @@
 
 
 
-### Project Title: Collage Website
+### Project Title: College Website
 
 ### Objective of Application:
 
@@ -15,7 +15,7 @@
 - Present images of college events to users
 - Present all courses available in campus
 - Present information about all departments along with teachers
-- Present various information on Collage Committee and Principal
+- Present various information on College Committee and Principal
 - Provide description about college as a whole
 
 ### Introduction to Existing System
