@@ -1,0 +1,41 @@
+.dropdown {
+  opacity: 0;
+  transform: translateY(40px);
+  height: 0px;
+
+  transition: opacity ease-in 200ms, transform ease-in-out 200ms,
+    height ease-in 400ms;
+  pointer-events: none;
+  width: 250px;
+  @apply px-0 py-0;
+}
+
+.nav-btn:focus + .dropdown {
+  opacity: 1;
+  height: auto;
+  transform: translateY(5px);
+  pointer-events: auto;
+  @apply bg-secondary;
+}
+
+.nav-btn + ul > li {
+  @apply text-primary;
+  @apply px-4;
+  @apply font-medium;
+}
+
+.nav-btn + ul > li:hover {
+  @apply bg-primary2;
+  @apply text-white;
+  cursor: pointer;
+}
+
+.nav-btn + ul > li:first-child:hover {
+  border: none;
+}
+
+.nav-btn:focus {
+  box-shadow: 0 0 2px #e0ddaa;
+  @apply bg-secondary;
+  @apply text-primary;
+}
