@@ -5,11 +5,11 @@ export function MsgFromPrinci() {
         Message from Principal
       </h1>
 
-      <div className="text-center md:flex mt-5 md:mt-0">
+      <div className="text-center md:flex mt-5 md:mt-0" >
         <img
           src="./principal_img.jpeg"
           alt=""
-          className="w-4/5 mx-auto md:w-4/12 md:m-10"
+          className="w-4/6 mx-auto md:w-4/12 md:m-10"
         />
         <div className="md:my-auto">
           <p className="text-justify px-8 mt-5 text-lg font-mono tracking-wider">
