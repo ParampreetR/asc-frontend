@@ -33,7 +33,7 @@ function NavButtons() {
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           Activites
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1">
+        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
           <li className="px-1 py-2">Option1 Option2 3</li>
           <li className="px-1 py-2">Option2</li>
           <li className="px-1 py-2">Option3</li>
@@ -45,7 +45,7 @@ function NavButtons() {
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
           Administration
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1">
+        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
           <li className="px-1 py-2">Option1 Option2 3</li>
           <li className="px-1 py-2">Option2</li>
           <li className="px-1 py-2">Option3</li>
@@ -82,7 +82,7 @@ function NavButtons() {
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary  text-lg">
           Others
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown">
+        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
           <li className="px-1 py-2">Option1 Option2 3</li>
           <li className="px-1 py-2">Option2</li>
           <li className="px-1 py-2">Option3</li>
