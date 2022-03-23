@@ -82,6 +82,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 ## Development Tools
 
 - Integrated Development Environment - Visual Studio Code
+- CSS Framework - Tailwind
 - Browser - Chrome / Chrome-based 
 - Framework - Node (Fastify for back-end, React for front-end)
 - Database - SQLite3
