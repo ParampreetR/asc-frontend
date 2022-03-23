@@ -5,16 +5,7 @@ export function MsgFromPrinci() {
         Message from Principal
       </h1>
 
-<<<<<<< HEAD
-      <div className="text-center md:flex mt-5 md:mt-0" >
-        <img
-          src="./principal_img.jpeg"
-          alt=""
-          className="w-4/6 mx-auto md:w-4/12 md:m-10"
-        />
-        <div className="md:my-auto">
-          <p className="text-justify px-8 mt-5 text-lg font-mono tracking-wider">
-=======
+      
       <div className="text-center md:flex mt-5 md:mt-0">
         <div>
           <img
@@ -25,7 +16,6 @@ export function MsgFromPrinci() {
         </div>
         <div className="md:my-auto md:w-8/12">
           <p className="px-8 mt-5 text-lg writing">
->>>>>>> 04bab902d178afc778ddbcf1c9ba8248efd3a700
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
             praesentium accusamus molestiae omnis officia perferendis libero!
             Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas
