@@ -38,7 +38,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Fast because only parts of the existing page are changed dynamically. Entire page is not loaded from scratch.
 - Better font sizes, image alignments and navigation buttons placements.
 - Better modularity and arrangement of front-end code and back-end code.
-- Will try to cache items which are time consuming, so that next time user loads site fast...
+- Will try to cache items which are time consuming, so that next time site loads faster.
 
 ### Drawbacks of Purposed System
 
@@ -82,7 +82,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 
 ## Development Tools
 
-- Integrated Development Environment - Visual Studio Codeb(Depends upon personal prefrences...)
+- Integrated Development Environment - Visual Studio Code (Depends upon personal prefrences...)
 - CSS Framework - Tailwind
 - Browser - Chrome / Chrome-based 
 - Framework - Node (Fastify for back-end, React for front-end)
