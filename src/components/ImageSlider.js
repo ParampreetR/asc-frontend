@@ -12,7 +12,7 @@ export function ImageSlider() {
   ];
 
   return (
-    <div className="bg-image">
+    <div className="bg-image section">
       <SimpleImageSlider
         width={"100vw"}
         height={"66vw"}

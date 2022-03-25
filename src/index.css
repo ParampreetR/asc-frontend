@@ -97,3 +97,27 @@ body {
   font-family: "Delius Swash Caps", cursive;
   font-size: 1.2em;
 }
+
+.section {
+  box-shadow: -5px 3px 21px 1px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -5px 3px 21px 1px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -5px 3px 21px 1px rgba(0, 0, 0, 0.59);
+}
+
+.shadow-heavy {
+  box-shadow: -10px 3px 12px 7px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: -10px 3px 12px 7px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: -10px 3px 12px 7px rgba(0, 0, 0, 0.48);
+}
+
+.shadow-medium {
+  box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+}
+
+button:hover {
+  box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+}
