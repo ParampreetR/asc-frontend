@@ -1,15 +1,26 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SimpleImageSlider from "react-simple-image-slider";
 import { Link, Route, Routes } from "react-router-dom";
 import { MsgFromPrinci } from "./components/PrinciMsg";
 import { AscInfo } from "./components/Asc";
 import { ExploreCourse } from "./components/ExploreCourse";
 import { StudentReview } from "./components/StudentsReview";
-import { NavBar } from "./components/NavBar";
+import { NavBarHomePage, NavBar } from "./components/NavBar";
 import { ChatBot } from "./components/ChatBot";
+import { show, hide, config } from "topbar";
+
+config({
+  barColors: {
+    0: "#FE6D73",
+    ".3": "#FE6D73EE",
+    "1.0": "rgba(254, 249, 239, .9)",
+  },
+  shadowBlur: 0,
+});
 
 function Homepage() {
+  show();
+  hide();
   return (
     <div>
       <ExploreCourse />
@@ -21,6 +32,8 @@ function Homepage() {
 }
 
 function Courses() {
+  show();
+  hide();
   return <h1 className="text-4xl">Courses</h1>;
 }
 
@@ -38,12 +51,15 @@ function App() {
   return (
     <div className="App">
       <header>
-        <NavBar />
+        <Routes>
+          <Route path="/" element={<NavBarHomePage />} loading />
+          <Route path="/*" element={<NavBar />} />
+        </Routes>
       </header>
       <main>
         <Routes>
           <Route path="courses" element={<Courses />} />
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>
       <footer>

@@ -10,10 +10,6 @@
   font-family: "Hind", sans-serif;
 }
 
-header {
-  height: 68vw;
-}
-
 body {
   @apply bg-secondary;
   overflow-x: hidden;

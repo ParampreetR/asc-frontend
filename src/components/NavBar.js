@@ -22,11 +22,12 @@ function NavButtons() {
           Rules
         </button>
         <ul className="bg-secondary shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1 ">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
+          <li className="px-1 py-2">Code of Conduct</li>
+          <li className="px-1 py-2">General Rules</li>
+          <li className="px-1 py-2">Adimission Rules</li>
+          <li className="px-1 py-2">Uniform Rules</li>
+          <li className="px-1 py-2">Leave Rules</li>
+          <li className="px-1 py-2">Library Rules</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -34,11 +35,9 @@ function NavButtons() {
           Activites
         </button>
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
+          <li className="px-1 py-2">NSS</li>
+          <li className="px-1 py-2">NCC</li>
+          <li className="px-1 py-2">Cultural Activities</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -46,11 +45,9 @@ function NavButtons() {
           Administration
         </button>
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
+          <li className="px-1 py-2">Principal</li>
+          <li className="px-1 py-2">Management</li>
+          <li className="px-1 py-2">Collage Committees</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -58,11 +55,13 @@ function NavButtons() {
           Infrastructure
         </button>
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
+          <li className="px-1 py-2">Library</li>
+          <li className="px-1 py-2">Canteen</li>
+          <li className="px-1 py-2">Auditorium</li>
+          <li className="px-1 py-2">Seminar Hall</li>
+          <li className="px-1 py-2">Stadium</li>
+          <li className="px-1 py-2">Gymnasium</li>
+          <li className="px-1 py-2">UGC Resourse Center</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -71,11 +70,9 @@ function NavButtons() {
         </button>
 
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
+          <li className="px-1 py-2">History</li>
+          <li className="px-1 py-2">Mission & Goals</li>
+          <li className="px-1 py-2">Vision</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center lg:hidden">
@@ -94,9 +91,9 @@ function NavButtons() {
   );
 }
 
-export function NavBar() {
+export function NavBarHomePage() {
   return (
-    <nav className=" text-secondary pb-5 h-64">
+    <nav className="text-secondary pb-5 h-[68vw]">
       <div className="bg-primary justify-between px-20 hidden md:flex">
         <span>Email</span>
         <span>Phone Number</span>
@@ -118,6 +115,32 @@ export function NavBar() {
           <NavButtons />
         </div>
         <Notifications />
+      </div>
+    </nav>
+  );
+}
+
+export function NavBar() {
+  return (
+    <nav className=" text-secondary shadow-medium">
+      <div className="bg-primary justify-between px-20 hidden md:flex">
+        <span>Email</span>
+        <span>Phone Number</span>
+        <span>Address</span>
+      </div>
+
+      <div className="border-b-2 border-[#FE6D73] bg-primary2">
+        <div className="flex flex-row justify-between px-5 py-2">
+          <span className="inline mx-auto md:m-1">
+            <Link to="/">
+              <div className="text-3xl border-b-2 text-center px-5">
+                AS College
+              </div>
+              <div className="text-center ">Tag Line</div>
+            </Link>
+          </span>
+          <NavButtons />
+        </div>
       </div>
     </nav>
   );
