@@ -7,6 +7,7 @@ import { AscInfo } from "./components/Asc";
 import { ExploreCourse } from "./components/ExploreCourse";
 import { StudentReview } from "./components/StudentsReview";
 import { NavBar } from "./components/NavBar";
+import { ChatBot } from "./components/ChatBot";
 
 function Homepage() {
   return (
@@ -45,6 +46,9 @@ function App() {
           <Route path="/" element={<Homepage />} />
         </Routes>
       </main>
+      <footer>
+        <ChatBot />
+      </footer>
     </div>
   );
 }
