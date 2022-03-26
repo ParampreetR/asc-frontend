@@ -66,13 +66,14 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg right-1">
-          About Us
+          Others
         </button>
 
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">History</li>
-          <li className="px-1 py-2">Mission & Goals</li>
-          <li className="px-1 py-2">Vision</li>
+          <li className="px-1 py-2">About Us</li>
+          <li className="px-1 py-2">Downloads</li>
+          <li className="px-1 py-2">Sessions</li>
+          <li className="px-1 py-2">Research & Innovation</li>
         </ul>
       </li>
       <li className="transform duration-200 text-center lg:hidden">

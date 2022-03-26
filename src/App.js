@@ -33,8 +33,6 @@ function Homepage() {
 }
 
 function Courses() {
-  show();
-  hide();
   return <h1 className="text-4xl">Courses</h1>;
 }
 

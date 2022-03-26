@@ -1,6 +1,6 @@
 export function AscInfo() {
   return (
-    <div className="my-16 mx-4  md:mx-16 lg:mx-24 xl:mx-36">
+    <div className="my-16 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <h1 className="text-center text-4xl my-4 text-[#141E27] font-bold">
         AS College, Khanna
       </h1>
