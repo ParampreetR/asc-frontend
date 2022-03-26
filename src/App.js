@@ -8,6 +8,7 @@ import { StudentReview } from "./components/StudentsReview";
 import { NavBarHomePage, NavBar } from "./components/NavBar";
 import { ChatBot } from "./components/ChatBot";
 import { show, hide, config } from "topbar";
+import { Footer } from "./components/Footer";
 
 config({
   barColors: {
@@ -64,6 +65,7 @@ function App() {
       </main>
       <footer>
         <ChatBot />
+        <Footer />
       </footer>
     </div>
   );
