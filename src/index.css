@@ -118,42 +118,6 @@ button:hover {
   -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
 }
 
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-}
-
-.footer-container {
-  background-color: #bec1cf;
-  padding-bottom: 6rem;
-  padding-top: 2rem;
-}
-
-.footer {
-  width: 80%;
-  height: 20vh;
-  color: #fff;
-  justify-content: cenSter;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-items: evenly;
-}
-
-.footer-heading {
-  display: flex;
-  flex-direction: column;
-  margin-right: 4rem;
-}
-
 .logo {
   width: 100px;
-}
-
-.logo img {
-  float: right;
-  margin-right: 30px;
-  height: 40px;
 }

@@ -11,11 +11,20 @@ function NavButtons() {
     });
   }
   return (
-    <ul className="list-none md:flex flex-row h-max mt-8 hidden transform transition-all duration-200">
+    <ul className="list-none xl:flex flex-row h-max mt-8 hidden transform transition-all duration-200">
       <li>
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           <Link to="/courses">Courses</Link>
         </button>
+      </li>
+      <li className="transform duration-200 text-center">
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+          About Us
+        </button>
+        <ul className="bg-secondary shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1 ">
+          <li className="px-1 py-2">Vision</li>
+          <li className="px-1 py-2">History</li>
+        </ul>
       </li>
       <li className="transform duration-200 text-center">
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
@@ -40,6 +49,7 @@ function NavButtons() {
           <li className="px-1 py-2">Cultural Activities</li>
         </ul>
       </li>
+
       <li className="transform duration-200 text-center">
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
           Administration
@@ -65,27 +75,26 @@ function NavButtons() {
         </ul>
       </li>
       <li className="transform duration-200 text-center">
+        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+          Downloads
+        </button>
+        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+          <li className="px-1 py-2">Time table</li>
+          <li className="px-1 py-2">Download 2</li>
+          <li className="px-1 py-2">Download 3</li>
+        </ul>
+      </li>
+      <li className="transform duration-200 text-center">
         <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg right-1">
           Others
         </button>
-
         <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">About Us</li>
-          <li className="px-1 py-2">Downloads</li>
-          <li className="px-1 py-2">Sessions</li>
+          <li className="px-1 py-2">UGC</li>
+          <li className="px-1 py-2">NAAC</li>
+          <li className="px-1 py-2">RTI</li>
+          <li className="px-1 py-2">Placement</li>
+          <li className="px-1 py-2">Alumini</li>
           <li className="px-1 py-2">Research & Innovation</li>
-        </ul>
-      </li>
-      <li className="transform duration-200 text-center lg:hidden">
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary  text-lg">
-          Others
-        </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
-          <li className="px-1 py-2">Option1 Option2 3</li>
-          <li className="px-1 py-2">Option2</li>
-          <li className="px-1 py-2">Option3</li>
-          <li className="px-1 py-2">Option4</li>
-          <li className="px-1 py-2">Option5</li>
         </ul>
       </li>
     </ul>
