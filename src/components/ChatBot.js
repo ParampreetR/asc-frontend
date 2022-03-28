@@ -21,7 +21,12 @@ export function ChatBot() {
   }
 
   return (
-    <div className="fixed bottom-5 right-5 flex flex-col">
+    <div
+      className={
+        "fixed bottom-5 right-5 flex flex-col " +
+        (!visible && " pointer-events-none")
+      }
+    >
       {messages.map((val, index) => {
         if (val["0"]) {
           return (
@@ -67,7 +72,7 @@ export function ChatBot() {
         />
         <button
           className={
-            "rounded-full bg-secondary w-12 h-12 border-2 border-[#FE6D73] shadow-lg flex justify-center align-middle " +
+            "rounded-full bg-secondary w-12 h-12 border-2 border-[#FE6D73] shadow-lg flex justify-center align-middle pointer-events-auto " +
             (visible ? "shadow-heavy" : "shadow-medium")
           }
           onClick={() => setVisible(!visible)}
