@@ -9,6 +9,7 @@ import { NavBarHomePage, NavBar } from "./components/NavBar";
 import { ChatBot } from "./components/ChatBot";
 import { show, hide, config } from "topbar";
 import { Footer } from "./components/Footer";
+import { ThreeSwitch } from "./components/ThreeSwitch";
 
 config({
   barColors: {
@@ -27,6 +28,9 @@ function Homepage() {
       <ExploreCourse />
       <AscInfo />
       <MsgFromPrinci />
+      <div className="px-4 md:px-16 lg:px-24 xl:px-36 py-16">
+        <ThreeSwitch />
+      </div>
       <StudentReview />
     </div>
   );

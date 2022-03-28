@@ -1,6 +1,6 @@
 export function MsgFromPrinci() {
   return (
-    <section className="bg-primary2 text-white   border-t-[#FE6D73] border-b-[#FE6D73] border-y-2 section">
+    <section className="bg-primary2 text-white  border-t-[#FE6D73] border-b-[#FE6D73] border-y-2 section">
       <h1 className="pt-5 text-center font-semibold text-4xl mb-10">
         Message from Principal
       </h1>
