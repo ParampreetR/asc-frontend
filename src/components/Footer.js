@@ -7,36 +7,36 @@ export function Footer() {
         <div className="flex flex-row justify-around">
           <div className="mr-10 flex flex-col justify-around">
             <div className="flex flex-col mb-10">
-              <h1 className="text-xl mb-1 font-medium text-white">Courses</h1>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <h1 className="text-xl mb-1 font-medium text-primary">Courses</h1>
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/arrow_right.png"
                   className="h-[1rem] inline pr-2"
                 />
                 Graduation
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/arrow_right.png"
                   className="h-[1rem] inline pr-2"
                 />
                 Post Graduation
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/arrow_right.png"
                   className="h-[1rem] inline pr-2"
                 />
                 Additional
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/arrow_right.png"
                   className="h-[1rem] inline pr-2"
                 />
                 Vocational
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/arrow_right.png"
                   className="h-[1rem] inline pr-2"
@@ -45,43 +45,45 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex flex-col mb-10">
-              <h1 className="text-xl mb-1 font-medium text-white">Discover</h1>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <h1 className="text-xl mb-1 font-medium text-primary">
+                Discover
+              </h1>
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Teaching
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Activities
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Events
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Campus
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Research
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/megaphone.png"
                   className="h-[1.25rem] inline pr-2"
@@ -92,38 +94,38 @@ export function Footer() {
           </div>
           <div className="mx-10 flex flex-col justify-around">
             <div className="flex flex-col mb-10">
-              <h1 className="text-xl mb-1 font-medium text-white">
+              <h1 className="text-xl mb-1 font-medium text-primary">
                 External Links
               </h1>
-              <a href="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <a href="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/link_chain.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Panjab University Chandigarh
               </a>
-              <a href="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <a href="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/link_chain.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Roll Number Search Panjab University
               </a>
-              <a href="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <a href="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/link_chain.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Syllabi Punjab University
               </a>
-              <a href="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <a href="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/link_chain.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 UGC Official Site
               </a>
-              <a href="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <a href="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/link_chain.png"
                   className="h-[1.25rem] inline pr-2"
@@ -132,43 +134,45 @@ export function Footer() {
               </a>
             </div>
             <div className="flex flex-col mb-10">
-              <h1 className="text-xl mb-1 font-medium text-white">Articles</h1>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <h1 className="text-xl mb-1 font-medium text-primary">
+                Articles
+              </h1>
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Downloads
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Forms
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 Jobs
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 IGNOU-Study
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
                 />
                 College-Magzine
               </Link>
-              <Link to="#" className="text-[#FE6D73] hover:text-[#a54548]">
+              <Link to="#" className="text-white hover:text-[#FE6D73]">
                 <img
                   src="/Icons/ebook.png"
                   className="h-[1.25rem] inline pr-2"
@@ -180,7 +184,7 @@ export function Footer() {
         </div>
         <div className="my-auto pb-20">
           <p className="text-xl font-semibold text-white text-center my-5">
-            You are 191911<sup>th</sup> visitor
+            You are 191911<sup className="text-primary">th</sup> visitor
           </p>
           <img src="logo.png" className="mx-auto brightness-50 my-5" />
           <h3 className="text-2xl italic text-center font-semibold text-white mt-5">
