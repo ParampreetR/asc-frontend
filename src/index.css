@@ -46,7 +46,8 @@ body {
   @apply absolute;
   @apply bottom-8;
   @apply text-center;
-  @apply w-screen;
+  @apply w-full;
+  @apply right-0;
   text-shadow: 2px 2px 10px #000000a2;
 }
 

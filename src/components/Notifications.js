@@ -2,7 +2,7 @@ export function Notifications() {
   return (
     <div className="notifications">
       <h2 className="text-3xl font-medium">Notifications</h2>
-      <div className="flex flex-col text-2xl w-screen mt-3">
+      <div className="flex flex-col text-2xl w-full mt-3">
         <span className="my-2">
           <span className="mx-20 my-auto inline-block">
             Admission Open 2022-23

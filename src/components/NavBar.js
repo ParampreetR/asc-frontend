@@ -104,27 +104,31 @@ function NavButtons() {
 export function NavBarHomePage() {
   return (
     <nav className="text-secondary pb-5 h-[68vw]">
-      <div className="bg-primary justify-between px-20 hidden md:flex">
-        <span>Email</span>
-        <span>Phone Number</span>
-        <span>Address</span>
+      <div className="bg-primary ">
+        <div className="mx-auto max-w-[1440px] justify-between px-20 hidden md:flex">
+          <span>Email</span>
+          <span>Phone Number</span>
+          <span>Address</span>
+        </div>
       </div>
 
       <ImageSlider />
 
       <div className="image-overlay border-b-2 border-[#FE6D73]">
-        <div className="flex flex-row justify-between px-5 py-2">
-          <span className="inline mx-auto md:m-1">
-            <Link to="/">
-              <div className="text-3xl border-b-2 text-center px-5">
-                AS College
-              </div>
-              <div className="text-center ">Tag Line</div>
-            </Link>
-          </span>
-          <NavButtons />
+        <div className="mx-auto max-w-[1440px]">
+          <div className="flex flex-row justify-between px-5 py-2">
+            <span className="inline mx-auto md:m-1">
+              <Link to="/">
+                <div className="text-3xl border-b-2 text-center px-5">
+                  AS College
+                </div>
+                <div className="text-center ">Tag Line</div>
+              </Link>
+            </span>
+            <NavButtons />
+          </div>
+          <Notifications />
         </div>
-        <Notifications />
       </div>
     </nav>
   );
@@ -133,23 +137,27 @@ export function NavBarHomePage() {
 export function NavBar() {
   return (
     <nav className=" text-secondary shadow-medium">
-      <div className="bg-primary justify-between px-20 hidden md:flex">
-        <span>Email</span>
-        <span>Phone Number</span>
-        <span>Address</span>
+      <div className="bg-primary">
+        <div className="mx-auto max-w-[1440px] justify-between px-20 hidden md:flex">
+          <span>Email</span>
+          <span>Phone Number</span>
+          <span>Address</span>
+        </div>
       </div>
 
       <div className="border-b-2 border-[#FE6D73] bg-primary2">
-        <div className="flex flex-row justify-between px-5 py-2">
-          <span className="inline mx-auto md:m-1">
-            <Link to="/">
-              <div className="text-3xl border-b-2 text-center px-5">
-                AS College
-              </div>
-              <div className="text-center ">Tag Line</div>
-            </Link>
-          </span>
-          <NavButtons />
+        <div className="mx-auto max-w-[1440px]">
+          <div className="flex flex-row justify-between px-5 py-2">
+            <span className="inline mx-auto md:m-1">
+              <Link to="/">
+                <div className="text-3xl border-b-2 text-center px-5">
+                  AS College
+                </div>
+                <div className="text-center ">Tag Line</div>
+              </Link>
+            </span>
+            <NavButtons />
+          </div>
         </div>
       </div>
     </nav>

@@ -3,12 +3,12 @@ import { useState } from "react";
 export function ThreeSwitch() {
   const [sectionNum, setSectionNum] = useState(1);
   return (
-    <div className="flex flex-row justify-around">
+    <div className="flex flex-row justify-around mx-auto max-w-[1440px]">
       <div className="flex flex-col w-1/6">
         <button
           className={
             "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
-            (sectionNum === 1 ? "w-36" : "w-16")
+            (sectionNum === 1 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(1)}
         >
@@ -22,7 +22,7 @@ export function ThreeSwitch() {
         <button
           className={
             "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
-            (sectionNum === 2 ? "w-36" : "w-16")
+            (sectionNum === 2 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(2)}
         >
@@ -36,7 +36,7 @@ export function ThreeSwitch() {
         <button
           className={
             "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
-            (sectionNum === 3 ? "w-36" : "w-16")
+            (sectionNum === 3 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(3)}
         >

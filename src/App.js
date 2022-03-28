@@ -10,6 +10,8 @@ import { ChatBot } from "./components/ChatBot";
 import { show, hide, config } from "topbar";
 import { Footer } from "./components/Footer";
 import { ThreeSwitch } from "./components/ThreeSwitch";
+import Plyr from "plyr-react";
+import "plyr-react/dist/plyr.css";
 
 config({
   barColors: {
@@ -27,6 +29,22 @@ function Homepage() {
     <div>
       <ExploreCourse />
       <AscInfo />
+      <div className="px-4 md:px-16 lg:px-24 xl:px-36 pb-16">
+        <div className="mx-auto max-w-[1080px]">
+          <Plyr
+            source={{
+              type: "video",
+              sources: [
+                {
+                  src: "Z7RRDoWY2es",
+                  provider: "youtube",
+                },
+              ],
+            }}
+            onLoad={(e) => console.log(e)}
+          />
+        </div>
+      </div>
       <MsgFromPrinci />
       <div className="px-4 md:px-16 lg:px-24 xl:px-36 py-16">
         <ThreeSwitch />
