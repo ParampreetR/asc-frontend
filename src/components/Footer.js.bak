@@ -12,38 +12,23 @@ export function Footer() {
                   Courses
                 </h1>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/arrow_right.png"
-                    className="h-[1rem] inline pr-2"
-                  />
+                 
                   Graduation
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/arrow_right.png"
-                    className="h-[1rem] inline pr-2"
-                  />
+                 
                   Post Graduation
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/arrow_right.png"
-                    className="h-[1rem] inline pr-2"
-                  />
+                 
                   Additional
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/arrow_right.png"
-                    className="h-[1rem] inline pr-2"
-                  />
+                 
                   Vocational
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/arrow_right.png"
-                    className="h-[1rem] inline pr-2"
-                  />
+                 
                   Skilled
                 </Link>
               </div>
@@ -52,45 +37,27 @@ export function Footer() {
                   Discover
                 </h1>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Teaching
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Activities
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Events
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Campus
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Research
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/megaphone.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Consultancy
                 </Link>
               </div>
@@ -101,38 +68,23 @@ export function Footer() {
                   External Links
                 </h1>
                 <a href="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/link_chain.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Panjab University Chandigarh
                 </a>
                 <a href="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/link_chain.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Roll Number Search Panjab University
                 </a>
                 <a href="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/link_chain.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Syllabi Punjab University
                 </a>
                 <a href="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/link_chain.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   UGC Official Site
                 </a>
                 <a href="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/link_chain.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Results Panjab University
                 </a>
               </div>
@@ -141,45 +93,27 @@ export function Footer() {
                   Articles
                 </h1>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Downloads
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Forms
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Jobs
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   IGNOU-Study
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   College-Magzine
                 </Link>
                 <Link to="#" className="text-white hover:text-[#FE6D73]">
-                  <img
-                    src="/Icons/ebook.png"
-                    className="h-[1.25rem] inline pr-2"
-                  />
+                 
                   Newsletter
                 </Link>
               </div>
@@ -189,10 +123,7 @@ export function Footer() {
             <p className="text-xl font-semibold text-white text-center my-5">
               You are 191911<sup className="text-primary">th</sup> visitor
             </p>
-            <img src="logo.png" className="mx-auto brightness-50 my-5" />
-            <h3 className="text-2xl italic text-center font-semibold text-white mt-5">
-              AS Collage, Khanna
-            </h3>
+           >
             <h4 className="text-lg italic text-center font-medium text-white my-1 opacity-80">
               Samrala Road (Dist. Ludhiana)
             </h4>

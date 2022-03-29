@@ -1,6 +1,6 @@
 export function MsgFromPrinci() {
   return (
-    <section className="bg-primary2 text-white  border-t-[#FE6D73] border-b-[#FE6D73] border-y-2 section md:px-16 lg:px-24 xl:px-36">
+    <section className="text-white  border-t-[#FE6D73] border-b-[#FE6D73] border-y-2 section md:px-16 lg:px-24 xl:px-36 bg-gradient-to-b from-primary to-primary2">
       <div className="mx-auto max-w-[1440px]">
         <h1 className="pt-5 text-center font-semibold text-4xl mb-10">
           Message from Principal
