@@ -39,12 +39,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Better font sizes, image alignments and navigation buttons placements.
 - Better modularity and arrangement of front-end code and back-end code.
 - Will try to cache items which are time consuming, so that next time site loads faster.
-
-### Drawbacks of Purposed System
-
-- Requires 2 servers to host back-end code and front-end code separately.
-- First request to website would take comparatively more milliseconds to load.
-- Loads 80% of the Web Application content on first request. Some pages can be accessed if user was gone offline after first request.
+- Better user friendly experience and appearance.
 
 ### Application Environment
 
