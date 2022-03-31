@@ -5,7 +5,7 @@ export function AscInfo() {
         <h1 className="text-center text-4xl my-4 text-[#141E27] font-bold">
           AS College, Khanna
         </h1>
-        <p className="text-center text-black opacity-50 my-1 text-bold text-lg">
+        <p className="text-center text-black opacity-50 my-1 text-lg">
           Re-credited with Grade "A" with CGPA of 3.51 out of 4 by NAAC
         </p>
 

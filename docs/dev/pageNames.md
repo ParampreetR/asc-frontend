@@ -1,0 +1,29 @@
+# Page Names
+
+- History.js
+- CodeofConduct.js
+- GeneralRules.js
+- AdimissionRules.js
+- UniformRules.js
+- LeaveRules.js
+- LibraryRules.js
+- NSS.js
+- NCC.js
+- CulturalActivities.js
+- Principal.js
+- Management.js
+- CollageCommittees.js
+- Library.js
+- Canteen.js
+- Auditorium.js
+- SeminarHall.js
+- Stadium.js
+- Gymnasium.js
+- UGCResourseCenter.js
+- Timetable.js
+- UGC.js
+- NAAC.js
+- RTI.js
+- Placement.js
+- Alumini.js
+- ResearchInnovation.js
