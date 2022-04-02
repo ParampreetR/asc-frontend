@@ -8,6 +8,7 @@ import { StudentReview } from "./components/StudentsReview";
 import { NavBarHomePage, NavBar } from "./components/NavBar";
 import { ChatBot } from "./components/ChatBot";
 import { show, hide, config } from "topbar";
+import { CodeofConduct } from "./pages/CodeofConduct";
 import { Footer } from "./components/Footer";
 import { ThreeSwitch } from "./components/ThreeSwitch";
 import Plyr from "plyr-react";
@@ -58,16 +59,6 @@ function Courses() {
   return <h1 className="text-4xl">Courses</h1>;
 }
 
-// function ProgressBar() {
-//   return (
-//     <div className="bg-blur absolute w-screen h-screen z-40 top-0 right-0">
-//       <div class="progress fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50">
-//         <div class="bar shadow-2xl zigZag"></div>
-//       </div>
-//     </div>
-//   );
-// }
-
 function App() {
   return (
     <div className="App">
@@ -80,6 +71,7 @@ function App() {
       <main>
         <Routes>
           <Route path="courses" element={<Courses />} />
+          <Route path="codeofconduct" element={<CodeofConduct />} />
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>

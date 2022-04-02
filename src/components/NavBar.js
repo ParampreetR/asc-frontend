@@ -2,14 +2,23 @@ import { ImageSlider } from "./ImageSlider";
 import { Link } from "react-router-dom";
 import { Notifications } from "./Notifications";
 import "./NavBar.css";
-import { useState } from "react";
+import { Component, useEffect, useState } from "react";
 
 function NavButtons() {
-  for (let item of document.getElementsByClassName("dropdown")) {
-    item.addEventListener("click", (e) => {
-      e.target.focus = false;
-    });
-  }
+  const [activeBtn, setActiveBtn] = useState(0);
+
+  const closeAllDropdown = (e) => {
+    if (!e.target.classList.contains("nav-btn")) setActiveBtn(0);
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", closeAllDropdown);
+
+    return () => {
+      document.removeEventListener("click", closeAllDropdown);
+    };
+  });
+
   return (
     <ul className="list-none xl:flex flex-row h-max mt-8 hidden transform transition-all duration-200">
       <li>
@@ -20,25 +29,66 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 2 ? setActiveBtn(0) : setActiveBtn(2);
+          }}
+        >
           About Us
         </button>
-        <ul className="bg-secondary shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1 ">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            (activeBtn === 2
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>
-            <Link className="w-full py-2 inline-block" to="/vision">
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/vision"
+            >
               Vision
             </Link>
           </li>
-          <li>History</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/history"
+            >
+              History
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button3  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 3 ? setActiveBtn(0) : setActiveBtn(3);
+          }}
+        >
           Rules
         </button>
-        <ul className="bg-secondary shadow-2xl text-black px-2 py-2 fixed text-center dropdown left-1 ">
-          <li>Code of Conduct</li>
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            (activeBtn === 3
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/codeofconduct"
+            >
+              Code of Conduct
+            </Link>
+          </li>
           <li>General Rules</li>
           <li>Adimission Rules</li>
           <li>Uniform Rules</li>
@@ -48,10 +98,22 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button4  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 4 ? setActiveBtn(0) : setActiveBtn(4);
+          }}
+        >
           Activites
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            (activeBtn === 4
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>NSS</li>
           <li>NCC</li>
           <li>Cultural Activities</li>
@@ -60,10 +122,22 @@ function NavButtons() {
 
       <li className="transform duration-200 text-center">
         {/* Navigation Button5  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 5 ? setActiveBtn(0) : setActiveBtn(5);
+          }}
+        >
           Administration
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            (activeBtn === 5
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>Principal</li>
           <li>Management</li>
           <li>Collage Committees</li>
@@ -71,10 +145,22 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button6  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 6 ? setActiveBtn(0) : setActiveBtn(6);
+          }}
+        >
           Infrastructure
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            (activeBtn === 6
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>Library</li>
           <li>Canteen</li>
           <li>Auditorium</li>
@@ -86,10 +172,22 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button7  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 7 ? setActiveBtn(0) : setActiveBtn(7);
+          }}
+        >
           Downloads
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            (activeBtn === 7
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>Time table</li>
           <li>Download 2</li>
           <li>Download 3</li>
@@ -97,10 +195,22 @@ function NavButtons() {
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button8  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary md:hidden lg:inline text-lg right-1">
+        <button
+          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          onClick={() => {
+            activeBtn === 8 ? setActiveBtn(0) : setActiveBtn(8);
+          }}
+        >
           Others
         </button>
-        <ul className="bg-white shadow-2xl text-black px-2 py-2 fixed text-center dropdown right-0">
+        <ul
+          className={
+            "bg-secondary shadow-2xl text-black px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            (activeBtn === 8
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
           <li>UGC</li>
           <li>NAAC</li>
           <li>RTI</li>
