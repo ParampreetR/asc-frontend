@@ -1,8 +1,14 @@
 ## A Brief Summary of the Project/Work to be done
 
-
-
 ### Project Title: College Website
+
+### Team Members
+
+Parampreet Singh
+
+Manroop Singh
+
+Dhyanesh Bawa
 
 ### Objective of Application:
 
@@ -20,7 +26,7 @@
 
 ### Introduction to Existing System
 
-Current system, Multiple page Web Application works on the top of ASP.NET with manually coded CSS. 
+Current system, Multiple page Web Application works on the top of ASP.NET with manually coded CSS.
 
 ### Drawbacks of Existing System
 
@@ -28,7 +34,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Is not responsive to small screen sizes, example Mobile Phones and tablets.
 - Data Inefficient, each page had many similar parts example navigation bar and footer that are separately retrieved for each page.
 - Slow as each page of Web Application is loaded from scratch.
-- Inconsistence font size, image alignment and navigation buttons placement.(many overflows...)
+- Inconsistence font size, image alignment, navigation buttons placement and many content overflows.
 
 ### Advantages of Proposed System
 
@@ -47,12 +53,13 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 
 - Hardware Required
 
-  | Components   |    Minimum Requirements (Deployment Server)     |
-  | ------------ | :---------------------------------------------: |
-  | Architecture |                  x86 / x86_64                   |
-  | Processor    | Intel Pentium Processor 2, 2.4GHz or equivalent |
-  | RAM          |                     512 MB                      |
-  | HDD          |                      20 GB                      |
+  | Components        |    Minimum Requirements (Deployment Server)     |
+  | ----------------- | :---------------------------------------------: |
+  | Architecture      |                  x86 / x86_64                   |
+  | Processor         | Intel Pentium Processor 2, 2.4GHz or equivalent |
+  | RAM               |                     512 MB                      |
+  | HDD               |                      20 GB                      |
+  | Number of Servers |           2 (front-end and back-end)            |
 
   | Components   |          Minimum Requirements (End User PC)          |
   | ------------ | :--------------------------------------------------: |
@@ -77,16 +84,33 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 
 ## Development Tools
 
-- Integrated Development Environment - Visual Studio Code (Depends upon personal prefrences...)
+- Integrated Development Environment - Visual Studio Code
 - CSS Framework - Tailwind
 - Browser - Chrome / Chrome-based 
 - Framework - Node (Fastify for back-end, React for front-end)
 - Database - SQLite3
+- Database ORM - Sequelize
 - Node Package Managers - npm and yarn
 - Hosting Providers - Vercel for fronend, Heroku for backend
 - Collaboration System - Github
 
 ## Future Scope and Enhancements
 
+- Many pages can be shifted to back-end server from front-end server for making things more dynamic.
 
+- Students can be given student ID to login to website.
+
+- Published articles can have like and dislike button.
+
+- User Interface on dashboard can be improved.
+
+- Dashboard can let user do more customization.
+
+- Some AI can be added to client side bot.
+
+- Notifications, Quick Links and Events can be added / removed from Telegram bot.
+
+- User interface can be customized according to current trends and features.
+
+  
 
