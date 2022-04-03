@@ -20,7 +20,7 @@ export function CodeofConduct() {
           and communicative by temperament and amiable in disposition.
         </p>
 
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             Adhere to a responsible pattern of conduct and demeanor expected of
             them by the community
@@ -64,7 +64,7 @@ export function CodeofConduct() {
           Teachers towards Students
         </h2>
 
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             Respect the right and dignity of the student in expressing his/her
             opinion
@@ -112,7 +112,7 @@ export function CodeofConduct() {
           Teachers towards Colleagues
         </h2>
 
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             Treat other members of the profession in the same manner as they
             themselves wish to be treated
@@ -135,7 +135,7 @@ export function CodeofConduct() {
           Teachers towards Authorities
         </h2>
 
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             Discharge their professional responsibilities according to the
             existing rules and adhere to procedures and methods consistent with

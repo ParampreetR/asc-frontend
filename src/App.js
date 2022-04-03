@@ -13,6 +13,8 @@ import { Footer } from "./components/Footer";
 import { ThreeSwitch } from "./components/ThreeSwitch";
 import Plyr from "plyr-react";
 import "plyr-react/dist/plyr.css";
+import { MissionGoals } from "./pages/MissionGoals";
+import { History } from "./pages/History";
 
 config({
   barColors: {
@@ -72,6 +74,8 @@ function App() {
         <Routes>
           <Route path="courses" element={<Courses />} />
           <Route path="codeofconduct" element={<CodeofConduct />} />
+          <Route path="missiongoals" element={<MissionGoals />} />
+          <Route path="history" element={<History />} />
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>
