@@ -61,6 +61,14 @@ function NavButtons() {
               History
             </Link>
           </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/missiongoals"
+            >
+              Mission and Goals
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
