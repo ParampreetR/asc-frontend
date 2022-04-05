@@ -97,7 +97,14 @@ function NavButtons() {
               Code of Conduct
             </Link>
           </li>
-          <li>General Rules</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/generalrules"
+            >
+              General Rules
+            </Link>
+          </li>
           <li>Adimission Rules</li>
           <li>Uniform Rules</li>
           <li>Leave Rules</li>
