@@ -2,7 +2,7 @@ import { ImageSlider } from "./ImageSlider";
 import { Link } from "react-router-dom";
 import { Notifications } from "./Notifications";
 import "./NavBar.css";
-import { Component, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function NavButtons() {
   const [activeBtn, setActiveBtn] = useState(0);
