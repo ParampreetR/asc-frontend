@@ -3,7 +3,7 @@ export function GeneralRules() {
     <div className="my-16 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
         <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] font-bold">
-          General Rules :
+          General Rules
         </h1>
         <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>Active association and responsible participation of students are encouraged in all important Committees like Library and Reading Room. College Building, College Canteen, Campus Cleanliness, Cycle Shed, various Subject-Societies, Co-curricular Activities and Sports-Clubs etc.</li>
