@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Chivo:ital@1&display=swap");
 
 * {
   padding: 0px;
@@ -22,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Chivo", sans-serif;
 }
 
 .image-slider {
@@ -127,4 +128,8 @@ button:hover {
   box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -webkit-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+}
+
+.quote {
+  font-family: "Amiri", serif;
 }

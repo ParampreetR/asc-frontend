@@ -105,9 +105,30 @@ function NavButtons() {
               General Rules
             </Link>
           </li>
-          <li>Adimission Rules</li>
-          <li>Uniform Rules</li>
-          <li>Leave Rules</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/adimissionrules"
+            >
+              Adimission Rules
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/uniformrules"
+            >
+              Uniform Rules
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/leaverules"
+            >
+              Leave Rules
+            </Link>
+          </li>
           <li>Library Rules</li>
         </ul>
       </li>
