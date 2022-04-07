@@ -1,72 +1,113 @@
-# Getting Started with Create React App.
+## A Brief Summary of the Project/Work to be done
 
-This is pushed from vscode
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Title: College Website
 
-## Available Scripts
+### Team Members
 
-In the project directory, you can run:
+Parampreet Singh
 
-### `npm start`
+Manroop Singh
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dhyanesh Bawa
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objective of Application:
 
-### `npm test`
+- Better User Interface
+- Fast and efficient response time
+- Improved user interactivity
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Need for the Application:
 
-### `npm run build`
+- Present images of college events to users
+- Present all courses available in campus
+- Present information about all departments along with teachers
+- Present various information on College Committee and Principal
+- Provide description about college as a whole
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Introduction to Existing System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Current system, Multiple page Web Application works on the top of ASP.NET with manually coded CSS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Drawbacks of Existing System
 
-### `npm run eject`
+- Do not provides any Search Engine Optimization.
+- Is not responsive to small screen sizes, example Mobile Phones and tablets.
+- Data Inefficient, each page had many similar parts example navigation bar and footer that are separately retrieved for each page.
+- Slow as each page of Web Application is loaded from scratch.
+- Inconsistence font size, image alignment, navigation buttons placement and many content overflows.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Advantages of Proposed System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Provides better Search Engine Optimization.
+- Responsive to approximately all screen sizes, including Mobile Phones and tablets.
+- Data efficient, similar parts example navigation bar and footer are only retrieved once from server for every page of Web Application.
+- Fast because only parts of the existing page are changed dynamically. Entire page is not loaded from scratch.
+- Better font sizes, image alignments and navigation buttons placements.
+- Better modularity and arrangement of front-end code and back-end code.
+- Will try to cache items which are time consuming, so that next time site loads faster.
+- Better user friendly experience and appearance.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Application Environment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Production Environment
 
-## Learn More
+- Hardware Required
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  | Components        |    Minimum Requirements (Deployment Server)     |
+  | ----------------- | :---------------------------------------------: |
+  | Architecture      |                  x86 / x86_64                   |
+  | Processor         | Intel Pentium Processor 2, 2.4GHz or equivalent |
+  | RAM               |                     512 MB                      |
+  | HDD               |                      20 GB                      |
+  | Number of Servers |           2 (front-end and back-end)            |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  | Components   |          Minimum Requirements (End User PC)          |
+  | ------------ | :--------------------------------------------------: |
+  | Architecture | Any, which supports an Internet Browser (Almost all) |
+  | Processor    |   Intel Pentium Processor 2, 2.4GHz or equivalent    |
+  | RAM          |                        512 MB                        |
+  | HDD          |                        60 MB                         |
 
-### Code Splitting
+- Software Required
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  | Components        | Minimum Requirements (Deployment Server) |
+  | ----------------- | :--------------------------------------: |
+  | Operating Systems |      Linux Server / Windows Server       |
+  | Other software    |        Node, Node Package Manager        |
+  | Web Server        |                  512 MB                  |
+  | Browser           |                Not Needed                |
 
-### Analyzing the Bundle Size
+  | Components        |         Minimum Requirements (End User PC)         |
+  | ----------------- | :------------------------------------------------: |
+  | Operating Systems | Any OS which support Internet Browser (Almost All) |
+  | Browser           |  Firefox / Chrome / Firefox Based / Chrome Based   |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Development Tools
 
-### Making a Progressive Web App
+- Integrated Development Environment - Visual Studio Code
+- CSS Framework - Tailwind
+- Browser - Chrome / Chrome-based 
+- Framework - Node (Fastify for back-end, React for front-end)
+- Database - SQLite3
+- Database ORM - Sequelize
+- Node Package Managers - npm and yarn
+- Hosting Providers - Vercel for fronend, Heroku for backend
+- Collaboration System - Github
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Future Scope and Enhancements
 
-### Advanced Configuration
+- Many pages can be shifted to back-end server from front-end server for making things more dynamic.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Students can be given student ID to login to website.
 
-### Deployment
+- Published articles can have like and dislike button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- User Interface on dashboard can be improved.
 
-### `npm run build` fails to minify
+- Dashboard can let user do more customization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-henlo
+- Some AI can be added to client side bot.
+
+- Notifications, Quick Links and Events can be added / removed from Telegram bot.
+
+- User interface can be customized according to current trends and features.
