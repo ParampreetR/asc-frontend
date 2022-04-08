@@ -265,10 +265,10 @@ export function HamburgerMenu() {
   return (
     <div className="inline-block xl:hidden">
       <button
-        className="bg-[#0000006c] top-8 left-8 p-1 rounded-sm fixed"
+        className="bg-[#0000006c] top-8 left-8 p-1 rounded-sm fixed "
         onClick={() => setIsNavOpen(!isNavOpen)}
       >
-        <img src="/Icons/menu.png" className="w-10" />
+        <img src="/Icons/menu.png" className="w-7" />
       </button>
       <div
         className={
@@ -278,7 +278,7 @@ export function HamburgerMenu() {
             : "w-0 opacity-0 pointer-events-none")
         }
       >
-        <div className="bg-[#dbd2d2d0] backdrop-blur-sm">
+        <div className="bg-secondary opacity-95 backdrop-blur-xl">
           <button
             className="right-8 top-4 absolute text-black"
             onClick={() => setIsNavOpen(!isNavOpen)}
@@ -488,7 +488,7 @@ export function NavBarHomePage() {
 
       <ImageSlider />
 
-      <div className="image-overlay border-b-2 border-[#FE6D73]">
+      <div className="image-overlay bg-gradient-to-b from-primary via-transparent to-primary2 border-b-2 border-[#FE6D73]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="my-2 mx-2 absolute">
@@ -520,7 +520,7 @@ export function NavBar() {
             <span className="my-2 mx-2 absolute">
               <HamburgerMenu />
             </span>
-            <span className="inline mx-auto xl:m-1">
+            <span className="inline mx-auto mt-2 xl:mx-1">
               <Link to="/">
                 <div className="text-3xl border-b-2 text-center px-5">
                   AS College
