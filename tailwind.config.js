@@ -13,3 +13,13 @@ module.exports = {
   },
   plugins: [],
 };
+
+/*
+
+colors: {
+        primary: "#dd0426",
+        primary2: "#f02d3a",
+        secondary: "#eff6ee",
+        secondary2: "#f2f2f2",
+      },
+      */
