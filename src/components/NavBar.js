@@ -23,14 +23,14 @@ function NavButtons() {
     <ul className="list-none xl:flex flex-row h-max mt-8 hidden transform transition-all duration-200">
       <li>
         {/* Navigation Button1  */}
-        <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
+        <button className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg">
           <Link to="/courses">Courses</Link>
         </button>
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 2 ? setActiveBtn(0) : setActiveBtn(2);
           }}
@@ -39,7 +39,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 2
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -74,7 +74,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button3  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 3 ? setActiveBtn(0) : setActiveBtn(3);
           }}
@@ -83,7 +83,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 3
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -135,7 +135,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button4  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 4 ? setActiveBtn(0) : setActiveBtn(4);
           }}
@@ -144,7 +144,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 4
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -159,7 +159,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button5  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 5 ? setActiveBtn(0) : setActiveBtn(5);
           }}
@@ -168,7 +168,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 5
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -182,7 +182,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button6  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 6 ? setActiveBtn(0) : setActiveBtn(6);
           }}
@@ -191,7 +191,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 6
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -209,7 +209,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button7  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 7 ? setActiveBtn(0) : setActiveBtn(7);
           }}
@@ -218,7 +218,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 7
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -232,7 +232,7 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button8  */}
         <button
-          className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
+          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary hover:text-primary text-lg"
           onClick={() => {
             activeBtn === 8 ? setActiveBtn(0) : setActiveBtn(8);
           }}
@@ -241,7 +241,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "font-medium text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            " text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 8
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -513,16 +513,8 @@ export function NavBarHomePage() {
 
 export function NavBar() {
   return (
-    <nav className=" text-secondary shadow-medium">
-      <div className="bg-primary">
-        <div className="mx-auto max-w-[1440px] justify-between px-20 hidden md:flex">
-          <span>Email</span>
-          <span>Phone Number</span>
-          <span>Address</span>
-        </div>
-      </div>
-
-      <div className="border-b-2 border-[#FE6D73] bg-primary2">
+    <nav className="text-black  h-24 ">
+      <div className="border-b-2 border-[#FE6D73] bg-[#f2f2f283] backdrop-blur-lg h-24 fixed top-0 shadow-medium w-screen">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="my-2 mx-2 absolute">
