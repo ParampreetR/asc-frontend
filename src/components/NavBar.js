@@ -520,25 +520,29 @@ export function HamburgerMenu() {
   return (
     <div className="inline-block xl:hidden">
       <button
-        className="border-2 hover:shadow-none bg-white top-2 left-2 p-1 rounded-sm fixed "
+        className="border-2 border-[#ffffffb6] hover:shadow-none bg-[#ffffff96] p-1 rounded-sm relative z-50 "
         onClick={() => setIsNavOpen(!isNavOpen)}
       >
-        <img src="/Icons/menu.png" className="w-7 contrast-0" />
+        <img src="/Icons/menu.png" className="w-5 contrast-0" />
       </button>
       <div
         className={
           "fixed h-0 transform duration-200 top-0 left-0 z-50  " +
           (isNavOpen
-            ? "w-screen opacity-100 pointer-events-auto"
-            : "w-0 opacity-0 pointer-events-none")
+            ? "h-screen opacity-100 pointer-events-auto"
+            : "h-0 opacity-0 pointer-events-none")
         }
       >
         <div className="bg-secondary opacity-95 backdrop-blur-xl">
           <button
-            className="right-8 top-4 absolute text-black"
+            className="right-8 top-4 absolute text-black hover:shadow-none"
             onClick={() => setIsNavOpen(!isNavOpen)}
           >
-            Close
+            <img
+              alt="svgImg"
+              className="h-8"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNjAiIGhlaWdodD0iNjAiCnZpZXdCb3g9IjAgMCAzMCAzMCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSA3IDQgQyA2Ljc0NDEyNSA0IDYuNDg3OTY4NyA0LjA5NzQ2ODcgNi4yOTI5Njg4IDQuMjkyOTY4OCBMIDQuMjkyOTY4OCA2LjI5Mjk2ODggQyAzLjkwMTk2ODcgNi42ODM5Njg4IDMuOTAxOTY4NyA3LjMxNzAzMTMgNC4yOTI5Njg4IDcuNzA3MDMxMiBMIDExLjU4NTkzOCAxNSBMIDQuMjkyOTY4OCAyMi4yOTI5NjkgQyAzLjkwMTk2ODcgMjIuNjgzOTY5IDMuOTAxOTY4NyAyMy4zMTcwMzEgNC4yOTI5Njg4IDIzLjcwNzAzMSBMIDYuMjkyOTY4OCAyNS43MDcwMzEgQyA2LjY4Mzk2ODggMjYuMDk4MDMxIDcuMzE3MDMxMyAyNi4wOTgwMzEgNy43MDcwMzEyIDI1LjcwNzAzMSBMIDE1IDE4LjQxNDA2MiBMIDIyLjI5Mjk2OSAyNS43MDcwMzEgQyAyMi42ODI5NjkgMjYuMDk4MDMxIDIzLjMxNzAzMSAyNi4wOTgwMzEgMjMuNzA3MDMxIDI1LjcwNzAzMSBMIDI1LjcwNzAzMSAyMy43MDcwMzEgQyAyNi4wOTgwMzEgMjMuMzE2MDMxIDI2LjA5ODAzMSAyMi42ODI5NjkgMjUuNzA3MDMxIDIyLjI5Mjk2OSBMIDE4LjQxNDA2MiAxNSBMIDI1LjcwNzAzMSA3LjcwNzAzMTIgQyAyNi4wOTgwMzEgNy4zMTcwMzEyIDI2LjA5ODAzMSA2LjY4Mjk2ODggMjUuNzA3MDMxIDYuMjkyOTY4OCBMIDIzLjcwNzAzMSA0LjI5Mjk2ODggQyAyMy4zMTYwMzEgMy45MDE5Njg3IDIyLjY4Mjk2OSAzLjkwMTk2ODcgMjIuMjkyOTY5IDQuMjkyOTY4OCBMIDE1IDExLjU4NTkzOCBMIDcuNzA3MDMxMiA0LjI5Mjk2ODggQyA3LjUxMTUzMTIgNC4wOTc0Njg3IDcuMjU1ODc1IDQgNyA0IHoiPjwvcGF0aD48L3N2Zz4="
+            />
           </button>
           <div className="flex justify-center items-center h-screen text-black">
             <nav className="flex flex-col">
@@ -746,9 +750,6 @@ export function NavBarHomePage() {
       <div className="image-overlay bg-gradient-to-b from-primary via-transparent to-primary2 border-b-2 border-[#FE6D73]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
-            <span className="my-2 mx-2 absolute">
-              <HamburgerMenu />
-            </span>
             <span className="inline mx-auto xl:m-1">
               <Link to="/">
                 <div className="text-3xl border-b-2 text-center px-5">
@@ -762,6 +763,9 @@ export function NavBarHomePage() {
           <Notifications />
         </div>
       </div>
+      <span className="my-0 mx-0 absolute top-0 left-0">
+        <HamburgerMenu />
+      </span>
     </nav>
   );
 }
@@ -837,7 +841,7 @@ export function NavBar() {
                 AS College
               </div>
             </Link>
-            <span className="my-2 mx-2 absolute">
+            <span className="my-0 mx-0 absolute">
               <HamburgerMenu />
             </span>
 
