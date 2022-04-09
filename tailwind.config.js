@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#712B75",
-        primary2: "#46244C",
+        primary: "#227C9D",
+        primary2: "#1E6A86",
         secondary: "#f2f2f2",
         secondary2: "#eff6ee",
       },
@@ -13,13 +13,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-/*
-
-colors: {
-        primary: "#dd0426",
-        primary2: "#f02d3a",
-        secondary: "#eff6ee",
-        secondary2: "#f2f2f2",
-      },
-      */
