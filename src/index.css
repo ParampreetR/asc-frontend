@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
 
 * {
   padding: 0px;
@@ -14,15 +13,6 @@
 body {
   @apply bg-secondary;
   overflow-x: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Titillium Web", sans-serif;
 }
 
 .image-slider {
@@ -46,7 +36,7 @@ h6 {
 }
 
 .image-overlay {
-  background-image: linear-gradient(#227c9dbd, #ffffff00, #ffffff00, #227c9dbd);
+  background-image: linear-gradient(#227c9d, #ffffff00, #ffffff00, #1e6a86);
   background-size: cover;
   height: 66vw;
   position: relative;
@@ -127,4 +117,8 @@ button:hover {
   box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -webkit-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
+}
+
+.quote {
+  font-family: "Amiri", serif;
 }

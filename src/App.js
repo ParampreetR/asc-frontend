@@ -15,6 +15,10 @@ import Plyr from "plyr-react";
 import "plyr-react/dist/plyr.css";
 import { MissionGoals } from "./pages/MissionGoals";
 import { History } from "./pages/History";
+import { GeneralRules } from "./pages/GeneralRules";
+import { UniformRules } from "./pages/UniformRules";
+import { LeaveRules } from "./pages/LeaveRules";
+import { AdmissionRules } from "./pages/AdmissionRules";
 
 config({
   barColors: {
@@ -76,6 +80,10 @@ function App() {
           <Route path="codeofconduct" element={<CodeofConduct />} />
           <Route path="missiongoals" element={<MissionGoals />} />
           <Route path="history" element={<History />} />
+          <Route path="generalrules" element={<GeneralRules />} />
+          <Route path="uniformrules" element={<UniformRules />} />
+          <Route path="leaverules" element={<LeaveRules />} />
+          <Route path="admissionrules" element={<AdmissionRules />} />
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>

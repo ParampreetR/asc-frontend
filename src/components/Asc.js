@@ -1,6 +1,6 @@
 export function AscInfo() {
   return (
-    <div className="my-16 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
+    <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
         <h1 className="text-center text-4xl my-4 text-[#141E27] font-bold">
           AS College, Khanna
@@ -9,7 +9,7 @@ export function AscInfo() {
           Re-credited with Grade "A" with CGPA of 3.51 out of 4 by NAAC
         </p>
 
-        <p className="text-xl text-center text-primary italic my-8">
+        <p className="text-xl text-center text-primary italic my-8 quote">
           The institution is committed to impart liberal education to all
           sections of the society particularly the rural and the deprived ones,
           for shaping a sterling character and scintillating carrer imbibed with
