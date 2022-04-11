@@ -1,32 +1,63 @@
+import { useState } from "react";
+import { useEffect } from "react";
+import "./StudentReview.css";
+
 export function StudentReview() {
+  let [scroll, setScroll] = useState(0);
+  let [backSide, setBackSide] = useState(false);
+  let [myInterval, setMyInterval] = useState({});
+
+  const scrollerInit = () => {
+    setMyInterval(
+      setInterval(() => {
+        if (backSide) setScroll(scroll--);
+        else setScroll(scroll++);
+        document.getElementsByClassName("no-scrollbar")[0].scrollLeft = scroll;
+
+        if (
+          scroll >
+          document.getElementsByClassName("no-scrollbar")[0].scrollWidth -
+            document.getElementsByClassName("no-scrollbar")[0].clientWidth
+        )
+          setBackSide(true);
+        if (scroll <= 0) setBackSide(false);
+      }, 50)
+    );
+  };
+
+  const scrollDes = () => {
+    setMyInterval((interval) => {
+      clearInterval(interval);
+      return {};
+    });
+  };
+
+  useEffect(() => {
+    scrollerInit();
+    return scrollDes;
+  }, [backSide]);
+
   return (
-    <section>
-      <div>
-        {/* div container*/}
-        <div> {/* title : Student Infomation */}</div>
-        <div>
-          {/* flex parent */}
-          <div>
-            {/* img div */}
-            {/*<img src="/student1.jpg" />*/}
-          </div>
-          <div>
-            {/* text div */}{" "}
-            {/*
-            Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Dolorem praesentium accusamus molestiae omnis officia
-            perferendis libero! Nulla, eius, voluptatibus nesciunt doloribus
-            pariatur voluptas tenetur tempora minus veniam inventore earum quo.
-            At,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            praesentium accusamus molestiae omnis officia perferendis libero!
-            Nulla, eius, voluptatibus nesciunt doloribus pariatur voluptas
-            tenetur tempora minus veniam inventore earum quo. At quae. Tenetur
-            blanditiis explicabo officia nostrum qui exercitationem doloribus.
-            */}
-          </div>
+    <section
+      className="bg-gradient-to-b from-primary to-primary2 border-y-2 border-b-[#FE6D73] border-t-[#FE6D73] section"
+      onMouseEnter={() => scrollDes()}
+      onMouseLeave={() => scrollerInit()}
+    >
+      <div className="flex  overflow-y-hidden  flex-nowrap overflow-x-auto no-scrollbar">
+        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+          <div className="h-48"></div>
+          <div className="text-white">Hello</div>
+        </div>
+        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+          <div className="h-48"></div>
+          <div className="text-white">Hello</div>
+        </div>
+        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+          <div className="h-48"></div>
+          <div className="text-white">Hello</div>
         </div>
       </div>
-      {/* container close */}
+      <div className=""></div>
     </section>
   );
 }

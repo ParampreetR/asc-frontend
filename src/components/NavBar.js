@@ -39,7 +39,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 2
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -83,7 +83,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 3
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -144,7 +144,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 4
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -168,7 +168,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 5
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -191,7 +191,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 6
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -218,7 +218,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 7
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -241,7 +241,7 @@ function NavButtons() {
         </button>
         <ul
           className={
-            " text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            " text-primary bg-[#fffffffe] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 8
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -294,7 +294,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 2
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -338,7 +338,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 3
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -399,7 +399,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 4
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -423,7 +423,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 5
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -446,7 +446,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 6
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -473,7 +473,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            "text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 7
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -496,7 +496,7 @@ function NavButtonsMini() {
         </button>
         <ul
           className={
-            " text-primary bg-secondary shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            " text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 8
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
