@@ -116,17 +116,8 @@ button:hover {
   box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -webkit-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: -4px 3px 9px 1px rgba(0, 0, 0, 0.37);
-  @apply dark:bg-secondary;
-  @apply dark:hover:text-black;
 }
 
 .quote {
   font-family: "Amiri", serif;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  @apply dark:text-[#dfdfdf];
 }

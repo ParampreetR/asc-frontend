@@ -19,6 +19,7 @@ import { GeneralRules } from "./pages/GeneralRules";
 import { UniformRules } from "./pages/UniformRules";
 import { LeaveRules } from "./pages/LeaveRules";
 import { AdmissionRules } from "./pages/AdmissionRules";
+import { useEffect } from "react";
 
 config({
   barColors: {
@@ -66,6 +67,20 @@ function Courses() {
 }
 
 function App() {
+  if (
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.classList.add("dark");
+    document.documentElement.classList.remove("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+  }
+
+  document.documentElement.classList.remove("dark");
+  document.documentElement.classList.add("light");
   return (
     <div className="bg-secondary dark:bg-secondary_dark App">
       <header>
