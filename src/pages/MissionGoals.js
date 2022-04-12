@@ -2,22 +2,22 @@ export function MissionGoals() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
           Mission and Goals
         </h1>
 
-        <p className="text-md md:text-lg text-center text-primary italic my-8 quote">
+        <p className="text-md md:text-lg text-center text-primary italic my-8 quote dark:text-[#FE6D73]">
           The institution is committed to impart liberal holistic education to
           all sections of the society, particularly the rural and deprived ones,
           for shaping a sterling character and scintilltting career imbibed with
           values of humanism, equality and secularism.
         </p>
 
-        <p className="text-black my-1 text-md md:text-lg">
+        <p className="text-black my-1 text-md md:text-lg dark:text-white">
           In consonance with its Vision and Mission, the college has adopted the
           following objectives
         </p>
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             To provide and enrich the educational programmes/courses in various
             disciplines/streams in response to changing regional, national and

@@ -67,7 +67,7 @@ function Courses() {
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-secondary dark:bg-secondary_dark App">
       <header>
         <Routes>
           <Route path="/" element={<NavBarHomePage />} loading />

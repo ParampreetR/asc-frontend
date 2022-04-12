@@ -39,20 +39,20 @@ export function StudentReview() {
 
   return (
     <section
-      className="bg-gradient-to-b from-primary to-primary2 border-y-2 border-b-[#FE6D73] border-t-[#FE6D73] section"
+      className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark border-y-2 border-b-[#FE6D73] border-t-[#FE6D73] section"
       onMouseEnter={() => scrollDes()}
       onMouseLeave={() => scrollerInit()}
     >
       <div className="flex  overflow-y-hidden  flex-nowrap overflow-x-auto no-scrollbar">
-        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+        <div className="h-[512px] w-[400px] m-8 bg-secondary dark:bg-secondary_dark2 inline-block flex-auto flex-shrink-0">
           <div className="h-48"></div>
           <div className="text-white">Hello</div>
         </div>
-        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+        <div className="h-[512px] w-[400px] m-8 bg-secondary dark:bg-secondary_dark2 inline-block flex-auto flex-shrink-0">
           <div className="h-48"></div>
           <div className="text-white">Hello</div>
         </div>
-        <div className="h-[512px] w-[400px] m-8 bg-secondary2 inline-block flex-auto flex-shrink-0">
+        <div className="h-[512px] w-[400px] m-8 bg-secondary dark:bg-secondary_dark2 inline-block flex-auto flex-shrink-0">
           <div className="h-48"></div>
           <div className="text-white">Hello</div>
         </div>

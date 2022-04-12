@@ -12,13 +12,14 @@ export function ImageSlider() {
   ];
 
   return (
-    <div className="bg-image section">
+    <div className="bg-image bg-transparent section">
       <SimpleImageSlider
         width={"100vw"}
         height={"66vw"}
         images={images}
         showNavs={false}
         autoPlay={true}
+        bgColor={"transparent"}
       />
     </div>
   );

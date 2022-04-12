@@ -2,86 +2,65 @@ export function History() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
           About Us
         </h1>
-        <p className="text-black  my-1 text-md md:text-lg tracking-wide">
-          The <b>A.S. College, Khanna,</b> was established in the year 1946. The
-          College is affiliated to Panjab University Chandigarh. It is a
-          grant-in-aid institution. The college was established by the
-          Anglo-Sanskrit High School Khanna Trust and Management Society whose
-          aim is to empower the educationally backward and disadvantaged,
-          predominantly rural population, by imparting a liberal general
-          education (in languages, arts, science and technical education) with a
-          special stress on the values of humanism, secularism and nationalism.
-          The institution is recognized by the University Grants Commission
-          (UGC) under Section 2(f) and 12(b). In view of the overall assessment
-          of the institution, it has been accredited A+ Grade by NAAC, Bangalore
-          in 2004.
-          <b>
-            In 2015, the institution was re-accredited by NAAC, Banglore and has
-            been awarded A grade with CGPA 3.51 out of 4.
-          </b>
-          The college is located in a semi-rural area on the out skirts of
-          Khanna town. The college offers B.A, B.Sc, B.Com, B.Com (E-Commerce),
-          B.C.A and B.Voc at undergraduate level and M.A in English, History,
-          Pol. Science, Mathematics,Punjabi, Economics at Post Graduate level.
-          The college has also started M.Sc(Chemistry) from session 2018-19.
-          Besides this, the college at present is running three certificate
-          courses in Computer Applications, Foreign Trade Practices & Procedures
-          and Introduction to Computer Sciences. More recently, UGC New Delhi
-          has sanctioned Career Oriented Programmes in Biotechnology, Industrial
-          Chemistry, and Travel & Tourism. Besides, a non-credit course on
-          environmental education is mandatory. The college also prepares its
-          students to hone their skills in spoken English and to appear in
-          proficiency tests in the language of English by arranging tutorials in
-          IELTS and TOEFL. Basic courses in German and French languages in
-          non-formal mode are being offered by the college. The college also
-          offers crash courses in the use of internet, Vermicomposting and
-          Personality Development. The college possesses a campus covering 21
-          acres of land. The unit cost of education of the institution is more
-          than Rs. 4642 approx. (excluding salary component). The temporal plan
-          for the academic work of the college is of Semester type for all
-          courses. The college has a Central library, Computer Center, First-Aid
-          facility, Canteen, Career Guidance Centre, Staff Quarters for class IV
-          employees. Besides, the college has separate common rooms for boys and
-          girls, separate cycle stand for boys and girls and adequate parking
-          space for employees. There are adequate drinking water facilities and
-          toilet blocks. The college now has a total strength of 93 faculty
-          members. Some of the staff members of the college are on the Board of
-          Studies, Syndicate, Senate and Academic Council of the Panjab
-          University. Within the framework of the curriculum as prescribed by
-          Panjab University, the college has been developing such packages which
-          enrich the knowledge, skill and values that help students in achieving
+        <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">
+          The <span className="text-medium">A.S. College, Khanna,</span> was
+          established in the year 1946. The College is affiliated to Panjab
+          University Chandigarh. It is a grant-in-aid institution. The college
+          was established by the Anglo-Sanskrit High School Khanna Trust and
+          Management Society whose aim is to empower the educationally backward
+          and disadvantaged, predominantly rural population, by imparting a
+          liberal general education (in languages, arts, science and technical
+          education) with a special stress on the values of humanism, secularism
+          and nationalism. The institution is recognized by the University
+          Grants Commission (UGC) under Section 2(f) and 12(b). In view of the
+          overall assessment of the institution, it has been accredited A+ Grade
+          by NAAC, Bangalore in 2004.&nbsp;
+        </p>
+        <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white font-semibold text-justify">
+          In 2015, the institution was re-accredited by NAAC, Banglore and has
+          been awarded A grade with CGPA 3.51 out of 4.
+        </p>
+        <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">
+          The college also prepares its students to hone their skills in spoken
+          English and to appear in proficiency tests in the language of English
+          by arranging tutorials in IELTS and TOEFL. Basic courses in German and
+          French languages in non-formal mode are being offered by the college.
+          The college also offers crash courses in the use of internet,
+          Vermicomposting and Personality Development. The college possesses a
+          campus covering 21 acres of land. The unit cost of education of the
+          institution is more than Rs. 4642 approx. (excluding salary
+          component). The temporal plan for the academic work of the college is
+          of Semester type for all courses. The college has a Central library,
+          Computer Center, First-Aid facility, Canteen, Career Guidance Centre,
+          Staff Quarters for class IV employees.
+        </p>
+        <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">
+          Besides, the college has separate common rooms for boys and girls,
+          separate cycle stand for boys and girls and adequate parking space for
+          employees. There are adequate drinking water facilities and toilet
+          blocks. The college now has a total strength of 93 faculty members.
+          Some of the staff members of the college are on the Board of Studies,
+          Syndicate, Senate and Academic Council of the Panjab University.
+          Within the framework of the curriculum as prescribed by Panjab
+          University, the college has been developing such packages which enrich
+          the knowledge, skill and values that help students in achieving
           academic excellence. The teachers are upgrading their knowledge and
           skills by regularly conducting and participating in seminars,
           conferences, workshops, orientation courses and refresher courses. The
           college has a strong Alumni Association with a membership of over 1400
           persons and quite a few of them occupy prominent positions in public
-          life. To name a few would be Sh. Chander Shekhar, DGP Punjab; S.
-          Pritpal Singh, ADGP, ITBP (President’s Medal); Sh. D.S. Mangat, DGP
-          (Retd.) Punjab Police; S. Lachhman Singh, PCS (Judicial); Sh.
-          Chanderjeet Singh, DCS (Judicial); Sh. Neeraj Goyal, HCS (Judicial);
-          Sh. Sanjay Kumar Gupta, IAS, Ministry of Finance; Late Sh. Abhishek
-          Chhatwal, IAS; S. Gursharan Singh Gill, ATEC Patiala; Sh. Raman Goyal,
-          IRS, Assistant Commissioner Income Tax Ludhiana; S. Rajinder Singh,
-          IRS; Mr. Shourie, HCS (Judicial); Sh. Boota Singh, IRS Commissioner
-          Income Tax, Mumbai; Sh. Pawan Kapil, President Reliance Refineries,
-          Jamnagar; Sh. S.S. Bari, Registrar Panjab University Chandigarh; Sh.
-          S.S. Kang, Former Chief Justice J & K High Court and Former Governor
-          of Karala; Sh. Jasjeet Randhawa, Former Cabinet Minister Punjab; Sh.
-          Bharpur Singh, Former Chairman PSEB; Sh. Shamsher Singh Dullo, Former
-          President PPCC; Dr. T.S. Kaler, world famous cardiologist; S. Harpal
-          Singh, Asian Medallist & Olympian; and a long list continues.
+          life.
         </p>
 
-        <h1 class="mt-3 ml-5 mr-5 font-bold text-xl ">
-          {" "}
+        <h3 class="mt-3 ml-5 mr-5 font-semibold text-xl">
           The following activities being undertaken by the institution amply
           highlight the goals and objectivesof the institution:
-        </h1>
+        </h3>
 
-        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
+        <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
             To undertake new initiatives to improve infrastructuralfacilities,
             examination system, library services etc.
@@ -120,7 +99,7 @@ export function History() {
           <li>To organise and participate in faculty enrichment programmes.</li>
         </ul>
       </div>
-      <p class="text-xl text-center font-bold my-4 ml-5 mr-5">
+      <p class="text-xl text-center font-medium my-4 ml-5 mr-5 dark:text-white">
         The college has evolved an institutional mechanism to monitor the
         quality of different academic programmes through its various
         administrative/advisory committees and the Internal Quality Assurance

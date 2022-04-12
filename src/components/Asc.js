@@ -2,20 +2,20 @@ export function AscInfo() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-4xl my-4 text-[#141E27] font-bold">
+        <h1 className="text-center text-4xl my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
           AS College, Khanna
         </h1>
-        <p className="text-center text-black opacity-50 my-1 text-lg">
+        <p className="text-center text-black dark:text-white opacity-50 my-1 text-lg">
           Re-credited with Grade "A" with CGPA of 3.51 out of 4 by NAAC
         </p>
 
-        <p className="text-xl text-center text-primary italic my-8 quote">
+        <p className="text-xl text-center text-primary dark:text-[#FE6D73] italic my-8 quote">
           The institution is committed to impart liberal education to all
           sections of the society particularly the rural and the deprived ones,
           for shaping a sterling character and scintillating carrer imbibed with
           values of humanism, equality and secularism.
         </p>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify text-black dark:text-white">
           A.S College is the great temple of learing since its inception in
           1946, the college has been trying its level best to achieve varied
           goals and objectives as enshrined in constitution of the institution.
