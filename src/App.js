@@ -20,6 +20,8 @@ import { UniformRules } from "./pages/UniformRules";
 import { LeaveRules } from "./pages/LeaveRules";
 import { AdmissionRules } from "./pages/AdmissionRules";
 import { useEffect } from "react";
+import { ToggleSwitch } from "./components/ToggleSwitch";
+import { ThemeSwitcher } from "./components/ThemeSwitcher";
 
 config({
   barColors: {
@@ -79,8 +81,6 @@ function App() {
     document.documentElement.classList.add("light");
   }
 
-  document.documentElement.classList.remove("dark");
-  document.documentElement.classList.add("light");
   return (
     <div className="bg-secondary dark:bg-secondary_dark App">
       <header>
@@ -105,6 +105,9 @@ function App() {
       <footer>
         <ChatBot />
         <Footer />
+        <div className="fixed bottom-5 left-5">
+          <ThemeSwitcher />
+        </div>
       </footer>
     </div>
   );

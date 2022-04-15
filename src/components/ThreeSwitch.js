@@ -7,7 +7,7 @@ export function ThreeSwitch() {
       <div className="flex flex-row md:flex-col md:w-1/6 mx-auto md:mx-0">
         <button
           className={
-            "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
+            "overflow-x-hidden transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
             (sectionNum === 1 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(1)}
@@ -21,7 +21,7 @@ export function ThreeSwitch() {
         </button>
         <button
           className={
-            "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
+            "overflow-x-hidden transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
             (sectionNum === 2 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(2)}
@@ -35,7 +35,7 @@ export function ThreeSwitch() {
         </button>
         <button
           className={
-            "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
+            "overflow-x-hidden transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
             (sectionNum === 3 ? "w-40" : "w-16")
           }
           onClick={() => setSectionNum(3)}
