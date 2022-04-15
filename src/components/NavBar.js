@@ -747,7 +747,7 @@ export function NavBarHomePage() {
 
       <ImageSlider />
 
-      <div className="image-overlay bg-gradient-to-b from-primary via-transparent to-primary2 border-b-2 border-[#FE6D73]">
+      <div className="image-overlay bg-gradient-to-b from-primary via-transparent to-primary2 dark:from-primary_dark dark:to-primary2_dark dark:via-transparent border-b-2 border-[#FE6D73]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="inline mx-auto xl:m-1">
