@@ -3,8 +3,8 @@ import { useState } from "react";
 export function ThreeSwitch() {
   const [sectionNum, setSectionNum] = useState(1);
   return (
-    <div className="flex flex-row justify-around mx-auto max-w-[1440px]">
-      <div className="flex flex-col w-1/6">
+    <div className="flex flex-col md:flex-row justify-around mx-auto max-w-[1440px]">
+      <div className="flex flex-row md:flex-col md:w-1/6 mx-auto md:mx-0">
         <button
           className={
             "transform duration-200 flex flex-row justify-around h-16 border-4 border-primary2 shadow-md my-2 bg-white " +
@@ -48,7 +48,7 @@ export function ThreeSwitch() {
           </span>
         </button>
       </div>
-      <div className="bg-white border-4 border-primary2 w-4/6 overflow-y-auto h-56 my-auto px-5 py-2">
+      <div className="bg-white border-4 border-primary2 w-4/6 overflow-y-auto h-56 my-auto px-5 py-2 mx-auto md:mx-0">
         <p className="p-2 text-center text-lg font-medium">Event 1</p>
         <div className="bg-black opacity-30 h-[1px] w-3/6 mx-auto"></div>
         <p className="p-2 text-center text-lg font-medium">Event 1</p>
