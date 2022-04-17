@@ -10,32 +10,32 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Quick Links</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Home
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     About Us
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Admissions
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Courses
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Fee Details
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Rules
                   </a>
                 </li>
@@ -45,32 +45,32 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Discover</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Teaching
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Activities
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Events
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Campus
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Research
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Consultancy
                   </a>
                 </li>
@@ -80,32 +80,32 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Other</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Downloads
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Forms
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Jobs
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     IGNOU-Study
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     College Magznine
                   </a>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-secondary2">
+                  <a href="#" className="hover:text-blue-400">
                     Newsletter
                   </a>
                 </li>
