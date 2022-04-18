@@ -57,7 +57,11 @@ function Homepage() {
       </div>
       <MsgFromPrinci />
       <div className="px-4 md:px-16 lg:px-24 xl:px-36 py-16">
-        <ThreeSwitch />
+        <ThreeSwitch
+          colEvents={["event1", "event2", "event3"]}
+          colNews={["news1", "news2", "news3"]}
+          colArticles={["articles1", "articles2", "articles3"]}
+        />
       </div>
       <StudentReview />
     </div>
@@ -65,7 +69,7 @@ function Homepage() {
 }
 
 function Courses() {
-  return <h1 className="text-4xl">Courses</h1>;
+  return <h1 className="text-4xl">Not yet Implemented</h1>;
 }
 
 function App() {

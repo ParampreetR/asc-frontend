@@ -59,7 +59,7 @@ export function ChatBot() {
         <input
           type="text"
           className={
-            "focus:border-4 rounded-xl transform transition-all duration-500 bg-secondary dark:bg-secondary_dark min-h-[3rem] inline-block w-60 mx-3 h-fit px-3 py-2 break-all text-base border-2 border-[#FE6D73] shadow-lg relative " +
+            "focus:border-4 rounded-xl transform transition-all duration-500 bg-secondary min-h-[3rem] inline-block w-60 mx-3 h-fit px-3 py-2 break-all text-base border-2 border-[#FE6D73] shadow-lg relative " +
             (!visible && " opacity-0 pointer-events-none") +
             (visible ? " shadow-heavy" : " shadow-medium")
           }

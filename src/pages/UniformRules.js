@@ -2,7 +2,7 @@ export function UniformRules() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 class="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#fefefe] font-bold">
+        <h1 class="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#fefefe] font-bold">
           College Uniform Rules
         </h1>
         <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium">
@@ -20,12 +20,12 @@ export function UniformRules() {
           For Students of B.C.A
         </h2>
         <h3 class="text-lg dark:text-white mt-2">For Boys</h3>
-        <p class="text-lg dark:text-white">
+        <p class="text-lg dark:text-white mt-1">
           Grey trousers, white shirts, navy-blue turban, navy-blue tie and
           navy-blue pullover in winter.
         </p>
 
-        <h3 class="text-xl mt-2 ">For Girls</h3>
+        <h3 class="text-lg dark:text-white mt-2 ">For Girls</h3>
         <p class="text-lg dark:text-white mt-1">
           Grey suit, navy-grey Dupatta and navy-blue pullover in winter.
         </p>

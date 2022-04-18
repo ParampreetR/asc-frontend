@@ -14,7 +14,7 @@ label {
   display: flex;
   width: 80px;
   height: 35px;
-  border: 6px solid;
+  border: 2px solid;
   border-radius: 99em;
   position: relative;
   transition: transform 0.75s ease-in-out;
@@ -29,10 +29,10 @@ label:before {
   content: "";
   display: block;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   background-color: #104c62;
   border-radius: 50%;
-  top: 2px;
-  left: 2px;
+  top: 4.3px;
+  left: 4.3px;
 }

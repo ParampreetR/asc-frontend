@@ -2,11 +2,11 @@ export function History() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
-          About Us
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
+          History
         </h1>
         <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">
-          The <span className="text-medium">A.S. College, Khanna,</span> was
+          The <span className="text-medium">A.S. College Khanna,</span> was
           established in the year 1946. The College is affiliated to Panjab
           University Chandigarh. It is a grant-in-aid institution. The college
           was established by the Anglo-Sanskrit High School Khanna Trust and
@@ -55,9 +55,9 @@ export function History() {
           life.
         </p>
 
-        <h3 class="mt-3 ml-5 mr-5 font-semibold text-xl">
+        <h3 class="mt-3 ml-5 mr-5 font-semibold text-xl dark:text-white text-black">
           The following activities being undertaken by the institution amply
-          highlight the goals and objectivesof the institution:
+          highlight the goals and objectives of the institution
         </h3>
 
         <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
@@ -68,7 +68,7 @@ export function History() {
 
           <li>
             To organise and participate in extra-curricular activities such as
-            NCC, NSS, talent hunt events, declamation contests,paper/poster
+            NCC, NSS, talent hunt events, declamation contests, paper/poster
             presentation contests, debates, essay writing competitions,community
             services programmes, public awareness meets, sports events, and to
             commemorate days of special importance.
@@ -88,7 +88,7 @@ export function History() {
 
           <li>
             To participate in different items of the cultural and heritage
-            festivals organised at zonal,university and inter-university level.
+            festivals organised at zonal, university and inter-university level.
           </li>
 
           <li>

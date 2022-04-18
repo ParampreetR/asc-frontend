@@ -1,6 +1,18 @@
 import { useState } from "react";
 
-export function ThreeSwitch() {
+function Board({ items }) {
+  return items.map((val) => (
+    <div>
+      <p className="p-2 text-center text-lg font-medium">{val}</p>
+      <div className="bg-black opacity-30 h-[1px] w-3/6 mx-auto"></div>
+    </div>
+  ));
+}
+
+export function ThreeSwitch({ colEvents, colNews, colArticles }) {
+  const [events, setEvents] = useState(colEvents);
+  const [news, setNews] = useState(colNews);
+  const [articles, setArticles] = useState(colArticles);
   const [sectionNum, setSectionNum] = useState(1);
   return (
     <div className="flex flex-col md:flex-row justify-around mx-auto max-w-[1440px]">
@@ -48,12 +60,10 @@ export function ThreeSwitch() {
           </span>
         </button>
       </div>
-      <div className="bg-white border-4 border-primary2 w-4/6 overflow-y-auto h-56 my-auto px-5 py-2 mx-auto md:mx-0">
-        <p className="p-2 text-center text-lg font-medium">Event 1</p>
-        <div className="bg-black opacity-30 h-[1px] w-3/6 mx-auto"></div>
-        <p className="p-2 text-center text-lg font-medium">Event 1</p>
-        <div className="bg-black opacity-30 h-[1px] w-3/6 mx-auto"></div>
-        <p className="p-2 text-center text-lg font-medium">Event 1</p>
+      <div className="bg-white border-4 border-primary2 w-5/6 md:w-4/6 xl:w-5/6 overflow-y-auto h-56 my-auto px-5 py-2 mx-auto md:mx-0">
+        {sectionNum === 1 && <Board items={events} />}
+        {sectionNum === 2 && <Board items={news} />}
+        {sectionNum === 3 && <Board items={articles} />}
       </div>
     </div>
   );

@@ -14,16 +14,16 @@ export function MsgFromPrinci() {
               className="w-52 mx-auto md:w-96"
             />
           </div>
-          <div className="md:my-auto md:w-8/12 ml-10">
+          <div className="md:my-auto md:w-8/12 ml-0 md:ml-10">
             <p className="mt-5 text-lg writing">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-              praesentium accusamus molestiae omnis officia perferendis libero!
-              Nulla, eius, voluptatibus nesciunt doloribus pariatur
+              It gives me immense pleasure to congratulate you on choosing A. S.
+              College, Khanna for admission.
             </p>
             <p className="mt-5 text-lg writing">
-              At,Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Dolorem praesentium accusamus molestiae omnis officia perferendis
-              libero!
+              At A S College, our aim to provide the best possible environment
+              in which students can succeed and excel in all spheres of life.
+              Our campus has grown from its inception in 1946 to accommodate
+              over 3000 students.
             </p>
             <button className="tranform duration-200 my-2 mb-7 mt-3 transparent-btn text-xl px-5 py-2 font-medium hover:text-secondary2">
               Read More

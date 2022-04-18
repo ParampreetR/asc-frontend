@@ -1,6 +1,6 @@
 export function Notifications() {
   return (
-    <div className="notifications">
+    <div className="notifications hidden md:inline-block">
       <h2 className="text-3xl font-medium">Notifications</h2>
       <div className="flex flex-col text-2xl w-full mt-3">
         <span className="my-2">
