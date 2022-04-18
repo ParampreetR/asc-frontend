@@ -529,6 +529,7 @@ export function HamburgerMenu({ setIsNavOpen }) {
 
 export function NavBarHomePage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [optionActive, setOptionActive] = useState(0);
   return (
     <nav className="text-secondary pb-5 h-[68vw]">
       <div className="bg-primary ">
@@ -560,10 +561,9 @@ export function NavBarHomePage() {
       <span className="my-0 mx-0 absolute top-5 left-8">
         <HamburgerMenu setIsNavOpen={setIsNavOpen} />
       </span>
-
       <div
         className={
-          "fixed h-0 transform duration-200 top-0 left-0 z-50  " +
+          "fixed h-0 w-72 transform duration-200 top-0 left-0 z-50  " +
           (isNavOpen
             ? "h-screen opacity-100 pointer-events-auto"
             : "h-0 opacity-0 pointer-events-none")
@@ -582,26 +582,41 @@ export function NavBarHomePage() {
           </button>
           <div className="flex justify-center items-center h-screen text-black dark:text-white">
             <nav className="flex flex-col">
-              <ul>
+              <ul className="transform duration-200">
                 <li className="transform duration-75 text-center my-2">
                   {/* Navigation Button1  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 1
+                        ? setOptionActive(0)
+                        : setOptionActive(1)
+                    }
+                  >
                     <Link to="/courses">Courses</Link>
                   </button>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button2  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 2
+                        ? setOptionActive(0)
+                        : setOptionActive(2)
+                    }
+                  >
                     About Us
                   </button>
                   <ul
                     className={
-                      "text-xl  px-1 py-1 text-center w-[250px] left-1 transform duration-75 "
+                      "text-xl  px-1 py-1 text-center w-[250px] left-1 transform duration-75 " +
+                      (optionActive === 2 ? "inline-block" : "hidden")
                     }
                   >
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/vision"
                       >
                         Vision
@@ -609,7 +624,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/history"
                       >
                         History
@@ -617,7 +632,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/missiongoals"
                       >
                         Mission and Goals
@@ -625,19 +640,27 @@ export function NavBarHomePage() {
                     </li>
                   </ul>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button3  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 3
+                        ? setOptionActive(0)
+                        : setOptionActive(3)
+                    }
+                  >
                     Rules
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] left-1 transform duration-75 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] left-1 transform duration-75 " +
+                      (optionActive === 3 ? "inline-block" : "hidden")
                     }
                   >
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/codeofconduct"
                       >
                         Code of Conduct
@@ -645,7 +668,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/generalrules"
                       >
                         General Rules
@@ -653,7 +676,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/adimissionrules"
                       >
                         Adimission Rules
@@ -661,7 +684,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/uniformrules"
                       >
                         Uniform Rules
@@ -669,7 +692,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
-                        className="w-full py-2 inline-block text-black dark:text-white"
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/leaverules"
                       >
                         Leave Rules
@@ -678,14 +701,22 @@ export function NavBarHomePage() {
                     <li>Library Rules</li>
                   </ul>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button4  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 4
+                        ? setOptionActive(0)
+                        : setOptionActive(4)
+                    }
+                  >
                     Activites
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] left-1 transform duration-75 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] left-1 transform duration-75 " +
+                      (optionActive === 4 ? "inline-block" : "hidden")
                     }
                   >
                     <li>NSS</li>
@@ -694,14 +725,22 @@ export function NavBarHomePage() {
                   </ul>
                 </li>
 
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button5  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 5
+                        ? setOptionActive(0)
+                        : setOptionActive(5)
+                    }
+                  >
                     Administration
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] right-1 transform duration-75 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] right-1 transform duration-75 " +
+                      (optionActive === 5 ? "inline-block" : "hidden")
                     }
                   >
                     <li>Principal</li>
@@ -709,14 +748,22 @@ export function NavBarHomePage() {
                     <li>Collage Committees</li>
                   </ul>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button6  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 6
+                        ? setOptionActive(0)
+                        : setOptionActive(6)
+                    }
+                  >
                     Infrastructure
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] right-1 transform duration-75 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] right-1 transform duration-75 " +
+                      (optionActive === 6 ? "inline-block" : "hidden")
                     }
                   >
                     <li>Library</li>
@@ -728,14 +775,22 @@ export function NavBarHomePage() {
                     <li>UGC Resourse Center</li>
                   </ul>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button7  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 7
+                        ? setOptionActive(0)
+                        : setOptionActive(7)
+                    }
+                  >
                     Downloads
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] right-1 transform duration-75 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] right-1 transform duration-75 " +
+                      (optionActive === 7 ? "inline-block" : "hidden")
                     }
                   >
                     <li>Time table</li>
@@ -743,14 +798,22 @@ export function NavBarHomePage() {
                     <li>Download 3</li>
                   </ul>
                 </li>
-                <li className="transform duration-75 text-center my-2">
+                <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button8  */}
-                  <button className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl">
+                  <button
+                    className="nav-btn font-semibold px-5 py-1.5 mx-1.5 transform duration-75  hover:text-primary text-2xl"
+                    onClick={() =>
+                      optionActive === 8
+                        ? setOptionActive(0)
+                        : setOptionActive(8)
+                    }
+                  >
                     Others
                   </button>
                   <ul
                     className={
-                      "hidden bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 "
+                      "text-xl bg-secondary dark:bg-transparent shadow-2xl text-black dark:text-white px-1 py-1 text-center w-[250px] right-1 transform duration-200 " +
+                      (optionActive === 8 ? "inline-block" : "hidden")
                     }
                   >
                     <li>UGC</li>
