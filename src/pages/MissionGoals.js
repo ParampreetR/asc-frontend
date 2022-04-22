@@ -6,7 +6,7 @@ export function MissionGoals() {
           Mission and Goals
         </h1>
 
-        <p className="text-md md:text-lg text-center text-primary italic my-8 quote dark:text-[#FE6D73]">
+        <p className="text-md md:text-lg text-center text-[#2b2b38] dark:text-[#c6c6dd] italic my-8 quote">
           The institution is committed to impart liberal holistic education to
           all sections of the society, particularly the rural and deprived ones,
           for shaping a sterling character and scintilltting career imbibed with

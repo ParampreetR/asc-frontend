@@ -4,9 +4,7 @@ import { Notifications } from "./Notifications";
 import "./NavBar.css";
 import { useEffect, useState } from "react";
 
-function NavButtons() {
-  const [activeBtn, setActiveBtn] = useState(0);
-
+function NavButtons({ setActiveBtn, activeBtn }) {
   const closeAllDropdown = (e) => {
     if (!e.target.classList.contains("nav-btn")) setActiveBtn(0);
   };
@@ -30,7 +28,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 2 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 2 ? setActiveBtn(0) : setActiveBtn(2);
           }}
@@ -74,7 +75,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button3  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 3 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 3 ? setActiveBtn(0) : setActiveBtn(3);
           }}
@@ -135,7 +139,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button4  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 4 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 4 ? setActiveBtn(0) : setActiveBtn(4);
           }}
@@ -159,7 +166,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button5  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 5 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 5 ? setActiveBtn(0) : setActiveBtn(5);
           }}
@@ -182,7 +192,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button6  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 6 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 6 ? setActiveBtn(0) : setActiveBtn(6);
           }}
@@ -209,7 +222,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button7  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 7 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 7 ? setActiveBtn(0) : setActiveBtn(7);
           }}
@@ -232,7 +248,10 @@ function NavButtons() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button8  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 8 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 8 ? setActiveBtn(0) : setActiveBtn(8);
           }}
@@ -259,9 +278,7 @@ function NavButtons() {
   );
 }
 
-function NavButtonsMini() {
-  const [activeBtn, setActiveBtn] = useState(0);
-
+function NavButtonsMini({ setActiveBtn, activeBtn }) {
   const closeAllDropdown = (e) => {
     if (!e.target.classList.contains("nav-btn")) setActiveBtn(0);
   };
@@ -285,7 +302,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 2 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 2 ? setActiveBtn(0) : setActiveBtn(2);
           }}
@@ -329,7 +349,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button3  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 3 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 3 ? setActiveBtn(0) : setActiveBtn(3);
           }}
@@ -390,7 +413,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button4  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 4 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 4 ? setActiveBtn(0) : setActiveBtn(4);
           }}
@@ -414,7 +440,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button5  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 5 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 5 ? setActiveBtn(0) : setActiveBtn(5);
           }}
@@ -437,7 +466,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button6  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 6 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 6 ? setActiveBtn(0) : setActiveBtn(6);
           }}
@@ -464,7 +496,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button7  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 7 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 7 ? setActiveBtn(0) : setActiveBtn(7);
           }}
@@ -487,7 +522,10 @@ function NavButtonsMini() {
       <li className="transform duration-200 text-center">
         {/* Navigation Button8  */}
         <button
-          className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg"
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 8 ? "text-primary" : "")
+          }
           onClick={() => {
             activeBtn === 8 ? setActiveBtn(0) : setActiveBtn(8);
           }}
@@ -518,10 +556,10 @@ export function HamburgerMenu({ setIsNavOpen }) {
   return (
     <div className="inline-block xl:hidden">
       <button
-        className="border-2 border-[#ffffffb6] hover:shadow-none bg-[#ffffff96] p-1 rounded-sm relative z-50 "
+        className="border-2 border-[#ffffffb6] hover:shadow-none bg-[#ffffff96] p-1 rounded-sm relative z-30 "
         onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
       >
-        <img src="/Icons/menu.png" className="w-5 contrast-0" />
+        <img src="/Icons/menu.png" className="w-5 lg:w-6 contrast-0" />
       </button>
     </div>
   );
@@ -530,6 +568,7 @@ export function HamburgerMenu({ setIsNavOpen }) {
 export function NavBarHomePage() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [optionActive, setOptionActive] = useState(0);
+
   return (
     <nav className="text-secondary pb-5 h-[68vw]">
       <div className="bg-primary ">
@@ -553,17 +592,20 @@ export function NavBarHomePage() {
                 <div className="text-center ">Tag Line</div>
               </Link>
             </span>
-            <NavButtons />
+            <NavButtons
+              activeBtn={optionActive}
+              setActiveBtn={setOptionActive}
+            />
           </div>
           <Notifications />
         </div>
       </div>
-      <span className="my-0 mx-0 absolute top-5 left-8">
+      <span className="my-0 mx-0 absolute top-5 md:top-8 left-8">
         <HamburgerMenu setIsNavOpen={setIsNavOpen} />
       </span>
       <div
         className={
-          "fixed h-0 w-72 transform duration-200 top-0 left-0 z-50  " +
+          "fixed h-0 w-72 transform duration-200 top-0 left-0 z-40  " +
           (isNavOpen
             ? "h-screen opacity-100 pointer-events-auto"
             : "h-0 opacity-0 pointer-events-none")
@@ -571,7 +613,7 @@ export function NavBarHomePage() {
       >
         <div className="bg-secondary dark:bg-black opacity-95 backdrop-blur-xl">
           <button
-            className="right-8 top-4 absolute text-black dark:text-white hover:shadow-none"
+            className="right-8 top-6 absolute text-black dark:text-white hover:shadow-none z-50"
             onClick={() => setIsNavOpen(!isNavOpen)}
           >
             <img
@@ -593,7 +635,9 @@ export function NavBarHomePage() {
                         : setOptionActive(1)
                     }
                   >
-                    <Link to="/courses">Courses</Link>
+                    <Link onClick={() => setIsNavOpen(false)} to="/courses">
+                      Courses
+                    </Link>
                   </button>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
@@ -616,6 +660,7 @@ export function NavBarHomePage() {
                   >
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/vision"
                       >
@@ -624,6 +669,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/history"
                       >
@@ -632,6 +678,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/missiongoals"
                       >
@@ -660,6 +707,7 @@ export function NavBarHomePage() {
                   >
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/codeofconduct"
                       >
@@ -668,6 +716,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/generalrules"
                       >
@@ -676,6 +725,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/adimissionrules"
                       >
@@ -684,6 +734,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/uniformrules"
                       >
@@ -692,6 +743,7 @@ export function NavBarHomePage() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/leaverules"
                       >
@@ -838,8 +890,8 @@ export function NavBar() {
   const [optionActive, setOptionActive] = useState(0);
   window.onscroll = async () => {
     if (
-      document.body.scrollTop > 100 ||
-      document.documentElement.scrollTop > 100
+      document.body.scrollTop > 250 ||
+      document.documentElement.scrollTop > 250
     ) {
       document
         .getElementsByClassName("navbar-scroll")[0]
@@ -894,7 +946,10 @@ export function NavBar() {
                 <div className="text-center ">Tag Line</div>
               </Link>
             </span>
-            <NavButtons />
+            <NavButtons
+              activeBtn={optionActive}
+              setActiveBtn={setOptionActive}
+            />
           </div>
         </div>
       </div>
@@ -910,7 +965,10 @@ export function NavBar() {
               <HamburgerMenu setIsNavOpen={setIsNavOpen} />
             </span>
 
-            <NavButtonsMini />
+            <NavButtonsMini
+              activeBtn={optionActive}
+              setActiveBtn={setOptionActive}
+            />
           </div>
         </div>
       </div>
@@ -925,7 +983,7 @@ export function NavBar() {
       >
         <div className="bg-secondary dark:bg-black opacity-95 backdrop-blur-xl">
           <button
-            className="right-8 top-4 absolute text-black dark:text-white hover:shadow-none"
+            className="right-8 top-4 absolute text-black dark:text-white hover:shadow-none z-50"
             onClick={() => setIsNavOpen(!isNavOpen)}
           >
             <img
@@ -947,7 +1005,9 @@ export function NavBar() {
                         : setOptionActive(1)
                     }
                   >
-                    <Link to="/courses">Courses</Link>
+                    <Link onClick={() => setIsNavOpen(false)} to="/courses">
+                      Courses
+                    </Link>
                   </button>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
@@ -970,6 +1030,7 @@ export function NavBar() {
                   >
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/vision"
                       >
@@ -978,6 +1039,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/history"
                       >
@@ -986,6 +1048,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/missiongoals"
                       >
@@ -1014,6 +1077,7 @@ export function NavBar() {
                   >
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/codeofconduct"
                       >
@@ -1022,6 +1086,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/generalrules"
                       >
@@ -1030,6 +1095,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/adimissionrules"
                       >
@@ -1038,6 +1104,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/uniformrules"
                       >
@@ -1046,6 +1113,7 @@ export function NavBar() {
                     </li>
                     <li>
                       <Link
+                        onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/leaverules"
                       >

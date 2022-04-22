@@ -3,7 +3,7 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked + label {
   transform: rotate(360deg);
-  background-color: #171717;
+  background-color: #1717174b;
 }
 input[type="checkbox"]:checked + label:before {
   transform: translateX(45px);
@@ -19,7 +19,7 @@ label {
   position: relative;
   transition: transform 0.75s ease-in-out;
   transform-origin: 20% 80%;
-  background-color: white;
+  background-color: #ffffff4b;
   cursor: pointer;
   border-color: #104c62;
 }
