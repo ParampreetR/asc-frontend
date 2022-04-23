@@ -8,7 +8,7 @@ export function UniformRules() {
         <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium">
           For all girls of B.A, B.Sc, M.A, M.Sc
         </h2>
-        <p class="max-w-4xl text-lg mt-2 dark:text-white">
+        <p class="text-lg mt-2 dark:text-white">
           The College has prescribed for girls white shirt, white salwar, white
           doppatta, for summer and winter; and maroon cardigan (in winter only)
           as the College uniform. The wearing of it shall be compulsary on all
