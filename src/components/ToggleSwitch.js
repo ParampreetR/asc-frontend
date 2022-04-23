@@ -13,7 +13,7 @@ export function ToggleSwitch({ name, onChecked, onUnchecked, isChecked }) {
         }}
         defaultChecked={isChecked}
       />
-      <label for="toggle"></label>
+      <label htmlFor="toggle"></label>
     </span>
   );
 }

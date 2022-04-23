@@ -133,7 +133,14 @@ function NavButtons({ setActiveBtn, activeBtn }) {
               Leave Rules
             </Link>
           </li>
-          <li>Library Rules</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/libraryrules"
+            >
+              Library Rules
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -407,7 +414,14 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               Leave Rules
             </Link>
           </li>
-          <li>Library Rules</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/libraryrules"
+            >
+              Library Rules
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -581,7 +595,7 @@ export function NavBarHomePage() {
 
       <ImageSlider />
 
-      <div className="image-overlay bg-gradient-to-b from-primary via-transparent to-primary2 dark:from-primary_dark dark:to-primary2_dark dark:via-transparent border-b-2 border-[#FE6D73]">
+      <div className="image-overlay  border-b-2 border-[#FE6D73]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="inline mx-auto xl:m-1">
@@ -750,7 +764,15 @@ export function NavBarHomePage() {
                         Leave Rules
                       </Link>
                     </li>
-                    <li>Library Rules</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/libraryrules"
+                      >
+                        Library Rules
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
@@ -1120,7 +1142,15 @@ export function NavBar() {
                         Leave Rules
                       </Link>
                     </li>
-                    <li>Library Rules</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/libraryrules"
+                      >
+                        Library Rules
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">

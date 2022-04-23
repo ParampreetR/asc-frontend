@@ -16,6 +16,7 @@ import "plyr-react/dist/plyr.css";
 import { MissionGoals } from "./pages/MissionGoals";
 import { History } from "./pages/History";
 import { GeneralRules } from "./pages/GeneralRules";
+import { LibraryRules } from "./pages/LibraryRules";
 import { UniformRules } from "./pages/UniformRules";
 import { LeaveRules } from "./pages/LeaveRules";
 import { AdmissionRules } from "./pages/AdmissionRules";
@@ -102,6 +103,7 @@ function App() {
           <Route path="generalrules" element={<GeneralRules />} />
           <Route path="uniformrules" element={<UniformRules />} />
           <Route path="leaverules" element={<LeaveRules />} />
+          <Route path="libraryrules" element={<LibraryRules />} />
           <Route path="admissionrules" element={<AdmissionRules />} />
           <Route path="/" element={<Homepage />} loading />
         </Routes>
