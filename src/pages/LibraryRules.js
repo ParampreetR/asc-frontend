@@ -20,7 +20,7 @@ export function LibraryRules() {
           Library Timings
         </h2>
         <p className="dark:text-white text-lg">
-          Monday to Saturday: 8:45 a.m. to 4 p.m.
+          Monday to Saturday: 8:45 AM to 4 PM
         </p>
         <h2 class="text-xl md:text-2xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium font-italic">
           The Library has been divided into different sections for its smooth
@@ -91,13 +91,13 @@ export function LibraryRules() {
             the use of library including location of material, use of computers
             to access information and the use of basic reference sources.
             Providing brief, factual answer to questions such as statistics,
-            address etc. that can be quickly located. Assistance in identifying
+            address etc that can be quickly located. Assistance in identifying
             library material needed to answer a question.
           </p>
 
           <li className="font-bold mt-2">Internet Facility</li>
           <p class="text-lg">
-            U.G.C. NETWORK Resource Centre establishedin the Library.Eight
+            U.G.C. NETWORK Resource Centre establishedin the Library. Eight
             Computer Terminals have been placed for users for accessing
             Internet. However, only educational sites are allowed for surfing.
           </p>
@@ -112,12 +112,12 @@ export function LibraryRules() {
             everything that every possible user may wish to access at one time.
             For the purpose of fulfilling the requirements of our reader we have
             provide membership of Panjab University Extension Library, Ludhiana
-            and A. C. Joshi Library, Panjab University, Chandigarh.
+            and A.C. Joshi Library, Panjab University, Chandigarh.
           </p>
           <li className="font-bold mt-2">E Resources</li>
           <p class="text-lg">
             To provide access to e-resources to students and faculty members of
-            college, library also subscribedN-List Programme of INFLIBNET,
+            college, library also subscribed N-List Programme of INFLIBNET,
             Gandhinagar. Under this more than 6000+ e-journals and 97300+ books
             are available to the users of library.
           </p>
