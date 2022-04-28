@@ -1,9 +1,11 @@
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+:root {
+  --swiper-navigation-color: #ffffff;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+.swiper-wrapper {
+  @apply -z-0;
+}
+
+.swiper {
+  @apply -z-0;
 }
