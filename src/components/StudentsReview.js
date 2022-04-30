@@ -27,7 +27,7 @@ function IndivStudent() {
 
 export function StudentReview() {
   return (
-    <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] border-t-[#FE6D73]">
+    <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] border-t-[#FE6D73] cursor-pointer">
       <h1 className="pt-5 text-center font-semibold text-4xl mb-2">
         Our Students
       </h1>

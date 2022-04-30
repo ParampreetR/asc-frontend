@@ -20,9 +20,10 @@ import { LibraryRules } from "./pages/LibraryRules";
 import { UniformRules } from "./pages/UniformRules";
 import { LeaveRules } from "./pages/LeaveRules";
 import { AdmissionRules } from "./pages/AdmissionRules";
-import { useEffect } from "react";
-import { ToggleSwitch } from "./components/ToggleSwitch";
 import { ThemeSwitcher } from "./components/ThemeSwitcher";
+import { Principal } from "./pages/Principal";
+import { CollegeCommittees } from "./pages/CollegeCommittees";
+import { Management } from "./pages/Management";
 
 config({
   barColors: {
@@ -105,6 +106,10 @@ function App() {
           <Route path="leaverules" element={<LeaveRules />} />
           <Route path="libraryrules" element={<LibraryRules />} />
           <Route path="admissionrules" element={<AdmissionRules />} />
+          <Route path="principal" element={<Principal />} />
+          <Route path="collegecommittees" element={<CollegeCommittees />} />
+          <Route path="management" element={<Management />} />
+
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>

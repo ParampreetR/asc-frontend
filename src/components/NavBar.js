@@ -191,9 +191,30 @@ function NavButtons({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>Principal</li>
-          <li>Management</li>
-          <li>Collage Committees</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/principal"
+            >
+              Principal
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/management"
+            >
+              Management
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/collegecommittees"
+            >
+              College Committees
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -472,9 +493,30 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>Principal</li>
-          <li>Management</li>
-          <li>Collage Committees</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/principal"
+            >
+              Principal
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/management"
+            >
+              Management
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/collegecommittees"
+            >
+              College Committees
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -817,9 +859,33 @@ export function NavBarHomePage() {
                       (optionActive === 5 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>Principal</li>
-                    <li>Management</li>
-                    <li>Collage Committees</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/principal"
+                      >
+                        Principal
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/management"
+                      >
+                        Management
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/collegecommittees"
+                      >
+                        College Committees
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
@@ -1195,9 +1261,33 @@ export function NavBar() {
                       (optionActive === 5 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>Principal</li>
-                    <li>Management</li>
-                    <li>Collage Committees</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/principal"
+                      >
+                        Principal
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/management"
+                      >
+                        Management
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/collegecomittees"
+                      >
+                        College Committees
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
