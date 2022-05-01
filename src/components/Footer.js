@@ -124,16 +124,16 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full bg-gray-900 text-gray-500 px-20">
+      <div className="w-full bg-gray-900 text-gray-400 px-20">
         <div>
           <div className="text-center">
-            <div className="flex flex-row justify-evenly">
+            <div className="flex flex-row justify-evenly hover:text-blue-400">
               <span>
-                <span>Phone</span>
+                <span>Phone: </span>
                 091-01628-228470
               </span>
               <span>
-                <span>Email</span>
+                <span>Email: </span>
                 asckhn@rediffmail.com
               </span>
             </div>
