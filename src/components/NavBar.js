@@ -112,9 +112,9 @@ function NavButtons({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/adimissionrules"
+              to="/admissionrules"
             >
-              Adimission Rules
+              Admission Rules
             </Link>
           </li>
           <li>
@@ -414,9 +414,9 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/adimissionrules"
+              to="/admissionrules"
             >
-              Adimission Rules
+              Admission Rules
             </Link>
           </li>
           <li>
@@ -783,9 +783,9 @@ export function NavBarHomePage() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/adimissionrules"
+                        to="/admissionrules"
                       >
-                        Adimission Rules
+                        Admission Rules
                       </Link>
                     </li>
                     <li>
@@ -1185,9 +1185,9 @@ export function NavBar() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/adimissionrules"
+                        to="/admissionrules"
                       >
-                        Adimission Rules
+                        Admission Rules
                       </Link>
                     </li>
                     <li>
