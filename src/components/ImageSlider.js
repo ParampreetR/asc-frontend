@@ -17,7 +17,7 @@ export function ImageSlider() {
         width={"100vw"}
         height={"66vw"}
         images={images}
-        showNavs={false}
+        showNavs={true}
         autoPlay={true}
         bgColor={"transparent"}
       />

@@ -121,3 +121,8 @@ button:hover {
 .quote {
   font-family: "Amiri", serif;
 }
+
+.bg-image > div > div > button {
+  z-index: 3;
+
+}
