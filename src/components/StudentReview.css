@@ -3,9 +3,9 @@
 }
 
 .swiper-wrapper {
-  @apply -z-0;
+  @apply -z-0 !important;
 }
 
 .swiper {
-  @apply -z-0;
+  @apply -z-0 !important;
 }
