@@ -637,7 +637,7 @@ export function NavBarHomePage() {
 
       <ImageSlider />
 
-      <div className="image-overlay  border-b-2 border-[#FE6D73]">
+      <div className="image-overlay  border-b-2 border-[#FE6D73] dark:border-[#910107]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="inline mx-auto xl:m-1">
@@ -1020,7 +1020,7 @@ export function NavBar() {
 
   return (
     <nav className="text-black  h-24 navbar">
-      <div className="border-b-2 border-[#FE6D73] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white backdrop-blur-lg h-24 top-0 shadow-medium w-screen transform duration-200">
+      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white backdrop-blur-lg h-24 top-0 shadow-medium w-screen transform duration-200">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="my-2 mx-2 absolute">
@@ -1041,7 +1041,7 @@ export function NavBar() {
           </div>
         </div>
       </div>
-      <div className="border-b-2 border-[#FE6D73] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white fixed backdrop-blur-lg opacity-0 -top-10 shadow-medium w-screen navbar-scroll transform duration-200 hidden">
+      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white fixed backdrop-blur-lg opacity-0 -top-10 shadow-medium w-screen navbar-scroll transform duration-200 hidden">
         <div className="mx-auto max-w-[1440px] h-16">
           <div className="flex flex-row justify-between px-5 py-2 mt-2 xl:mt-0">
             <Link to="/" className="xl:hidden m-auto xl:m-0">
