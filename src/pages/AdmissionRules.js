@@ -2,14 +2,10 @@ export function AdmissionRules() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#303030] dark:text-white ">
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
           Admission Rules
         </h1>
-        <ol
-          className="list-disc text-xl text-white my-5 bg-gradient-to-b
-          from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark
-          rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16"
-        >
+        <ul className="list-disc text-md md:text-lg text-white my-5 bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li className="mt-4">
             Failed/Compartment students from other institutions will not
             ordinarily be admitted.
@@ -46,11 +42,7 @@ export function AdmissionRules() {
             becomes eligible for the supplementary examination, he/she shall be
             eligible to seek admission to the next higher class within 10
             working days of declaration of his/her result :-
-            <ul
-              className="list-decimal text-xl text-[#303030] dark:text-white my-5 bg-gradient-to-b
-            from-secondary to-primary2 dark:from-primary_dark dark:to-primary2_dark
-            rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16"
-            >
+            <ul className="list-decimal text-md md:text-lg text-white bg-transparent rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
               <li className="mt-4">
                 One attested copy of the University/Board certificate of the
                 Examination passed.
@@ -74,37 +66,33 @@ export function AdmissionRules() {
           <li className="mt-4">
             Students coming from Foreign countries must supply particulars of
             their passport, long term students Visa from Home Ministry and
-            Eligibility Certificate from the Punjab University.{" "}
+            Eligibility Certificate from the Punjab University.
           </li>
           <li className="mt-4">
             Admission to all classes is subject to the approval of Punjab
-            University/P.S.E.B.{" "}
+            University/P.S.E.B.
           </li>
           <li className=" mt-4">
-            Fine for absence without leave is :-
-            <ul
-              className="list-decimal text-xl text-[#303030] dark:text-white my-5 bg-gradient-to-b
-            from-secondary to-primary2 dark:from-primary_dark dark:to-primary2_dark
-            rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16"
-            >
-              <li className="mt-4">For one period 50paisa</li>
-              <li className="mt-4">For one Practical Rs.1.</li>
-              <li className="mt-4">For one Period composition Rs.1.</li>
-              <li className="mt-4">For one Tutorial Rs.1.</li>
+            Fine for absence without leave is
+            <ul className="list-decimal text-md md:text-lg text-white bg-transparent rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
+              <li className="mt-4">For one period 50 paisa</li>
+              <li className="mt-4">For one Practical Rs 1</li>
+              <li className="mt-4">For one Period composition Rs 1</li>
+              <li className="mt-4">For one Tutorial Rs 1</li>
             </ul>
           </li>
           <li className="mt-4">
             The name of a student who absents himself/herself for continuous
             period of seven days, without leave, shall be struck off the college
             rolls. He/She can seek re-admission after paying the arrears,
-            re-admission fee and re-registration fee etc.{" "}
+            re-admission fee and re-registration fee etc.
           </li>
           <li className="mt-4">
             In case of any contradiction in the rules given in the prospectus
             with the University/Board rules, the latter shall have the
             over-riding effect.
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   );
