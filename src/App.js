@@ -24,6 +24,13 @@ import { ThemeSwitcher } from "./components/ThemeSwitcher";
 import { Principal } from "./pages/Principal";
 import { CollegeCommittees } from "./pages/CollegeCommittees";
 import { Management } from "./pages/Management";
+import { Library } from "./pages/Library";
+import { Canteen } from "./pages/Canteen";
+import { Auditorium } from "./pages/Auditorium";
+import { SeminarHall } from "./pages/SeminarHall";
+import { Stadium } from "./pages/Stadium";
+import { Gymnasium } from "./pages/Gymnasium";
+import { UGCResources } from "./pages/UGCResourseCenter";
 
 config({
   barColors: {
@@ -109,6 +116,13 @@ function App() {
           <Route path="principal" element={<Principal />} />
           <Route path="collegecommittees" element={<CollegeCommittees />} />
           <Route path="management" element={<Management />} />
+          <Route path="library" element={<Library />} />
+          <Route path="canteen" element={<Canteen />} />
+          <Route path="auditorium" element={<Auditorium />} />
+          <Route path="seminarhall" element={<SeminarHall />} />
+          <Route path="stadium" element={<Stadium />} />
+          <Route path="gymnasium" element={<Gymnasium />} />
+          <Route path="ugcresoursecenter" element={<UGCResources />} />
 
           <Route path="/" element={<Homepage />} loading />
         </Routes>

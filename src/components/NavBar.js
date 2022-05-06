@@ -238,13 +238,62 @@ function NavButtons({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>Library</li>
-          <li>Canteen</li>
-          <li>Auditorium</li>
-          <li>Seminar Hall</li>
-          <li>Stadium</li>
-          <li>Gymnasium</li>
-          <li>UGC Resourse Center</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/library"
+            >
+              Library
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/canteen"
+            >
+              Canteen
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/auditorium"
+            >
+              Auditorium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/seminarhall"
+            >
+              Seminar Hall
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/stadium"
+            >
+              Stadium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/gymnasium"
+            >
+              Gymnasium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ugcresourcecenter"
+            >
+              UGC Resourse Center
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -540,13 +589,62 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>Library</li>
-          <li>Canteen</li>
-          <li>Auditorium</li>
-          <li>Seminar Hall</li>
-          <li>Stadium</li>
-          <li>Gymnasium</li>
-          <li>UGC Resourse Center</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/library"
+            >
+              Library
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/canteen"
+            >
+              Canteen
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/auditorium"
+            >
+              Auditorium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/seminarhall"
+            >
+              Seminar Hall
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/stadium"
+            >
+              Stadium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/gymnasium"
+            >
+              Gymnasium
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ugcresoursecenter"
+            >
+              UGC Resourse Center
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="transform duration-200 text-center">
@@ -906,13 +1004,69 @@ export function NavBarHomePage() {
                       (optionActive === 6 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>Library</li>
-                    <li>Canteen</li>
-                    <li>Auditorium</li>
-                    <li>Seminar Hall</li>
-                    <li>Stadium</li>
-                    <li>Gymnasium</li>
-                    <li>UGC Resourse Center</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/library"
+                      >
+                        Library
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/canteen"
+                      >
+                        Canteen
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/auditorium"
+                      >
+                        Auditorium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/seminarhall"
+                      >
+                        Seminar Hall
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/stadium"
+                      >
+                        Stadium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/gymnasium"
+                      >
+                        Gymnasium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ugcresoursecenter"
+                      >
+                        UGC Resourse Center
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
@@ -1308,13 +1462,69 @@ export function NavBar() {
                       (optionActive === 6 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>Library</li>
-                    <li>Canteen</li>
-                    <li>Auditorium</li>
-                    <li>Seminar Hall</li>
-                    <li>Stadium</li>
-                    <li>Gymnasium</li>
-                    <li>UGC Resourse Center</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/library"
+                      >
+                        Library
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/canteen"
+                      >
+                        Canteen
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/auditorium"
+                      >
+                        Auditorium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/seminarhall"
+                      >
+                        Seminar Hall
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/stadium"
+                      >
+                        Stadium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/gymnasium"
+                      >
+                        Gymnasium
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ugcresoursecenter"
+                      >
+                        UGC Resourse Center
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
