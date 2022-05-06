@@ -124,5 +124,28 @@ button:hover {
 
 .bg-image > div > div > button {
   z-index: 3;
+}
 
+.gradient-animate {
+  background: linear-gradient(0deg, #227c9d, #0d3d4e, #1e6a86, #115066);
+  background-size: 800% 800%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 10%;
+  }
+  30% {
+    background-position: 40% 20%;
+  }
+  50% {
+    background-position: 70% 20%;
+  }
+  80% {
+    background-position: 30% 70%;
+  }
+  100% {
+    background-position: 0% 10%;
+  }
 }
