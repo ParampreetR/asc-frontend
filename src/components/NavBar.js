@@ -49,14 +49,6 @@ function NavButtons({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/vision"
-            >
-              Vision
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
               to="/history"
             >
               History
@@ -397,14 +389,6 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/vision"
-            >
-              Vision
-            </Link>
-          </li>
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
@@ -812,15 +796,6 @@ export function NavBarHomePage() {
                       (optionActive === 2 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/vision"
-                      >
-                        Vision
-                      </Link>
-                    </li>
                     <li>
                       <Link
                         onClick={() => setIsNavOpen(false)}
@@ -1270,15 +1245,6 @@ export function NavBar() {
                       (optionActive === 2 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/vision"
-                      >
-                        Vision
-                      </Link>
-                    </li>
                     <li>
                       <Link
                         onClick={() => setIsNavOpen(false)}
