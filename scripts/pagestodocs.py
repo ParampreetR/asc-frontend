@@ -6,7 +6,7 @@ import os
 def process_file(content, f_name: str):
     if f_name.endswith(".js"):
         output = "# " + f_name.replace(".js", "")
-        with open("../docs/script_outputs/" + f_name.replace(".js", "") + ".md", "w") as f:
+        with open("../docs/script_outputs/pages/" + f_name.replace(".js", "") + ".md", "w") as f:
             output += "\n\n```jsx\n" + "".join(content) + "\n```"
             f.write(output)
 

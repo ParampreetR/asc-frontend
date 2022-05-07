@@ -178,4 +178,5 @@ export function CodeofConduct() {
     </div>
   );
 }
+
 ```
