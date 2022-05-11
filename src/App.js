@@ -123,7 +123,6 @@ function App() {
           <Route path="stadium" element={<Stadium />} />
           <Route path="gymnasium" element={<Gymnasium />} />
           <Route path="ugcresoursecenter" element={<UGCResources />} />
-
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>
