@@ -624,7 +624,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/ugcresoursecenter"
+              to="/ugcresourcecenter"
             >
               UGC Resourse Center
             </Link>
@@ -1037,7 +1037,7 @@ export function NavBarHomePage() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/ugcresoursecenter"
+                        to="/ugcresourcecenter"
                       >
                         UGC Resourse Center
                       </Link>
@@ -1486,7 +1486,7 @@ export function NavBar() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/ugcresoursecenter"
+                        to="/ugcresourcecenter"
                       >
                         UGC Resourse Center
                       </Link>
