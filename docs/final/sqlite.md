@@ -1,5 +1,7 @@
 # SQLite
 
+![sqlite](../images/sqlite.png)
+
 SQLite, in a nutshell, is a database with limited capabilities when compared to more sophisticated databases. SQLite, on the other hand, does not require any additional setup or software. It is highly dependent on the file system. To put it another way, all data is saved on a disc as a file. These files are very small in size and can easily be copied and backed up.
 
 As of now, Our website don't use database that heavily. So this is the most appropriate choice among many alternatives.
