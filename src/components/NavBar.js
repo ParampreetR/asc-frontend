@@ -175,7 +175,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/culturalactivities"
+              to="/culturalactivites"
             >
               Cultural Activities
             </Link>
@@ -972,7 +972,7 @@ export function NavBarHomePage() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/culturalactivities"
+                        to="/culturalactivites"
                       >
                         Cultural Activities
                       </Link>
