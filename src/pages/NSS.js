@@ -18,8 +18,10 @@ export function NSS() {
           <li>Organisation of College functions etc</li>
         </ul>
 
-        <p className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">
-          <h2>Join NCC</h2>
+        <p className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] shadow-xl bg-secondary2 dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">
+          <h2 className="text-2xl md:text-3xl md:mb-2 text-[#141E27] dark:text-[#dfdfdf] font-bold text-center">
+            Join NCC
+          </h2>
           <h4>Dear Students,</h4>
           <p>
             This is to inform you that the Registration as NSS volunteer is open
@@ -44,7 +46,7 @@ export function NSS() {
             <li>
               The Registration link is open from 24-08-2021 to 30-09-2022. 6.
               Volunteers will abide by all the rules and regulations of the
-              college and Punjab University,Chandigarh
+              college and Punjab University, Chandigarh
             </li>
           </ul>
           <a
@@ -56,7 +58,7 @@ export function NSS() {
           <p>For Further details</p>
           Contact
           <br />
-          Programme officers ( Boys Unit )
+          Programme officers (Boys Unit)
           <br />
           Pr. Gagandeep Sethi
           <br />
