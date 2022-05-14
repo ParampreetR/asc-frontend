@@ -38,6 +38,11 @@ export function Gymnasium() {
           equipped with modern fitness and exercise Machines
         </p>
         <img
+          src="./gym1.jpeg"
+          alt=""
+          className=" mt-5 m-auto w-[50vw] max-w-[1080px]"
+        />
+        <img
           src="./gym2.jpg"
           alt=""
           className=" mt-5 m-auto w-[50vw] max-w-[720px]"
