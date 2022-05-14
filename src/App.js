@@ -31,6 +31,9 @@ import { SeminarHall } from "./pages/SeminarHall";
 import { Stadium } from "./pages/Stadium";
 import { Gymnasium } from "./pages/Gymnasium";
 import { UGCResources } from "./pages/UGCResourseCenter";
+import { NSS } from "./pages/NSS";
+import { NCC } from "./pages/NCC";
+import { CulturalActivites } from "./pages/CulturalActivities";
 
 config({
   barColors: {
@@ -123,6 +126,10 @@ function App() {
           <Route path="stadium" element={<Stadium />} />
           <Route path="gymnasium" element={<Gymnasium />} />
           <Route path="ugcresourcecenter" element={<UGCResources />} />
+          <Route path="nss" element={<NSS />} />
+          <Route path="ncc" element={<NCC />} />
+          <Route path="culturalactivites" element={<CulturalActivites />} />
+
           <Route path="/" element={<Homepage />} loading />
         </Routes>
       </main>
