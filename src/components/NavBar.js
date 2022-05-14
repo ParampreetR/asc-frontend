@@ -156,9 +156,30 @@ function NavButtons({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>NSS</li>
-          <li>NCC</li>
-          <li>Cultural Activities</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/nss"
+            >
+              NSS
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ncc"
+            >
+              NCC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/culturalactivities"
+            >
+              Cultural Activities
+            </Link>
+          </li>
         </ul>
       </li>
 
@@ -499,9 +520,30 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>NSS</li>
-          <li>NCC</li>
-          <li>Cultural Activities</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/nss"
+            >
+              NSS
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ncc"
+            >
+              NCC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/Cultural Activities"
+            >
+              culturalactivities
+            </Link>
+          </li>
         </ul>
       </li>
 
@@ -908,9 +950,33 @@ export function NavBarHomePage() {
                       (optionActive === 4 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>NSS</li>
-                    <li>NCC</li>
-                    <li>Cultural Activities</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/nss"
+                      >
+                        NSS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ncc"
+                      >
+                        NCC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/culturalactivities"
+                      >
+                        Cultural Activities
+                      </Link>
+                    </li>
                   </ul>
                 </li>
 
@@ -1357,9 +1423,33 @@ export function NavBar() {
                       (optionActive === 4 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>NSS</li>
-                    <li>NCC</li>
-                    <li>Cultural Activities</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/nss"
+                      >
+                        NSS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ncc"
+                      >
+                        NCC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/culturalactivites"
+                      >
+                        Cultural Activites
+                      </Link>
+                    </li>
                   </ul>
                 </li>
 
