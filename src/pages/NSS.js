@@ -2,7 +2,7 @@ export function NSS() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] ] font-bold">
           NSS
         </h1>
         <p className="text-black dark:text-white my-1 text-md md:text-lg">
@@ -19,7 +19,7 @@ export function NSS() {
         </ul>
 
         <p className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] shadow-xl bg-secondary2 dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">
-          <h2 className="text-2xl md:text-3xl md:mb-2 text-[#141E27] dark:text-[#dfdfdf] font-bold text-center">
+          <h2 className="text-2xl md:text-3xl md:mb-2 text-[#003060]  font-bold text-center">
             Join NCC
           </h2>
           <h4>Dear Students,</h4>
@@ -50,7 +50,7 @@ export function NSS() {
             </li>
           </ul>
           <a
-            className="underline hover:text-secondary2 font-medium text-center"
+            className="underline hover:text-primary2 font-medium text-center"
             href="https://forms.gle/BCRRU1FuuUC5WoEJ6"
           >
             Registration link
@@ -148,14 +148,23 @@ export function NSS() {
             src="./nss_blood_donation.jpg"
             className="w-[70vw] max-w-[1080px] inline"
           />
-          <img src="./nss1.jpg" className="w-[35vw] inline" />
-          <img src="./nss2.jpg" className="w-[35vw] inline" />
-          <img src="./nss3.jpg" className="w-[70vw] max-w-[1080px] inline" />
-          <img src="./nss4.jpg" className="w-[70vw] max-w-[1080px] inline" />
-          <img src="./nss5.jpg" className="w-[70vw] max-w-[1080px] inline" />
-          <img src="./nss6.jpg" className="w-[35vw] inline" />
-          <img src="./nss7.jpg" className="w-[35vw] inline" />
-          <img src="./nss8.jpg" className="w-[70vw] inline" />
+          <img src="./nss1.jpg" className="w-[35vw] inline mt-5" />
+          <img src="./nss2.jpg" className="w-[35vw] inline mt-5" />
+          <img
+            src="./nss3.jpg"
+            className="w-[70vw] max-w-[1080px] inline mt-5"
+          />
+          <img
+            src="./nss4.jpg"
+            className="w-[70vw] max-w-[1080px] inline mt-5"
+          />
+          <img
+            src="./nss5.jpg"
+            className="w-[70vw] max-w-[1080px] inline mt-5"
+          />
+          <img src="./nss6.jpg" className="w-[35vw] inline mt-5" />
+          <img src="./nss7.jpg" className="w-[35vw] inline mt-5" />
+          <img src="./nss8.jpg" className="w-[70vw] inline mt-5" />
         </div>
       </div>
     </div>
