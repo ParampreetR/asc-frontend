@@ -2,7 +2,7 @@ export function Gymnasium() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] md:text-4xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060]  md:text-4xl my-2 md:my-4 font-bold">
           College Gymnasium
         </h1>
         <p className="text-black my-1 text-md md:text-lg mt-2 dark:text-white">
@@ -30,7 +30,7 @@ export function Gymnasium() {
           <li>Cricket Ground</li>
           <li>Boxing Cum Wrestling Ring</li>
         </ul>
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] mt-6 md:text-3xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060] mt-6 md:text-3xl my-2 md:my-4 font-bold">
           Indoor GYM
         </h1>
         <p className="text-black text-center font-bold text-lg my-1 text-md md:text-lg mt-2 dark:text-white">
@@ -57,7 +57,7 @@ export function Gymnasium() {
           alt=""
           className=" mt-5 md-5 m-auto w-[50vw] max-w-[1080px]"
         />
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] md:text-3xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060] md:text-3xl my-2 md:my-4 font-bold">
           Badminton Court
         </h1>
         <p className="text-black text-center font-bold text-lg my-1 text-md md:text-lg mt-2 dark:text-white">
@@ -75,7 +75,7 @@ export function Gymnasium() {
           alt=""
           className=" mt-5 m-auto w-[50vw] max-w-[720px]"
         />
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] mt-6 md:text-3xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060] mt-6 md:text-3xl my-2 md:my-4 font-bold">
           BasketBall Court
         </h1>
         <img
@@ -83,7 +83,7 @@ export function Gymnasium() {
           alt=""
           className=" mt-5 m-auto w-[50vw] max-w-[720px]"
         />
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] mt-6 md:text-3xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060] mt-6 md:text-3xl my-2 md:my-4 font-bold">
           Lawn Tennis Court
         </h1>
         <img
@@ -94,7 +94,7 @@ export function Gymnasium() {
         <p className="text-black text-center font-bold text-lg my-1 text-md md:text-lg mt-2 dark:text-white">
           Lawn Tennis Court- Cemented Lawn Tennis court for practise.
         </p>
-        <h1 className="text-center text-2xl text-[#141E27] dark:text-[#dfdfdf] mt-6 md:text-3xl my-2 md:my-4 font-bold">
+        <h1 className="text-center text-2xl text-[#003060] mt-6 md:text-3xl my-2 md:my-4 font-bold">
           Cricket Ground
         </h1>
         <p className="text-black text-center font-bold text-lg my-1 text-md md:text-lg mt-2 dark:text-white">

@@ -2,7 +2,7 @@ export function RTI() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[] font-bold">
           RTI
         </h1>
         <h2 className="text-center mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
@@ -15,7 +15,7 @@ export function RTI() {
           >
             Name of the College:
           </span>
-          &nbsp; &nbsp; A.S.College, Samrala Road, Khanna
+          &nbsp; A.S. College Khanna.
           <p className="text-black mt-5 my-1 text-md md:text-lg dark:text-white">
             <span
               className="underline underline-offset-2 font-bold text-black my-1
@@ -23,7 +23,7 @@ export function RTI() {
             >
               Public Information Officer (PIO)
             </span>
-            &nbsp; &nbsp; Sh. R.B.Yadav, Office Superintendent.
+            &nbsp; Sh. R.B.Yadav, Office Superintendent.
           </p>
           <p className="text-black mt-5 my-1 text-md md:text-lg dark:text-white">
             <span
@@ -32,22 +32,27 @@ export function RTI() {
             >
               First Appellate Authority
             </span>
-            &nbsp; &nbsp; Dr. R.S.Jhanji (Principal)
+            &nbsp; Dr. R.S.Jhanji (Principal).
           </p>
           <p className="text-black mt-5 my-1 text-md md:text-lg dark:text-white">
             <span
               className="underline underline-offset-2 font-bold text-black my-1
              text-md md:text-lg dark:text-white"
             >
-              Address and Contact details
+              Address:
             </span>
-            &nbsp; &nbsp; A.S.College, Khanna,
-            <br />
-            Distt. Ludhiana.
-            <br />
-            01628-228470,225170
-            <br />
-            asckhn@rediffmail.com / ascollegekhanna@gmail.com
+            &nbsp; A.S.College, Samrala Road village Kalal Majra Khanna, Distt.
+            Ludhiana.
+            <p className="text-black mt-5 my-1 text-md md:text-lg dark:text-white">
+              <span
+                className="underline underline-offset-2 font-bold text-black my-1
+             text-md md:text-lg dark:text-white"
+              >
+                Contact Details:
+              </span>
+              &nbsp; 01628-228470,225170 asckhn@rediffmail.com and
+              ascollegekhanna@gmail.com
+            </p>
           </p>
         </p>
       </div>

@@ -2,10 +2,10 @@ export function Library() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] font-bold dark:text-[#dfdfdf]">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] font-bold ">
           College Library
         </h1>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Timing
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -17,7 +17,7 @@ export function Library() {
         </p>
         <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
-            <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+            <h3 className="mt-3 font-semibold text-xl text-black">
               Circulation Section
             </h3>
           </li>
@@ -30,7 +30,7 @@ export function Library() {
 
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+              <h3 className="mt-3 font-semibold text-xl text-black ">
                 Reference Section
               </h3>
               <p>
@@ -43,7 +43,7 @@ export function Library() {
           </li>
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+              <h3 className="mt-3 font-semibold text-xl  text-black">
                 Periodical Section
               </h3>
               <p>
@@ -55,7 +55,7 @@ export function Library() {
           </li>
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+              <h3 className="mt-3 font-semibold text-xl  text-black">
                 Reading Room
               </h3>
               <p>
@@ -66,10 +66,10 @@ export function Library() {
           </li>
         </ul>
 
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#696969] font-medium">
           Services
         </h2>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Reading Room
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -78,7 +78,7 @@ export function Library() {
           is a major public service provided by the library. All the members of
           the library visit this section for getting books on loan for home use.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Book bank facility
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -86,7 +86,7 @@ export function Library() {
           students for the whole session. The issued Text books have to be
           returned after annual examination.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Reference Services
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -96,7 +96,7 @@ export function Library() {
           in locating the required material to access information and to use
           basic reference sources.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Internet Facility
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -104,14 +104,14 @@ export function Library() {
           Computer Terminals have been placed for users for accessing Internet.
           However, only educational sites are allowed for surfing.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Reprography Services
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
           The reprographic facilities are available in the Library for the
           students and faculty members at very nominal charges.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Linkage with other Libraries
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
@@ -121,7 +121,7 @@ export function Library() {
           provide membership of Panjab University Extension Library, Ludhiana
           and A. C. Joshi Library, Panjab University, Chandigarh also.
         </p>
-        <h3 className="mt-3 font-semibold text-xl dark:text-white text-black">
+        <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           E Resources
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
