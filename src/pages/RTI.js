@@ -41,14 +41,13 @@ export function RTI() {
             >
               Address and Contact details
             </span>
-            &nbsp; &nbsp; A.S.College, Khanna, Distt. Ludhiana. Phone:
-            01628-228470,225170 Email: asckhn@rediffmail.com &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-            &nbsp;&nbsp;ascollegekhanna@gmail.com
+            &nbsp; &nbsp; A.S.College, Khanna,
+            <br />
+            Distt. Ludhiana.
+            <br />
+            01628-228470,225170
+            <br />
+            asckhn@rediffmail.com / ascollegekhanna@gmail.com
           </p>
         </p>
       </div>
