@@ -40,6 +40,8 @@ import { Alumini } from "./pages/Alumini";
 import { ResearchInnovation } from "./pages/ResearchInnovation";
 import { RTI } from "./pages/RTI";
 import { UGC } from "./pages/UGC";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 config({
   barColors: {
@@ -51,7 +53,33 @@ config({
 });
 
 function Homepage() {
+  let [events, setEvents] = useState([]);
+  let [news, setNews] = useState([]);
+  let [articles, setArticles] = useState([]);
+
   show();
+  useEffect(() => {
+    alert(process.env.REACT_APP_BACKEND_URL);
+
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + "/v1/getEvents")
+      .then((res) => {
+        console.log(res);
+        setEvents(res.data);
+      });
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + "/v1/getNotifications")
+      .then((res) => {
+        console.log(res);
+        setNews(res.data);
+      });
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + "/v1/getQuickLinks")
+      .then((res) => {
+        console.log(res);
+        setArticles(res.data);
+      });
+  }, []);
   hide();
   return (
     <div>
@@ -75,11 +103,7 @@ function Homepage() {
       </div>
       <MsgFromPrinci />
       <div className="px-4 md:px-16 lg:px-24 xl:px-36 py-16">
-        <ThreeSwitch
-          colEvents={["event1", "event2", "event3"]}
-          colNews={["news1", "news2", "news3"]}
-          colArticles={["articles1", "articles2", "articles3"]}
-        />
+        <ThreeSwitch events={events} news={news} articles={articles} />
       </div>
       <StudentReview />
     </div>

@@ -9,10 +9,7 @@ function Board({ items }) {
   ));
 }
 
-export function ThreeSwitch({ colEvents, colNews, colArticles }) {
-  const [events, setEvents] = useState(colEvents);
-  const [news, setNews] = useState(colNews);
-  const [articles, setArticles] = useState(colArticles);
+export function ThreeSwitch({ events, news, articles }) {
   const [sectionNum, setSectionNum] = useState(1);
   return (
     <div className="flex flex-col md:flex-row justify-around mx-auto max-w-[1440px]">

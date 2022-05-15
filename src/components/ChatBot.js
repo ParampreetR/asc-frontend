@@ -44,7 +44,7 @@ export function ChatBot() {
           return (
             <div
               className={
-                "ml-5 overflow-y-auto transform transition-all duration-500 max-h-[100px] left-0 relative w-72 min-h-[3rem] bg-secondary dark:bg-secondary_dark text-black opacity-95 m-2 rounded-xl rounded-bl-none border-2 border-primary px-[10%] py-2 h-fit shadow-lg text-center " +
+                "ml-5 overflow-y-auto transform transition-all duration-500 max-h-[100px] left-0 relative w-72 min-h-[3rem] bg-secondary dark:bg-secondary_dark text-black dark:text-white opacity-95 m-2 rounded-xl rounded-bl-none border-2 border-primary px-[10%] py-2 h-fit shadow-lg text-center " +
                 (!visible && " opacity-0 left-16 pointer-events-none") +
                 (visible ? " shadow-heavy" : " shadow-medium")
               }
