@@ -359,22 +359,6 @@ function NavButtons({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/ugc"
-            >
-              UGC
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/naac"
-            >
-              NAAC
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
               to="/rti"
             >
               RTI
@@ -390,16 +374,8 @@ function NavButtons({ setActiveBtn, activeBtn }) {
           </li>
           <li>
             <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/alumini"
-            >
-              Alumini
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
               to="/researchinnovation"
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
             >
               Research & Innovation
             </Link>
@@ -765,22 +741,6 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
           <li>
             <Link
               className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/ugc"
-            >
-              UGC
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/naac"
-            >
-              NAAC
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
               to="/rti"
             >
               RTI
@@ -792,14 +752,6 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               to="/placement"
             >
               Placement
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
-              to="/alumini"
-            >
-              Alumini
             </Link>
           </li>
           <li>
@@ -1239,24 +1191,6 @@ export function NavBarHomePage() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/ugc"
-                      >
-                        UGC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/naac"
-                      >
-                        NAAC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/rti"
                       >
                         RTI
@@ -1271,15 +1205,7 @@ export function NavBarHomePage() {
                         Placement
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/alumini"
-                      >
-                        Alumini
-                      </Link>
-                    </li>
+
                     <li>
                       <Link
                         onClick={() => setIsNavOpen(false)}
@@ -1760,24 +1686,6 @@ export function NavBar() {
                       <Link
                         onClick={() => setIsNavOpen(false)}
                         className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/ugc"
-                      >
-                        UGC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/naac"
-                      >
-                        NAAC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
                         to="/rti"
                       >
                         RTI
@@ -1792,15 +1700,7 @@ export function NavBar() {
                         Placement
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        onClick={() => setIsNavOpen(false)}
-                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
-                        to="/alumini"
-                      >
-                        Alumini
-                      </Link>
-                    </li>
+
                     <li>
                       <Link
                         onClick={() => setIsNavOpen(false)}
