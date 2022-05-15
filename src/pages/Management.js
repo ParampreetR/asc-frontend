@@ -6,6 +6,7 @@ export function Management() {
           Organization and Management
         </h1>
       </div>
+      <img src="management-society.jpg" className="content-center"></img>
     </div>
   );
 }
