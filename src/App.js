@@ -34,6 +34,12 @@ import { UGCResources } from "./pages/UGCResourseCenter";
 import { NSS } from "./pages/NSS";
 import { NCC } from "./pages/NCC";
 import { CulturalActivites } from "./pages/CulturalActivities";
+import { NAAC } from "./pages/NAAC";
+import { Placement } from "./pages/Placement";
+import { Alumini } from "./pages/Alumini";
+import { ResearchInnovation } from "./pages/ResearchInnovation";
+import { RTI } from "./pages/RTI";
+import { UGC } from "./pages/UGC";
 
 config({
   barColors: {
@@ -129,6 +135,12 @@ function App() {
           <Route path="nss" element={<NSS />} />
           <Route path="ncc" element={<NCC />} />
           <Route path="culturalactivites" element={<CulturalActivites />} />
+          <Route path="naac" element={<NAAC />} />
+          <Route path="rti" element={<RTI />} />
+          <Route path="placement" element={<Placement />} />
+          <Route path="alumini" element={<Alumini />} />
+          <Route path="researchinnovation" element={<ResearchInnovation />} />
+          <Route path="ugc" element={<UGC />} />
 
           <Route path="/" element={<Homepage />} loading />
         </Routes>

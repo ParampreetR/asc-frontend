@@ -356,12 +356,54 @@ function NavButtons({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>UGC</li>
-          <li>NAAC</li>
-          <li>RTI</li>
-          <li>Placement</li>
-          <li>Alumini</li>
-          <li>Research & Innovation</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ugc"
+            >
+              UGC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/naac"
+            >
+              NAAC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/rti"
+            >
+              RTI
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/placement"
+            >
+              Placement
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/alumini"
+            >
+              Alumini
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/researchinnovation"
+            >
+              Research & Innovation
+            </Link>
+          </li>
         </ul>
       </li>
     </ul>
@@ -720,12 +762,54 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
               : "opacity-0 pointer-events-none translate-y-10")
           }
         >
-          <li>UGC</li>
-          <li>NAAC</li>
-          <li>RTI</li>
-          <li>Placement</li>
-          <li>Alumini</li>
-          <li>Research & Innovation</li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/ugc"
+            >
+              UGC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/naac"
+            >
+              NAAC
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/rti"
+            >
+              RTI
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/placement"
+            >
+              Placement
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/alumini"
+            >
+              Alumini
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/researchinnovation"
+            >
+              Research & Innovation
+            </Link>
+          </li>
         </ul>
       </li>
     </ul>
@@ -1151,12 +1235,60 @@ export function NavBarHomePage() {
                       (optionActive === 8 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>UGC</li>
-                    <li>NAAC</li>
-                    <li>RTI</li>
-                    <li>Placement</li>
-                    <li>Alumini</li>
-                    <li>Research & Innovation</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ugc"
+                      >
+                        UGC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/naac"
+                      >
+                        NAAC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/rti"
+                      >
+                        RTI
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/placement"
+                      >
+                        Placement
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/alumini"
+                      >
+                        Alumini
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/researchinnovation"
+                      >
+                        Research & Innovation
+                      </Link>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -1624,12 +1756,60 @@ export function NavBar() {
                       (optionActive === 8 ? "inline-block" : "hidden")
                     }
                   >
-                    <li>UGC</li>
-                    <li>NAAC</li>
-                    <li>RTI</li>
-                    <li>Placement</li>
-                    <li>Alumini</li>
-                    <li>Research & Innovation</li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/ugc"
+                      >
+                        UGC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/naac"
+                      >
+                        NAAC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/rti"
+                      >
+                        RTI
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/placement"
+                      >
+                        Placement
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/alumini"
+                      >
+                        Alumini
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/researchinnovation"
+                      >
+                        Research & Innovation
+                      </Link>
+                    </li>
                   </ul>
                 </li>
               </ul>
