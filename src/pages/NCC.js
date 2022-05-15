@@ -9,7 +9,6 @@ export function NCC() {
           National Cadet Corps
         </h2>
         <p className="text-black text-center my-1 text-md md:text-lg dark:text-white">
-          {" "}
           (Sub Unit of PB BN NCC Nabha with the strength of 104 Cadets (Boys and
           Girls) <br /> ANO -- Lieutenent (Dr. K.K.Sharma )
         </p>
