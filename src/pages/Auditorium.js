@@ -2,7 +2,7 @@ export function Auditorium() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center  text-2xl md:text-4xl my-2 md:my-4 text-[#003060] font-bold">
+        <h1 className="text-center  text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#006699] font-bold">
           College Auditorium
         </h1>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">

@@ -2,7 +2,7 @@ export function Library() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] font-bold ">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#006699] font-bold ">
           College Library
         </h1>
         <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
@@ -17,7 +17,7 @@ export function Library() {
         </p>
         <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">
           <li>
-            <h3 className="mt-3 font-semibold text-xl text-black">
+            <h3 className="mt-3 font-semibold text-xl text-white">
               Circulation Section
             </h3>
           </li>
@@ -30,7 +30,7 @@ export function Library() {
 
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl text-black ">
+              <h3 className="mt-3 font-semibold text-xl text-white">
                 Reference Section
               </h3>
               <p>
@@ -43,7 +43,7 @@ export function Library() {
           </li>
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl  text-black">
+              <h3 className="mt-3 font-semibold text-xl  text-white">
                 Periodical Section
               </h3>
               <p>
@@ -55,7 +55,7 @@ export function Library() {
           </li>
           <li>
             <div>
-              <h3 className="mt-3 font-semibold text-xl  text-black">
+              <h3 className="mt-3 font-semibold text-xl  text-white">
                 Reading Room
               </h3>
               <p>
