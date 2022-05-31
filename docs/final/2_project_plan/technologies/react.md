@@ -1,6 +1,6 @@
 # React JS
 
-![React](../images/react.jpg)
+![React](../../../images/react.jpg)
 
 ## According to Wikipedia
 
