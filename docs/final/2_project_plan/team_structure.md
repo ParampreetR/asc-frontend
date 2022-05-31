@@ -7,5 +7,3 @@ We have a team of Three members Assigned to build this project.
 2. Manroop Singh
 
 3. Dhyanesh Bawa
-
-
