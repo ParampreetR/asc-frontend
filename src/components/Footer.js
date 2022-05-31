@@ -1,4 +1,4 @@
-import { ThemeSwitcher } from "./ThemeSwitcher";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
@@ -10,34 +10,37 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Quick Links</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Home
-                  </a>
+                  <Link to="/history" className="hover:text-blue-400">
+                    History
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    About Us
-                  </a>
+                  <Link to="/missiongoals" className="hover:text-blue-400">
+                    Mission and Goals
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Admissions
-                  </a>
+                  <Link to="/codeofconduct" className="hover:text-blue-400">
+                    Code of Conduct
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Courses
-                  </a>
+                  <Link to="/generalrules" className="hover:text-blue-400">
+                    General Rules
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Fee Details
-                  </a>
+                  <Link to="/management" className="hover:text-blue-400">
+                    Management
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Rules
-                  </a>
+                  <Link
+                    to="/researchinnovation"
+                    className="hover:text-blue-400"
+                  >
+                    Research &amp; Innovation
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -45,34 +48,34 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Discover</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Teaching
-                  </a>
+                  <Link to="/library" className="hover:text-blue-400">
+                    Library
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Activities
-                  </a>
+                  <Link to="/canteen" className="hover:text-blue-400">
+                    Canteen
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Events
-                  </a>
+                  <Link to="/auditorium" className="hover:text-blue-400">
+                    Auditorium
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Campus
-                  </a>
+                  <Link to="/seminarhall" className="hover:text-blue-400">
+                    Seminar Hall
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Research
-                  </a>
+                  <Link to="/stadium" className="hover:text-blue-400">
+                    Stadium
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Consultancy
-                  </a>
+                  <Link to="/gymnasium" className="hover:text-blue-400">
+                    Gymnasium
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -80,34 +83,29 @@ export function Footer() {
               <h1 className="text-2xl pb-5">Other</h1>
               <ul className="text-gray-400">
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Downloads
-                  </a>
+                  <Link to="/rti" className="hover:text-blue-400">
+                    RTI
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Forms
-                  </a>
+                  <Link to="/placement" className="hover:text-blue-400">
+                    Placement
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Jobs
-                  </a>
+                  <Link to="/nss" className="hover:text-blue-400">
+                    NSS
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    IGNOU-Study
-                  </a>
+                  <Link to="/ncc" className="hover:text-blue-400">
+                    NCC
+                  </Link>
                 </li>
                 <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    College Magznine
-                  </a>
-                </li>
-                <li className="pb-2">
-                  <a href="#" className="hover:text-blue-400">
-                    Newsletter
-                  </a>
+                  <Link to="/culturalactivites" className="hover:text-blue-400">
+                    Cultural Activites
+                  </Link>
                 </li>
               </ul>
             </div>
