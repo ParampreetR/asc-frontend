@@ -1,6 +1,6 @@
 # Tailwind CSS
 
-![Tailwind](../images/tailwind.jpg)
+![Tailwind](../../../images/tailwind.jpg)
 
 Tailwind CSS can be used to create websites in the quickest and easiest way possible.
 
