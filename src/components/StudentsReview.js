@@ -80,64 +80,82 @@ export function StudentReview() {
 
   return (
     <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] dark:border-b-[#910107] border-t-[#FE6D73] dark:border-t-[#910107] md:px-16 lg:px-24 xl:px-36">
-      <div className="flex flex-row mx-auto max-w-[1440px] my-16 justify-between">
-        <div className="grid grid-cols-3 gap-8 mx-5">
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+      <div className="flex flex-col lg:flex-row mx-auto max-w-[1440px] my-16 justify-between">
+        <div className="grid grid-cols-3 gap-4 m-auto">
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Students
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Alumini
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Years of Legacy
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Classrooms
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Skilled Courses
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              PG Programmes
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Faculty
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Laboratories
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
-          <div className="bg-white text-center w-32 h-20 flex flex-col justify-center rounded-sm">
-            <div className="text-center text-black text-lg">info</div>
+          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+            <div className="text-center text-black text-lg font-medium">
+              Computers
+            </div>
             <div className="text-center text-2xl font-medium text-primary">
               1000
             </div>
           </div>
         </div>
-        <div className="w-96 p-5">
+        <div className="w-96 p-5 m-auto">
           <Swiper
             spaceBetween={0}
             autoplay={{
@@ -153,7 +171,10 @@ export function StudentReview() {
             <SwiperSlide>
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
-                  <img src="/student1.jpg" className="w-64 mx-auto" />
+                  <img
+                    src="/student1.jpg"
+                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                  />
                   <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
@@ -169,7 +190,10 @@ export function StudentReview() {
             <SwiperSlide>
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
-                  <img src="/student1.jpg" className="w-64 mx-auto" />
+                  <img
+                    src="/student1.jpg"
+                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                  />
                   <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
@@ -185,7 +209,10 @@ export function StudentReview() {
             <SwiperSlide>
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
-                  <img src="/student1.jpg" className="w-64 mx-auto" />
+                  <img
+                    src="/student1.jpg"
+                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                  />
                   <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
