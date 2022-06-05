@@ -1,16 +1,12 @@
-# Software Requirment Specification
+# Software Requirement Specification
 
-The software requirment specification is produced at the culmination of the analysis task. The function and performance allocated to software as a part of system engineering are refined by establishing a complete information description, a detailed functional and behavioral description, an indication of performance requirments and design constraints, appropriate validation criteria, and other data pertinent to requirments.
+The software requirement specification is produced at the culmination of the analysis task. The function and performance allocated to software as a part of system engineering are refined by establishing a complete information description, a detailed functional and behavioral description, an indication of performance requirements and design constraints, appropriate validation criteria, and other data pertinent to requirements.
 
-
-
-#### The proposed system has the following requirments:
-
-
+#### The proposed system has the following requirements:
 
 - System need to maintain quantity record.
 
-- System needs to store information about nwe entry of college.
+- System needs to store information about new entry of college.
 
 - System need to update and delete record.
 
@@ -20,9 +16,7 @@ The software requirment specification is produced at the culmination of the anal
 
 - System needs to keep record of all data of college.
 
-- System needs Search optimizaton.
-  
-  
+- System needs Search optimization.
 
 #### Software Required:
 
@@ -37,8 +31,6 @@ The software requirment specification is produced at the culmination of the anal
 | ----------------- |:--------------------------------------------------:|
 | Operating Systems | Any OS which support Internet Browser (Almost All) |
 | Browser           | Firefox / Chrome / Firefox Based / Chrome Based    |
-
-
 
 #### Development Tools
 
