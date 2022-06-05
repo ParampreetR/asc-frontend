@@ -52,35 +52,35 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Production Environment
 
 - Hardware Required
-
-  | Components        |    Minimum Requirements (Deployment Server)     |
-  | ----------------- | :---------------------------------------------: |
-  | Architecture      |                  x86 / x86_64                   |
+  
+  | Components        | Minimum Requirements (Deployment Server)        |
+  | ----------------- |:-----------------------------------------------:|
+  | Architecture      | x86 / x86_64                                    |
   | Processor         | Intel Pentium Processor 2, 2.4GHz or equivalent |
-  | RAM               |                     512 MB                      |
-  | HDD               |                      20 GB                      |
-  | Number of Servers |           2 (front-end and back-end)            |
-
-  | Components   |          Minimum Requirements (End User PC)          |
-  | ------------ | :--------------------------------------------------: |
+  | RAM               | 512 MB                                          |
+  | HDD               | 20 GB                                           |
+  | Number of Servers | 2 (front-end and back-end)                      |
+  
+  | Components   | Minimum Requirements (End User PC)                   |
+  | ------------ |:----------------------------------------------------:|
   | Architecture | Any, which supports an Internet Browser (Almost all) |
-  | Processor    |   Intel Pentium Processor 2, 2.4GHz or equivalent    |
-  | RAM          |                        512 MB                        |
-  | HDD          |                        60 MB                         |
+  | Processor    | Intel Pentium Processor 2, 2.4GHz or equivalent      |
+  | RAM          | 512 MB                                               |
+  | HDD          | 60 MB                                                |
 
 - Software Required
-
+  
   | Components        | Minimum Requirements (Deployment Server) |
-  | ----------------- | :--------------------------------------: |
-  | Operating Systems |      Linux Server / Windows Server       |
-  | Other software    |        Node, Node Package Manager        |
-  | Web Server        |                  512 MB                  |
-  | Browser           |                Not Needed                |
-
-  | Components        |         Minimum Requirements (End User PC)         |
-  | ----------------- | :------------------------------------------------: |
+  | ----------------- |:----------------------------------------:|
+  | Operating Systems | Linux Server / Windows Server            |
+  | Other software    | Node, Node Package Manager               |
+  | Web Server        | 512 MB                                   |
+  | Browser           | Not Needed                               |
+  
+  | Components        | Minimum Requirements (End User PC)                 |
+  | ----------------- |:--------------------------------------------------:|
   | Operating Systems | Any OS which support Internet Browser (Almost All) |
-  | Browser           |  Firefox / Chrome / Firefox Based / Chrome Based   |
+  | Browser           | Firefox / Chrome / Firefox Based / Chrome Based    |
 
 ## Development Tools
 
@@ -89,7 +89,7 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Browser - Chrome / Chrome-based 
 - Framework - Node (Fastify for back-end, React for front-end)
 - Database - SQLite3
-- Database ORM - Sequelize
+- git Database ORM - Sequelize
 - Node Package Managers - npm and yarn
 - Hosting Providers - Vercel for fronend, Heroku for backend
 - Collaboration System - Github
@@ -111,6 +111,3 @@ Current system, Multiple page Web Application works on the top of ASP.NET with m
 - Notifications, Quick Links and Events can be added / removed from Telegram bot.
 
 - User interface can be customized according to current trends and features.
-
-  
-

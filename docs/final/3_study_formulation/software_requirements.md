@@ -17,10 +17,6 @@ The software requirement specification is produced at the culmination of the ana
 - System needs to keep record of all data of college.
 
 - System needs Search optimization.
-<<<<<<< HEAD:docs/final/softtware_requirments.md
-=======
-  
->>>>>>> 30e674f2e398016e008204c6dab94d0be79f277a:docs/final/3_study_formulation/requirements.md
 
 #### Software Required:
 
