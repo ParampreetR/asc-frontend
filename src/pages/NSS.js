@@ -2,7 +2,7 @@ export function NSS() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] ] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#006699] font-bold">
           NSS
         </h1>
         <p className="text-black dark:text-white my-1 text-md md:text-lg">
@@ -19,7 +19,7 @@ export function NSS() {
         </ul>
 
         <p className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] shadow-xl bg-secondary2 dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">
-          <h2 className="text-2xl md:text-3xl md:mb-2 text-[#003060]  font-bold text-center">
+          <h2 className="text-2xl md:text-3xl md:mb-2 text-white underline font-bold text-center">
             Join NCC
           </h2>
           <h4>Dear Students,</h4>

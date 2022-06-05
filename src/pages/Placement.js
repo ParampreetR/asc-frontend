@@ -2,10 +2,10 @@ export function Placement() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#006699] font-bold">
           Placement Cell
         </h1>
-        <h2 className=" mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
           Introduction
         </h2>
         <p className="text-black my-1 mt-5 text-md md:text-lg dark:text-white">
@@ -23,8 +23,8 @@ export function Placement() {
           The Primary Goal of Career Guidance and Placement Cell is to arrange
           Employment Opportunities for Students. With a view to achieve the said
           objective the Cell keep watch on job fairs and maintains proper
-          liasioning with the companies, arranges Company’s visit to the campus
-          and to sign MoU’s regarding Placements at different levels.
+          liasioning with the companies, arranges Company's visit to the campus
+          and to sign MoU's regarding Placements at different levels.
         </p>
         <p className="text-black my-1 mt-7 text-md md:text-lg dark:text-white">
           Another goal of the Placement Cell is to develop skills and reshape
@@ -32,7 +32,7 @@ export function Placement() {
           arrange the participation of students in Personality Development
           workshops being organized in the College.
         </p>
-        <h2 className=" mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
           Activities of Career Guidance and Placement Cell during the Academic
           Session 2014-15.
         </h2>
