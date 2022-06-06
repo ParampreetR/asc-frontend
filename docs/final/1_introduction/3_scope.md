@@ -16,6 +16,8 @@ Our project aims at Business automation, i.e. we have tried to simplify and auto
 - provide information about various courses in the college
 - provide admission schedule to students before starting of new session
 - provide information about various activities and resources for students
+- Student can view study materials, Exam routine and important news related
+  to their college, class, course in one place with a click of mouse
 - To receive queries from users either by web forms, emails, and telegram chat bot
 - Provide chat bot connected to Telegram bot API
 - Easy to understand by user and operate
@@ -26,3 +28,7 @@ Our project aims at Business automation, i.e. we have tried to simplify and auto
 - The system generate types of information that can be used for various purposes
 - Be expandable 
 - Delivered on schedule within the budget
+
+The project can be easily implemented under various situations. We can add
+new features as and when we require, making reusability possible as there is
+flexibility in all the modules.
