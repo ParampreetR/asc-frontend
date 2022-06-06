@@ -24,4 +24,6 @@ It can be summarized that the future scope of the project circles around maintai
 
 - Many pages can be shifted to back-end server from front-end server for making things more dynamic.
 
+- Information about staff can be placed on website eg. faculty staff details, Resume of staff etc.
+
 
