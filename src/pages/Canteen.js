@@ -11,11 +11,10 @@ export function Canteen() {
           hygienically prepared snacks, cold drinks and confectionery items on
           reasonable prices approved by the Canteen Committee of the college.
         </p>
-      </div>
-
-      <div className="inline-block max-w-100">
-        <img src="/canteen1.jpg"></img>
-        <img src="/canteen2.jpg"></img>
+        <div className="inline-block max-w-100">
+          <img src="/canteen1.jpg"></img>
+          <img src="/canteen2.jpg"></img>
+        </div>
       </div>
     </div>
   );

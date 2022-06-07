@@ -81,81 +81,81 @@ export function StudentReview() {
   return (
     <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] dark:border-b-[#910107] border-t-[#FE6D73] dark:border-t-[#910107] md:px-16 lg:px-24 xl:px-36">
       <div className="flex flex-col lg:flex-row mx-auto max-w-[1440px] my-16 justify-between">
-        <div className="grid grid-cols-3 gap-4 m-auto">
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+        <div className="grid grid-cols-2 2xl:grid-cols-3 gap-4 m-auto xl 2xl:mr-5">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Students
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               2000
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Alumini
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               1500
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Years of Legacy
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               76
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Classrooms
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               40
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Skilled Courses
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               18
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               PG Programmes
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               8
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Faculty
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               70
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Laboratories
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               15
             </div>
           </div>
-          <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
+          <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">
             <div className="text-center text-black text-lg font-medium">
               Computers
             </div>
-            <div className="text-center text-2xl font-medium text-primary">
+            <div className="text-center text-2xl font-medium text-primary ">
               150
             </div>
           </div>
         </div>
-        <div className="w-96 p-5 m-auto">
+        <div className="md:w-[25vw] lg:w-[30vw] xl:w-[35vw] 2xl:w-[40vw] p-5 ml-14 m-auto">
           <Swiper
             spaceBetween={0}
             autoplay={{
@@ -173,7 +173,7 @@ export function StudentReview() {
                 <span>
                   <img
                     src="/Shreya_1650095843.jpg"
-                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                    className="w-[10vw] xl:w-[15vw] mx-auto"
                   />
                   <h2 className="text-xl md:text-2xl text-center my-1">
                     Shreye B.C.A(2017-20S)
@@ -196,7 +196,7 @@ export function StudentReview() {
                 <span>
                   <img
                     src="/Jagroop Singh_1652357051.jpg"
-                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                    className="w-[10vw] xl:w-[15vw] mx-auto"
                   />
                   <h2 className="text-xl md:text-2xl text-center my-1">
                     Jagroop Singh, M.A(Political Science) 2014
@@ -224,7 +224,7 @@ export function StudentReview() {
                 <span>
                   <img
                     src="/Rishab Goyal_1652165209.jpg"
-                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                    className="w-[10vw] xl:w-[15vw] mx-auto"
                   />
                   <h2 className="text-xl md:text-2xl text-center my-1">
                     Rishab Goyal, B.Com (2018 - 2021)
@@ -253,7 +253,7 @@ export function StudentReview() {
                 <span>
                   <img
                     src="/Simranjot Kaur_1652684897.jpg"
-                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                    className="w-[10vw] xl:w-[15vw] mx-auto"
                   />
                   <h2 className="text-xl md:text-2xl text-center my-1">
                     Simranjot Kaur, M.Sc. Chemistry(Batch 2019-2021)
@@ -276,7 +276,7 @@ export function StudentReview() {
                 <span>
                   <img
                     src="/Shaina Arora_1650095873.jpg"
-                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                    className="w-[10vw] xl:w-[15vw] mx-auto"
                   />
                   <h2 className="text-xl md:text-2xl text-center my-1">
                     Shaina Arora, M.COM(2016-18)
