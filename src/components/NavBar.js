@@ -21,9 +21,42 @@ function NavButtons({ setActiveBtn, activeBtn }) {
     <ul className="list-none xl:flex flex-row h-max mt-8 hidden transform transition-all duration-200">
       <li>
         {/* Navigation Button1  */}
-        <button className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg">
-          <Link to="/courses">Courses</Link>
+        <button
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 1 ? "text-primary" : "")
+          }
+          onClick={() => {
+            activeBtn === 1 ? setActiveBtn(0) : setActiveBtn(1);
+          }}
+        >
+          Courses
         </button>
+        <ul
+          className={
+            "text-primary bg-[#fffffff4]  backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            (activeBtn === 1
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/undergrad"
+            >
+              Under Graduate
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/postgrad"
+            >
+              Post Graduate
+            </Link>
+          </li>
+        </ul>
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
@@ -403,9 +436,42 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
     <ul className="list-none xl:flex xl:justify-evenly flex-row h-max m-auto hidden transform transition-all duration-200">
       <li>
         {/* Navigation Button1  */}
-        <button className="nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg">
-          <Link to="/courses">Courses</Link>
+        <button
+          className={
+            "nav-btn font-medium px-5 py-1.5 mx-1.5 transform duration-200 hover:bg-secondary dark:bg-transparent hover:text-primary text-lg " +
+            (activeBtn === 1 ? "text-primary" : "")
+          }
+          onClick={() => {
+            activeBtn === 1 ? setActiveBtn(0) : setActiveBtn(1);
+          }}
+        >
+          Courses
         </button>
+        <ul
+          className={
+            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            (activeBtn === 2
+              ? "opacity-100 pointer-events-auto translate-y-3"
+              : "opacity-0 pointer-events-none translate-y-10")
+          }
+        >
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/undergrad"
+            >
+              Under Graduate
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full py-2 inline-block hover:bg-gradient-to-t from-primary2 to-primary hover:text-white"
+              to="/postgrad"
+            >
+              Post Graduate
+            </Link>
+          </li>
+        </ul>
       </li>
       <li className="transform duration-200 text-center">
         {/* Navigation Button2  */}
@@ -805,7 +871,10 @@ export function NavBarHomePage() {
                 <div className="text-3xl border-b-2 text-center px-5">
                   AS College
                 </div>
-                <div className="text-center ">Tag Line</div>
+                <div className="text-center">
+                  Re-Acredited with Grade A <br />
+                  by NAAC with CGPA 3.5
+                </div>
               </Link>
             </span>
             <NavButtons
@@ -851,10 +920,36 @@ export function NavBarHomePage() {
                         : setOptionActive(1)
                     }
                   >
-                    <Link onClick={() => setIsNavOpen(false)} to="/courses">
-                      Courses
-                    </Link>
+                    Courses
                   </button>
+                  <ul
+                    className={
+                      "text-xl  px-1 py-1 text-center w-[250px] left-1 transform duration-75 " +
+                      (optionActive === 1 ? "inline-block" : "hidden")
+                    }
+                  >
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/undergrad"
+                      >
+                        Under Graduate
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/postgrad"
+                      >
+                        Post Graduate
+                      </Link>
+                    </li>
+                  </ul>
+                  <Link onClick={() => setIsNavOpen(false)} to="/courses">
+                    Courses
+                  </Link>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button2  */}
@@ -1273,7 +1368,7 @@ export function NavBar() {
 
   return (
     <nav className="text-black  h-24 navbar">
-      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white backdrop-blur-lg h-24 top-0 shadow-medium w-screen transform duration-200">
+      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white backdrop-blur-lg h-[6.5rem] top-0 shadow-medium w-screen transform duration-200">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="my-2 mx-2 absolute">
@@ -1284,7 +1379,10 @@ export function NavBar() {
                 <div className="text-3xl border-b-2 text-center px-5">
                   AS College
                 </div>
-                <div className="text-center ">Tag Line</div>
+                <div className="text-center">
+                  Re-Acredited with Grade A <br />
+                  by NAAC with CGPA 3.5
+                </div>
               </Link>
             </span>
             <NavButtons
@@ -1346,10 +1444,33 @@ export function NavBar() {
                         : setOptionActive(1)
                     }
                   >
-                    <Link onClick={() => setIsNavOpen(false)} to="/courses">
-                      Courses
-                    </Link>
+                    Courses
                   </button>
+                  <ul
+                    className={
+                      "text-xl  px-1 py-1 text-center w-[250px] left-1 transform duration-75 " +
+                      (optionActive === 1 ? "inline-block" : "hidden")
+                    }
+                  >
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/undergrad"
+                      >
+                        Under Graduate
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => setIsNavOpen(false)}
+                        className="w-full py-2 inline-block text-black dark:text-white hover:text-primary"
+                        to="/postgrad"
+                      >
+                        Post Graduate
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className="transform duration-75 text-center my-2 flex flex-col">
                   {/* Navigation Button2  */}

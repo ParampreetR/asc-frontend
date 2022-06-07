@@ -42,6 +42,8 @@ import { RTI } from "./pages/RTI";
 import { UGC } from "./pages/UGC";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { UnderGrad } from "./pages/UnderGrad";
+import { PostGrad } from "./pages/PostGrad";
 
 config({
   barColors: {
@@ -165,6 +167,8 @@ function App() {
           <Route path="alumini" element={<Alumini />} />
           <Route path="researchinnovation" element={<ResearchInnovation />} />
           <Route path="ugc" element={<UGC />} />
+          <Route path="undergrad" element={<UnderGrad />} />
+          <Route path="postgrad" element={<PostGrad />} />
 
           <Route path="/" element={<Homepage />} loading />
         </Routes>
