@@ -4,6 +4,7 @@ export function ImageSlider() {
   const images = [
     { url: "/img1.jpg" },
     { url: "/img2.jpg" },
+    { url: "/AS_front.jpg" },
     { url: "/img3.jpg" },
     { url: "/img4.jpg" },
     { url: "/img5.jpg" },

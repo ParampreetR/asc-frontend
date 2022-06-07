@@ -8,6 +8,7 @@
 - Better modularity and arrangement of front-end code and back-end code.
 - Will try to cache items which are time consuming, so that next time site loads faster.
 - Better user friendly experience and appearance.
+- provides two modes or themes for user i.e Light mode and Dark mode.
 - Connectivity with telegram bot.
 - Easy to maintain. 
 - We can develop new features in React without re-writing the existing code. 
