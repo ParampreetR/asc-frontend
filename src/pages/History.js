@@ -2,7 +2,7 @@ export function History() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
           History
         </h1>
         <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">
@@ -54,6 +54,11 @@ export function History() {
           persons and quite a few of them occupy prominent positions in public
           life.
         </p>
+        <img
+          src="./1.jpg"
+          alt=""
+          className=" mt-5 m-auto w-[50vw] max-w-[1080px]"
+        />
 
         <h3 class="mt-3 ml-5 mr-5 font-semibold text-xl dark:text-white text-black">
           The following activities being undertaken by the institution amply
