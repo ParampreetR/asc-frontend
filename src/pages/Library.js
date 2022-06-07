@@ -2,15 +2,26 @@ export function Library() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#006699] font-bold ">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold ">
           College Library
         </h1>
+        <img
+          src="./lib1.jpg"
+          alt=""
+          className=" mt-5 m-auto w-[50vw] max-w-[1080px]"
+        />
         <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Timing
         </h3>
+
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
           Monday to Saturday: 8:45AM to 4:00PM
         </p>
+        <img
+          src="./lib3.jpg"
+          alt=""
+          className=" mt-5 m-auto w-[50vw] max-w-[1080px]"
+        />
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
           The Library has been divided into different sections for its smooth
           functioning
@@ -69,6 +80,11 @@ export function Library() {
         <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#696969] font-medium">
           Services
         </h2>
+        <img
+          src="./lib2.jpg"
+          alt=""
+          className=" mt-5 m-auto w-[50vw] max-w-[1080px]"
+        />
         <h3 className="mt-3 font-semibold text-xl text-[#696969] text-black">
           Reading Room
         </h3>
