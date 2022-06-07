@@ -1,0 +1,5 @@
+# Testing
+
+testing is finding out how well something works. In terms of human beings, testing tells what level of knowledge or skill has been acquired. In computer hardware and software development, testing is used at key checkpoints in the overall process to determine whether objectives are being met. For example, in software development, product objectives are sometimes tested by product user representatives. When the design is complete, coding follows and the finished code is then tested at the unit or module level by each programmer; at the component level by the group of programmers involved; and at the system level when all components are combined together. At early or late stages, a product or service may also be tested for usability.
+
+At the system level, the manufacturer or independent reviewer may subject a product or service to one or more performance tests, possibly using one or more benchmarks. Whether viewed as a product or a service or both, a Web site can also be tested in various ways - by observing user experiences, by asking questions of users, by timing the flow through specific usage scenarios, and by comparing it with other sites.
