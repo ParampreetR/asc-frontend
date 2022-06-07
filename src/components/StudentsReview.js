@@ -87,7 +87,7 @@ export function StudentReview() {
               Students
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              2000
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -95,7 +95,7 @@ export function StudentReview() {
               Alumini
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              1500
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -103,7 +103,7 @@ export function StudentReview() {
               Years of Legacy
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              76
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -111,7 +111,7 @@ export function StudentReview() {
               Classrooms
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              40
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -119,7 +119,7 @@ export function StudentReview() {
               Skilled Courses
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              18
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -127,7 +127,7 @@ export function StudentReview() {
               PG Programmes
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              8
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -135,7 +135,7 @@ export function StudentReview() {
               Faculty
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              70
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -143,7 +143,7 @@ export function StudentReview() {
               Laboratories
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              15
             </div>
           </div>
           <div className="bg-white text-center w-40 h-24 flex flex-col justify-center rounded-sm">
@@ -151,7 +151,7 @@ export function StudentReview() {
               Computers
             </div>
             <div className="text-center text-2xl font-medium text-primary">
-              1000
+              150
             </div>
           </div>
         </div>
@@ -172,18 +172,22 @@ export function StudentReview() {
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
                   <img
-                    src="/student1.jpg"
+                    src="/Shreya_1650095843.jpg"
                     className="w-[20vw] xl:w-[30vw] mx-auto"
                   />
-                  <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
+                  <h2 className="text-xl md:text-2xl text-center my-1">
+                    Shreye B.C.A(2017-20S)
+                  </h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
                   </h3>
                 </span>
-
                 <span className="my-auto py-2 text-lg">
-                  This is info given by student about college. College is great
-                  for
+                  "College inspired me to think differently,it's like no other
+                  time in your life.I had best time and memories for life time
+                  at A.S college, Khanna. Our teachers had changed our lives
+                  with the right mixture of chalk and challenges ...I am lucky
+                  and proud to be a part of this reputable college."
                 </span>
               </span>
             </SwiperSlide>
@@ -191,18 +195,27 @@ export function StudentReview() {
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
                   <img
-                    src="/student1.jpg"
+                    src="/Jagroop Singh_1652357051.jpg"
                     className="w-[20vw] xl:w-[30vw] mx-auto"
                   />
-                  <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
+                  <h2 className="text-xl md:text-2xl text-center my-1">
+                    Jagroop Singh, M.A(Political Science) 2014
+                  </h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
                   </h3>
                 </span>
 
                 <span className="my-auto py-2 text-lg">
-                  This is info given by student about college. College is great
-                  for
+                  "I Postgraduated in Political Science from AS College, Khanna
+                  in 2014. Those were the best days of my life .Positive
+                  Environment and exceptionally qualified professors are the
+                  main features of this institute. The Post Graduate Department
+                  of Political Science provided me with vast subject knowledge
+                  and great moral values. Studing here implies that you are on
+                  the right way to achieve your goals and to fulfill your
+                  dreams. Now Lecturer, Government Girls senior Secendary Smart
+                  School, Mandi Gobindgarh"
                 </span>
               </span>
             </SwiperSlide>
@@ -210,18 +223,76 @@ export function StudentReview() {
               <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
                 <span>
                   <img
-                    src="/student1.jpg"
+                    src="/Rishab Goyal_1652165209.jpg"
                     className="w-[20vw] xl:w-[30vw] mx-auto"
                   />
-                  <h2 className="text-xl md:text-2xl text-center my-1">Name</h2>
+                  <h2 className="text-xl md:text-2xl text-center my-1">
+                    Rishab Goyal, B.Com (2018 - 2021)
+                  </h2>
                   <h3 className="text-lg md:text-xl text-center my-1">
                     Placement
                   </h3>
                 </span>
-
                 <span className="my-auto py-2 text-lg">
-                  This is info given by student about college. College is great
-                  for
+                  "I am Rishab Goyal, currently pursuing my MBA from IIM Rohtak.
+                  The foundation for my dream journey was laid down during my 3
+                  years of graduation at A.S. College Khanna. Amidst the support
+                  of highly intellectual and experienced faculties, I witnessed
+                  my skill and competence rising to a zenith. Those 3 years at
+                  A.S. College encouraged me to think beyond the limits and to
+                  work for my dreams in order to make them a reality. To all the
+                  future talents, just a piece of advice – “Never think of
+                  yourself as incompetent or incapable of achieving something.
+                  If you are passionate, then you can definitely fulfill all
+                  your dreams.”"
+                </span>
+              </span>
+            </SwiperSlide>
+            <SwiperSlide>
+              <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
+                <span>
+                  <img
+                    src="/Simranjot Kaur_1652684897.jpg"
+                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                  />
+                  <h2 className="text-xl md:text-2xl text-center my-1">
+                    Simranjot Kaur, M.Sc. Chemistry(Batch 2019-2021)
+                  </h2>
+                  <h3 className="text-lg md:text-xl text-center my-1">
+                    Placement
+                  </h3>
+                </span>
+                <span className="my-auto py-2 text-lg">
+                  "College inspired me to think differently,it's like no other
+                  time in your life.I had best time and memories for life time
+                  at A.S college, Khanna. Our teachers had changed our lives
+                  with the right mixture of chalk and challenges ...I am lucky
+                  and proud to be a part of this reputable college."
+                </span>
+              </span>
+            </SwiperSlide>
+            <SwiperSlide>
+              <span className="px-2 bg-transparent flex flex-col justify-center gap-10 py-2">
+                <span>
+                  <img
+                    src="/Shaina Arora_1650095873.jpg"
+                    className="w-[20vw] xl:w-[30vw] mx-auto"
+                  />
+                  <h2 className="text-xl md:text-2xl text-center my-1">
+                    Shaina Arora, M.COM(2016-18)
+                  </h2>
+                  <h3 className="text-lg md:text-xl text-center my-1">
+                    Placement
+                  </h3>
+                </span>
+                <span className="my-auto py-2 text-lg">
+                  "Genuine endeavors and the hard work of A S College faculty
+                  gave me a door to my profession. Department of Commerce at A S
+                  college has been very supportive throughout the journey and I
+                  have been placed as an Assistant professor at Chandigarh
+                  University. I give credit to my prosperity to my educators
+                  whose direction at each progression assisted me with noshing
+                  my abilities."
                 </span>
               </span>
             </SwiperSlide>
