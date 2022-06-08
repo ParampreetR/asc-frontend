@@ -5,7 +5,7 @@ export function LibraryRules() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] dark:text-white font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
           Library Rules
         </h1>
         <p className="dark:text-white text-lg">
@@ -19,13 +19,13 @@ export function LibraryRules() {
           Daily Newspapers. SOUL2.0 an integrated library software package is
           installed for library automation.
         </p>
-        <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium">
+        <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-medium">
           Library Timings
         </h2>
         <p className="dark:text-white text-lg">
           Monday to Saturday: 8:45 AM to 4 PM
         </p>
-        <h2 class="text-xl md:text-2xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium font-italic">
+        <h2 class="text-xl md:text-2xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-medium font-italic">
           The Library has been divided into different sections for its smooth
           functioning:
         </h2>
@@ -61,7 +61,7 @@ export function LibraryRules() {
             time.
           </p>
         </ol>
-        <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#141E27] dark:text-[#fefefe] font-medium">
+        <h2 class="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-medium">
           Services
         </h2>
         <ol
