@@ -1,15 +1,18 @@
 import { useState } from "react";
 
 function Board({ items }) {
+  console.log(items, "Hola");
   return items.map((val) => (
     <div>
-      <p className="p-2 text-center text-lg font-medium">{val}</p>
+      <p className="p-2 text-center text-xl font-medium">{val.title}</p>
+      <p className="p-2 text-center text-md font-medium">{val.info}</p>
       <div className="bg-black opacity-30 h-[1px] w-3/6 mx-auto"></div>
     </div>
   ));
 }
 
 export function ThreeSwitch({ events, news, articles }) {
+  console.log(events, news, articles);
   const [sectionNum, setSectionNum] = useState(1);
   return (
     <div className="flex flex-col md:flex-row justify-around mx-auto max-w-[1440px]">
