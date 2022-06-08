@@ -450,7 +450,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         <ul
           className={
             "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
-            (activeBtn === 2
+            (activeBtn === 1
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
           }
