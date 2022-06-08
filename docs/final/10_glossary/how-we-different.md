@@ -26,10 +26,6 @@ WhatsApp, Facebook, LinkedIn, Twitter, Telegram and many other services uses a I
 
 If our website's link was pasted or placed in any of the services listed above, that provider would provide additional features such as metadata about the link within their app without requiring a visit. For example
 
-#### WhatsApp Preview
-
-
-
 Sample code for this functionality
 
 ```html
