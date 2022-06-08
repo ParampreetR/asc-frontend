@@ -21,7 +21,7 @@ export function Principal() {
           </span>
         </div>
 
-        <h2 className="text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#dfdfdf]">
+        <h2 className="text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
           Academic and Professional Journey
         </h2>
         <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
@@ -41,7 +41,7 @@ export function Principal() {
           college.
         </p>
 
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#dfdfdf]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
           Career and professional Journey at A.S College
         </h2>
         <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf] ">
@@ -80,7 +80,7 @@ export function Principal() {
           and Skill Development in Higher Education. He has attended many
           national and international conferences held in India and abroad.
         </p>
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#dfdfdf]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
           Role in Development and Additions in College
         </h2>
         <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
@@ -116,7 +116,7 @@ export function Principal() {
           with CGPA of 3.51on a 4 Point Scale by the National Assessment and
           Accreditation Council (NAAC).
         </p>
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#dfdfdf]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
           Other Honurs and Participations in Social and Professional Activities
         </h2>
         <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
