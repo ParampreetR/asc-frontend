@@ -1,0 +1,36 @@
+h1, h2 {
+	border-bottom: 1px solid #115066;
+}
+
+p, ul, ol, h1, h2, h3, h4, h5, h6 {
+	font-style: "Times New Roman";
+}
+
+p, ul, ol {
+	font-size: 15pt;
+}
+
+pre {
+	background-color: #AAAAAA;
+	border: 1px solid gray;
+	border-radius: 1px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+td {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+th {
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+	padding: 5px;
+}

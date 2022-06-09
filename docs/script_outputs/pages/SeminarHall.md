@@ -1,4 +1,4 @@
-# SeminarHall
+## SeminarHall
 
 ```jsx
 export function SeminarHall() {
@@ -10,7 +10,7 @@ export function SeminarHall() {
           alt=""
           className="m-auto w-[50vw] max-w-[720px]"
         />
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold ">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold ">
           Seminar Halls
         </h1>
         <p className="text-black my-1 text-md md:text-lg mt-2 dark:text-white">

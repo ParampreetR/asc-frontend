@@ -1,14 +1,14 @@
-# Placement
+## Placement
 
 ```jsx
 export function Placement() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           Placement Cell
         </h1>
-        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[##696969] font-bold">
           Introduction
         </h2>
         <p className="text-black my-1 mt-5 text-md md:text-lg dark:text-white">
@@ -35,7 +35,7 @@ export function Placement() {
           arrange the participation of students in Personality Development
           workshops being organized in the College.
         </p>
-        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="mt-10 text-2xl md:text-3xl my-2 md:my-4 text-[##696969] font-bold">
           Activities of Career Guidance and Placement Cell during the Academic
           Session 2014-15.
         </h2>

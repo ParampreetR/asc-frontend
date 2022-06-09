@@ -1,11 +1,11 @@
-# Principal
+## Principal
 
 ```jsx
 export function Principal() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center font-bold text-xl md:text-4xl my-2 md:my-4 text-[#141E27] dark:text-[#dfdfdf]">
+        <h1 className="text-center font-bold text-xl md:text-4xl my-2 md:my-4 text-[##141E27] dark:text-[##dfdfdf]">
           Principal of A.S College Khanna
         </h1>
         <div className="text-center">
@@ -15,16 +15,16 @@ export function Principal() {
               alt=""
               className="m-auto w-[25rem]"
             />
-            <h3 className="text-center text-2xl md:text-3xl font-medium my-2 md:my-4 text-[#141E27] dark:text-[#dfdfdf]">
+            <h3 className="text-center text-2xl md:text-3xl font-medium my-2 md:my-4 text-[##141E27] dark:text-[##dfdfdf]">
               Dr. R.S Jhanji
             </h3>
           </span>
         </div>
 
-        <h2 className="text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
+        <h2 className="text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[##141E27] dark:text-[##696969]">
           Academic and Professional Journey
         </h2>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf]">
           Born and raised in Rajpura town of Punjab, Dr. R.S. Jhanji did his
           schooling from prestigious Punjab Public School, Nabha and graduated
           in 1984 from S.A. Jain College, Ambala affiliated to Kurukshetra
@@ -41,10 +41,10 @@ export function Principal() {
           college.
         </p>
 
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[##141E27] dark:text-[##696969]">
           Career and professional Journey at A.S College
         </h2>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf] ">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf] ">
           Consecutively, joined A.S. College, Khanna as a Lecturer in English in
           August 1997 and continued his research work in tandem with teaching
           work and other assignments and so earned his Doctorate Degree on
@@ -60,7 +60,7 @@ export function Principal() {
           of higher magnitude to contribute his best share in the field of
           Higher Education.
         </p>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf] mt-4">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf] mt-4">
           The academic career, teaching philosophy and pedagogical stance have
           been shaped under the influence of his mentors who always led by an
           example inside and outside the classroom. He is strongly of the
@@ -80,10 +80,10 @@ export function Principal() {
           and Skill Development in Higher Education. He has attended many
           national and international conferences held in India and abroad.
         </p>
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[##141E27] dark:text-[##696969]">
           Role in Development and Additions in College
         </h2>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf]">
           As the Principal of the college since March 2005, he has made sincere
           efforts for achieving the goals of infrastructural development,
           horizontal & vertical enrichment of academic programmes, research and
@@ -104,7 +104,7 @@ export function Principal() {
           started on the strong demand of parents, alumni, teachers and
           stakeholders.
         </p>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf] mt-4">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf] mt-4">
           Under his able leadership and guidance of the Management, the
           institution volunteered for Second Cycle of Accreditation by NAAC,
           Bangalore. The Peer Team constituted by NAAC visited the college on
@@ -116,10 +116,10 @@ export function Principal() {
           with CGPA of 3.51on a 4 Point Scale by the National Assessment and
           Accreditation Council (NAAC).
         </p>
-        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[#141E27] dark:text-[#696969]">
+        <h2 className=" text-xl md:text-2xl font-medium mt-2 mb-1 md:mt-4 md:mb-2 text-[##141E27] dark:text-[##696969]">
           Other Honurs and Participations in Social and Professional Activities
         </h2>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf]">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf]">
           Apart from the institutional administration, as a Member of the
           Syndicate and Senate (since 2008) of the Panjab University Chandigarh,
           Dr. Jhanji has been actively contributing in the analysis of various

@@ -1,4 +1,4 @@
-# NavBar
+## NavBar
 
 ```jsx
 import { ImageSlider } from "./ImageSlider";
@@ -37,7 +37,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4]  backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4]  backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 1
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -76,7 +76,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4]  backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4]  backdrop-blur-md shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 2
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -115,7 +115,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 3
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -186,7 +186,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 4
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -234,7 +234,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 5
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -281,7 +281,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 6
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -360,7 +360,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 7
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -386,7 +386,7 @@ function NavButtons({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            " text-primary bg-[#fffffffe] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            " text-primary bg-[##fffffffe] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 8
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -452,7 +452,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 1
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -491,7 +491,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 2
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -530,7 +530,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 3
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -601,7 +601,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] left-1 transform duration-200 " +
             (activeBtn === 4
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -649,7 +649,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 5
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -696,7 +696,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 6
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -775,7 +775,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            "text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            "text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 7
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -801,7 +801,7 @@ function NavButtonsMini({ setActiveBtn, activeBtn }) {
         </button>
         <ul
           className={
-            " text-primary bg-[#fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
+            " text-primary bg-[##fffffff4] shadow-2xl px-1 py-1 fixed text-center w-[250px] right-1 transform duration-200 " +
             (activeBtn === 8
               ? "opacity-100 pointer-events-auto translate-y-3"
               : "opacity-0 pointer-events-none translate-y-10")
@@ -841,7 +841,7 @@ export function HamburgerMenu({ setIsNavOpen }) {
   return (
     <div className="inline-block xl:hidden">
       <button
-        className="border-2 border-[#ffffffb6] hover:shadow-none bg-[#ffffff96] p-1 rounded-sm relative z-30 "
+        className="border-2 border-[##ffffffb6] hover:shadow-none bg-[##ffffff96] p-1 rounded-sm relative z-30 "
         onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
       >
         <img src="/Icons/menu.png" className="w-5 lg:w-6 contrast-0" />
@@ -866,7 +866,7 @@ export function NavBarHomePage() {
 
       <ImageSlider />
 
-      <div className="image-overlay  border-b-2 border-[#FE6D73] dark:border-[#910107]">
+      <div className="image-overlay  border-b-2 border-[##FE6D73] dark:border-[##910107]">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="inline mx-auto xl:m-1">
@@ -1371,7 +1371,7 @@ export function NavBar() {
 
   return (
     <nav className="text-black  h-24 navbar">
-      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white backdrop-blur-lg h-[6.5rem] top-0 shadow-medium w-screen transform duration-200">
+      <div className="border-b-2 border-[##FE6D73] dark:border-[##910107] bg-[##f2f2f283] dark:bg-[##0a0903a8] dark:text-white backdrop-blur-lg h-[6.5rem] top-0 shadow-medium w-screen transform duration-200">
         <div className="mx-auto max-w-[1440px]">
           <div className="flex flex-row justify-between px-5 py-2">
             <span className="my-2 mx-2 absolute">
@@ -1395,7 +1395,7 @@ export function NavBar() {
           </div>
         </div>
       </div>
-      <div className="border-b-2 border-[#FE6D73] dark:border-[#910107] bg-[#f2f2f283] dark:bg-[#0a0903a8] dark:text-white fixed backdrop-blur-lg opacity-0 -top-10 shadow-medium w-screen navbar-scroll transform duration-200 hidden">
+      <div className="border-b-2 border-[##FE6D73] dark:border-[##910107] bg-[##f2f2f283] dark:bg-[##0a0903a8] dark:text-white fixed backdrop-blur-lg opacity-0 -top-10 shadow-medium w-screen navbar-scroll transform duration-200 hidden">
         <div className="mx-auto max-w-[1440px] h-16">
           <div className="flex flex-row justify-between px-5 py-2 mt-2 xl:mt-0">
             <Link to="/" className="xl:hidden m-auto xl:m-0">

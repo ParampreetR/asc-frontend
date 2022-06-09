@@ -1,11 +1,11 @@
-# NSS
+## NSS
 
 ```jsx
 export function NSS() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           NSS
         </h1>
         <p className="text-black dark:text-white my-1 text-md md:text-lg">
@@ -81,7 +81,7 @@ export function NSS() {
           Pr.Jasdeep Kaur
         </p>
 
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[##003060] dark:text-[##227C9D] font-bold">
           NSS Activities 2021-2022
         </h2>
         <ul className="list-disc text-white  my-5 text-md md:text-lg bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">

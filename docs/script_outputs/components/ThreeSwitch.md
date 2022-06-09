@@ -1,4 +1,4 @@
-# ThreeSwitch
+## ThreeSwitch
 
 ```jsx
 import { useState } from "react";

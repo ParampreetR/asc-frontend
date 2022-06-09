@@ -1,4 +1,4 @@
-# ToggleSwitch
+## ToggleSwitch
 
 ```jsx
 import "./ToggleSwitch.css";

@@ -1,4 +1,4 @@
-# Notifications
+## Notifications
 
 ```jsx
 export function Notifications() {

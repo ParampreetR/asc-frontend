@@ -1,18 +1,18 @@
-# Asc
+## Asc
 
 ```jsx
 export function AscInfo() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-4xl my-4 text-[#141E27] dark:text-[#dfdfdf] font-bold">
+        <h1 className="text-center text-4xl my-4 text-[##141E27] dark:text-[##dfdfdf] font-bold">
           AS College, Khanna
         </h1>
         <p className="text-center text-black dark:text-white opacity-50 my-1 text-lg">
           Re-credited with Grade "A" with CGPA of 3.51 out of 4 by NAAC
         </p>
 
-        <p className="text-lg md:text-xl text-center text-[#2b2b38] dark:text-[#c6c6dd] italic my-8 quote">
+        <p className="text-lg md:text-xl text-center text-[##2b2b38] dark:text-[##c6c6dd] italic my-8 quote">
           The institution is committed to impart liberal education to all
           sections of the society particularly the rural and the deprived ones,
           for shaping a sterling character and scintillating carrer imbibed with

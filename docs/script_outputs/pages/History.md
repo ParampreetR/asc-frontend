@@ -1,11 +1,11 @@
-# History
+## History
 
 ```jsx
 export function History() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           History
         </h1>
         <p className="text-black my-1 text-md md:text-lg tracking-wide dark:text-white">

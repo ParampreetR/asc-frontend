@@ -1,14 +1,14 @@
-# ResearchInnovation
+## ResearchInnovation
 
 ```jsx
 export function ResearchInnovation() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           Research And Innovation
         </h1>
-        <h2 className=" mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className=" mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           Research, Consultancy and Extension
         </h2>
         <p className="  mt-5 my-1 text-md md:text-lg dark:text-white">
@@ -50,13 +50,13 @@ export function ResearchInnovation() {
           with a medal and a certificate. The Green Brigade of the college has
           planted a large number of trees in and around the college campus.{" "}
         </p>
-        <h2 className=" mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className=" mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           Some Innovations snd Researches links done in A.S College:
         </h2>
         <ul className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] shadow-xl bg-secondary2 dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">
           <li className="mt-5">
             <a
-              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Oyster - Final_.pdf"
             >
               Cultivation of Oyster Mushroom
@@ -64,7 +64,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Cultivation of Super Mushroom Cordyceps Militaris_.pdf"
             >
               Cultivation of Super Mushroom Cordyceps Militaris
@@ -72,7 +72,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Experimental Electric Scooter_.pdf"
             >
               Experimental Electric Scooter
@@ -80,7 +80,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Hydroponic System__.pdf"
             >
               Hydroponic System
@@ -88,7 +88,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Leaf-Shredder_.pdf"
             >
               Leaf-Shredder
@@ -96,7 +96,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className=" mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Ultralight Aircraft Model (ULA)_.pdf"
             >
               Ultralight Aircraft Model (ULA)
@@ -104,7 +104,7 @@ export function ResearchInnovation() {
           </li>
           <li className="mt-5">
             <a
-              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[#227C9D] dark:text-white dark:hover:text-[#227C9D]"
+              className="  mt-7 my-1 text-md md:text-lg font-bold hover:text-[##227C9D] dark:text-white dark:hover:text-[##227C9D]"
               href="./Vermicomposting_.pdf"
             >
               Vermicomposting

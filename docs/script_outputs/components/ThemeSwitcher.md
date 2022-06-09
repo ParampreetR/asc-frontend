@@ -1,4 +1,4 @@
-# ThemeSwitcher
+## ThemeSwitcher
 
 ```jsx
 import { ToggleSwitch } from "./ToggleSwitch";

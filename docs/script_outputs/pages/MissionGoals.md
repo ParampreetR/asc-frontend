@@ -1,15 +1,15 @@
-# MissionGoals
+## MissionGoals
 
 ```jsx
 export function MissionGoals() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-1.5 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           Mission and Goals
         </h1>
 
-        <p className="text-md md:text-lg text-center text-[#2b2b38] dark:text-[#c6c6dd] italic my-8 quote">
+        <p className="text-md md:text-lg text-center text-[##2b2b38] dark:text-[##c6c6dd] italic my-8 quote">
           The institution is committed to impart liberal holistic education to
           all sections of the society, particularly the rural and deprived ones,
           for shaping a sterling character and scintilltting career imbibed with

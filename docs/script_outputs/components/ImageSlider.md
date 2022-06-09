@@ -1,4 +1,4 @@
-# ImageSlider
+## ImageSlider
 
 ```jsx
 import SimpleImageSlider from "react-simple-image-slider";

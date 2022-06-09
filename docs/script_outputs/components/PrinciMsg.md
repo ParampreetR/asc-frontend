@@ -1,9 +1,9 @@
-# PrinciMsg
+## PrinciMsg
 
 ```jsx
 export function MsgFromPrinci() {
   return (
-    <section className="text-white  border-t-[#FE6D73] dark:border-t-[#910107] border-b-[#FE6D73] dark:border-b-[#910107] border-y-2 section md:px-16 lg:px-24 xl:px-36 gradient-animate">
+    <section className="text-white  border-t-[##FE6D73] dark:border-t-[##910107] border-b-[##FE6D73] dark:border-b-[##910107] border-y-2 section md:px-16 lg:px-24 xl:px-36 gradient-animate">
       <div className="mx-auto max-w-[1440px]">
         <h1 className="pt-5 text-center font-semibold text-4xl mb-10">
           Message from Principal

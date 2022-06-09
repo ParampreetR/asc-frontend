@@ -1,14 +1,14 @@
-# CodeofConduct
+## CodeofConduct
 
 ```jsx
 export function CodeofConduct() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           Code of Conduct
         </h1>
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-bold">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[##003060] dark:text-[##006699] font-bold">
           Teachers
         </h2>
         <p className="text-black  my-1 text-md md:text-lg tracking-wide dark:text-white">
@@ -63,7 +63,7 @@ export function CodeofConduct() {
           </li>
         </ul>
 
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-bold s">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[##003060] dark:text-[##006699] font-bold s">
           Teachers towards Students
         </h2>
 
@@ -111,7 +111,7 @@ export function CodeofConduct() {
           </li>
         </ul>
 
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[#003060] dark:text-[#006699] font-bold s">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 text-[##003060] dark:text-[##006699] font-bold s">
           Teachers towards Colleagues
         </h2>
 
@@ -134,7 +134,7 @@ export function CodeofConduct() {
           </li>
         </ul>
 
-        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 font-bold text-[#003060] dark:text-[#006699]">
+        <h2 className="text-2xl md:text-3xl my-2 md:mb-2 md:mt-9 font-bold text-[##003060] dark:text-[##006699]">
           Teachers towards Authorities
         </h2>
 

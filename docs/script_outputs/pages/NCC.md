@@ -1,27 +1,27 @@
-# NCC
+## NCC
 
 ```jsx
 export function NCC() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           NCC
         </h1>
-        <h2 className="text-center mt-10 text-xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="text-center mt-10 text-xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           National Cadet Corps
         </h2>
         <p className="text-black text-center my-1 text-md md:text-lg dark:text-white">
           (Sub Unit of PB BN NCC Nabha with the strength of 104 Cadets (Boys and
           Girls) <br /> ANO -- Lieutenent (Dr. K.K.Sharma)
         </p>
-        <h3 className="mt-10 text-xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h3 className="mt-10 text-xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           Motto
         </h3>
         <p className="text-black my-1 text-md md:text-lg dark:text-white">
           UNITY AND DISCIPLINE.
         </p>
-        <h4 className="mt-10 text-xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h4 className="mt-10 text-xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           Aim:
         </h4>
         <ul

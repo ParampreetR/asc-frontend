@@ -1,11 +1,11 @@
-# UnderGrad
+## UnderGrad
 
 ```jsx
 export function UnderGrad() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="mx-auto">
-        <h1 className="mt-5 text-center text-2xl md:text-4xl my-2 md:my-4 text-[#141E27] dark:text-[#227C9D] font-bold">
+        <h1 className="mt-5 text-center text-2xl md:text-4xl my-2 md:my-4 text-[##141E27] dark:text-[##227C9D] font-bold">
           Under Graduate
         </h1>
 

@@ -1,11 +1,11 @@
-# AdmissionRules
+## AdmissionRules
 
 ```jsx
 export function AdmissionRules() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[#141E27] text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-3xl md:text-4xl my-1.5 md:my-4 text-[##141E27] text-[##003060] dark:text-[##227C9D] font-bold">
           Admission Rules
         </h1>
         <ul className="list-disc text-md md:text-lg text-white my-5 bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark rounded-md shadow-xl py-6 px-10 md:px-12 lg:px-16">

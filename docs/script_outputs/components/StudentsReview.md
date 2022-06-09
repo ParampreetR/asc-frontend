@@ -1,4 +1,4 @@
-# StudentsReview
+## StudentsReview
 
 ```jsx
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -32,7 +32,7 @@ import "swiper/css/scrollbar";
 
 // export function StudentReview() {
 //   return (
-//     <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] dark:border-b-[#910107] border-t-[#FE6D73] dark:border-t-[#910107] cursor-pointer">
+//     <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[##FE6D73] dark:border-b-[##910107] border-t-[##FE6D73] dark:border-t-[##910107] cursor-pointer">
 //       <h1 className="pt-5 text-center font-semibold text-4xl mb-2">
 //         Our Students
 //       </h1>
@@ -82,7 +82,7 @@ export function StudentReview() {
   SwiperCore.use(Autoplay);
 
   return (
-    <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[#FE6D73] dark:border-b-[#910107] border-t-[#FE6D73] dark:border-t-[#910107] md:px-16 lg:px-24 xl:px-36">
+    <div className="bg-gradient-to-b from-primary to-primary2 dark:from-primary_dark dark:to-primary2_dark text-white border-y-2 border-b-[##FE6D73] dark:border-b-[##910107] border-t-[##FE6D73] dark:border-t-[##910107] md:px-16 lg:px-24 xl:px-36">
       <div className="flex flex-col lg:flex-row mx-auto max-w-[1440px] my-16 justify-between">
         <div className="grid grid-cols-2 2xl:grid-cols-3 gap-4 m-auto xl 2xl:mr-5">
           <div className="bg-white text-center w-52 h-32 2xl:h-36 flex flex-col justify-center rounded-sm">

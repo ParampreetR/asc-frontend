@@ -1,14 +1,14 @@
-# RTI
+## RTI
 
 ```jsx
 export function RTI() {
   return (
     <div className="my-12 mx-8  md:mx-16 lg:mx-24 xl:mx-36">
       <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[#003060] dark:text-[#227C9D] font-bold">
+        <h1 className="text-center text-2xl md:text-4xl my-2 md:my-4 text-[##003060] dark:text-[##227C9D] font-bold">
           RTI
         </h1>
-        <h2 className="text-center mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[#696969] font-bold">
+        <h2 className="text-center mt-10 text-2xl md:text-2xl my-2 md:my-4 text-[##696969] font-bold">
           Right To Information
         </h2>
         <p className="text-black dark:text-white my-1 text-md md:text-lg w-[60vw] shadow-xl bg-secondary2 dark:bg-secondary2_dark px-8 py-10 rounded-md m-auto">

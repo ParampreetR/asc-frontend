@@ -1,4 +1,4 @@
-# Stadium
+## Stadium
 
 ```jsx
 export function Stadium() {
@@ -7,10 +7,10 @@ export function Stadium() {
       <div className="max-w-[1440px] mx-auto">
         <img className="m-auto md-4" src="./stadium.jpeg" alt="" />
         <br />
-        <h1 className="text-center text-2xl md:text-3xl mt-4 md-4 my-2 md:my-2 text-[#003060] dark:text-[#227C9D] font-bold ">
+        <h1 className="text-center text-2xl md:text-3xl mt-4 md-4 my-2 md:my-2 text-[##003060] dark:text-[##227C9D] font-bold ">
           A.S College Stadium
         </h1>
-        <p className="text-black my-1 text-md md:text-lg dark:text-[#dfdfdf] ">
+        <p className="text-black my-1 text-md md:text-lg dark:text-[##dfdfdf] ">
           MADAN GOPAL CHOPRA STADIUM OF A.S. COLLEGE IS ONE OF THE GREENEST
           STADIUMS OF THE AREA. IT HAS BEEN CONSTRUCTED WITH THE HELP OF
           GENEROUS CONTRIBUTIONS FROM THE COLLEGE ALUMNI, FACULTY, PARENTS AND
